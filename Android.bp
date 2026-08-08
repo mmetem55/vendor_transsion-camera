@@ -1,0 +1,26 @@
+android_app_import {
+    name: "TranssionCamera",
+    apk: "TranssionCamera.apk",
+    certificate: "platform",
+    system_ext_specific: true,
+    privileged: false,
+    compile_multilib: "64",
+
+    dex_preopt: {
+        enabled: true,
+    },
+
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+
+    required: ["default-permissions-transsion-camera.xml"],
+}
+
+prebuilt_etc {
+    name: "default-permissions-transsion-camera.xml",
+    sub_dir: "default-permissions",
+    src: "default-permissions-transsion-camera.xml",
+    system_ext_specific: true,
+}
