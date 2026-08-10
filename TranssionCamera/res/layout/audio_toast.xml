@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/audio_toast_text_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/voice_hint_text_view" android:background="@drawable/hint_text_background" android:paddingTop="@dimen/audio_toast_padding" android:paddingBottom="@dimen/audio_toast_padding" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="212.0dp" android:paddingStart="@dimen/audio_toast_start" android:paddingEnd="@dimen/hint_root_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

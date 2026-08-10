@@ -1,0 +1,16 @@
+{
+  "PUBLIC": {
+    "0": {"sex" : "male", "resId" : "ic_male_asia"},
+    "1": {"sex" : "female", "resId" : "ic_female_asia"}
+  },
+
+  "SOUTH_ASIA": {
+    "0": {"sex" : "male", "resId" : "ic_male_asia"},
+    "1": {"sex" : "female", "resId" : "ic_female_asia"}
+  },
+
+  "AFRICA": {
+    "0": {"sex" : "male", "resId" : "ic_male_africa"},
+    "1": {"sex" : "female", "resId" : "ic_female_africa"}
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>በራስ</item>
+        <item>ተከታታይ-ምስል</item>
+        <item>ተከታታይ-ቪዲዮ</item>
+        <item>edof</item>
+        <item>የተስተካከለ</item>
+        <item>ማለቂያ የሌለው</item>
+        <item>ማክሮ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ጠፍቷል</item>
+        <item>3ሴ</item>
+        <item>5ሴ</item>
+        <item>10ሴ</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ማንሻ</item>
+        <item>አጉላ</item>
+    </string-array>
+</resources>

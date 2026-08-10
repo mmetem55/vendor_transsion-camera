@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.widget.RotateLayout android:id="@id/professional_setting_ui_root" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.app.ui.widget.HorizontalAverageLayout android:id="@id/setting_items_layout" android:tag="type_e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </com.transsion.camera.app.ui.widget.RotateLayout>
+</merge>

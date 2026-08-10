@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="300" android:valueFrom="@dimen/warning_dialog_medium_offset" android:valueTo="0" android:propertyName="translationY"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

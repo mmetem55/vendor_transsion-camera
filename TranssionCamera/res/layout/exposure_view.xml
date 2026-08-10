@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/exposure_preview_root" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.ui.setting.exposure.ExposureView android:id="@id/exposure_view" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@id/ev_seekbar_container" android:layout_width="@dimen/focus_evbar_view_size" android:layout_height="@dimen/focus_evbar_view_size">
+                <View android:layout_gravity="center" android:id="@id/ev_indicator_view" android:background="@drawable/ic_ev_indicator" android:visibility="gone" android:layout_width="@dimen/focus_ev_indicator_size" android:layout_height="@dimen/focus_ev_indicator_size" />
+                <com.transsion.camera.app.ui.widget.DrawBackgroundView android:layout_gravity="center" android:id="@id/ev_lock_indicator_view" android:background="@drawable/ic_ev_lock_indicator" android:visibility="gone" android:layout_width="@dimen/focus_ev_indicator_size" android:layout_height="@dimen/focus_ev_indicator_size" />
+                <com.transsion.camera.ui.setting.exposure.widget.ExposureSeekBar android:layout_gravity="end|center" android:id="@id/ev_seekbar" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="@dimen/ev_seek_bar_width" android:layout_height="@dimen/ev_seek_bar_height" android:maxHeight="@dimen/ev_seek_bar_progress_size" android:minHeight="@dimen/ev_seek_bar_progress_size" />
+            </FrameLayout>
+        </com.transsion.camera.ui.setting.exposure.ExposureView>
+    </FrameLayout>
+</FrameLayout>

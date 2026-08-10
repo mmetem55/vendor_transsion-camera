@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@anim/interpolator_exit" android:duration="360" android:valueFrom="-360" android:valueTo="0" android:propertyName="translationX"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

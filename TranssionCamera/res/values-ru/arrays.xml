@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>Aвтонастройка</item>
+        <item>непрерывное изображение</item>
+        <item>непрерывное видео</item>
+        <item>edof</item>
+        <item>фиксированный</item>
+        <item>бесконечный</item>
+        <item>макро</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Выключено</item>
+        <item>3 секунды</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Затвор</item>
+        <item>Увеличение изображения</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@anim/interpolator_enter" android:duration="@integer/setting_fragment_duration_enter" android:valueFrom="0" android:valueTo="1" android:propertyName="alpha" />
+    <objectAnimator android:interpolator="@anim/interpolator_enter" android:duration="@integer/setting_fragment_duration_enter" android:valueFrom="@integer/setting_fragment_translate_diff" android:valueTo="0" android:propertyName="translationX" />
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.feature.slimbody.ui.FeatureLayout android:orientation="horizontal" android:id="@id/feature_layout" android:focusable="false" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/slimbody_fake_item" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/feature_rv" android:focusable="false" android:visibility="visible" android:layout_width="360.0dp" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+</com.transsion.camera.feature.slimbody.ui.FeatureLayout>

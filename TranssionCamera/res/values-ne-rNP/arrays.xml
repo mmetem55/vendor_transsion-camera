@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>स्वतः</item>
+        <item>निरन्तर-तस्वीर</item>
+        <item>निरन्तर-भिडियो</item>
+        <item>ईडोफ</item>
+        <item>स्थिर</item>
+        <item>अनन्त</item>
+        <item>म्याक्रो</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>बन्द</item>
+        <item>3 सेकेन्ड</item>
+        <item>5 सेकेन्ड</item>
+        <item>10 सेकेन्ड</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>सटर</item>
+        <item>जुम</item>
+    </string-array>
+</resources>

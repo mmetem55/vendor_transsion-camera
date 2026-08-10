@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_shutter_bar_click"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="shutter_bar_ring" android:animation="@drawable/$ic_shutter_bar_click_anim__0" />
+</animated-vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/ar_bottom_bar_height" android:layout_height="64.0dp">
+        <com.transsion.camera.feature.arcore.common.widgets.CircleImageView android:layout_gravity="center" android:id="@id/thumbnail_icon" android:layout_width="@dimen/thumbnail_icon_width" android:layout_height="@dimen/thumbnail_icon_width" app:civ_circle_background_color="@color/circle_background" />
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail_ring_icon" android:layout_width="@dimen/thumbnail_ring_icon_width" android:layout_height="@dimen/thumbnail_ring_icon_width" android:src="@drawable/thumbnail_ring" />
+        <FrameLayout android:layout_gravity="end|top" android:id="@id/delete_icon_root" android:visibility="gone" android:layout_width="@dimen/delete_icon_root_width" android:layout_height="@dimen/delete_icon_root_width">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/delete_icon_root_img_width" android:layout_height="@dimen/delete_icon_root_img_width" android:layout_marginTop="@dimen/delete_icon_root_img_top_margin" android:src="@drawable/ic_module_delete_icon" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>auto</item>
+        <item>kontinuéierlecht Bild</item>
+        <item>kontinuéierleche Video</item>
+        <item>erweidert Schäerftendéift (EDoF)</item>
+        <item>Fix</item>
+        <item>Onendlech</item>
+        <item>Makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Aus</item>
+        <item>3 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Verschloss</item>
+        <item>Zoom</item>
+    </string-array>
+</resources>

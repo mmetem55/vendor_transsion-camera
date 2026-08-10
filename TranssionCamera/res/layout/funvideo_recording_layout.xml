@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/funvideo_root_group" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/funvideo_recording_time" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/funvideo_recording_progress_root" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/funvideo_progress_panel_height">
+        <com.transsion.camera.app.ui.widget.RotateFrameLayout android:layout_gravity="center" android:id="@id/funvideo_rotate_framelayout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.transsion.camera.feature.funvideo.ui.RecordingProgressView android:layout_gravity="center" android:id="@id/funvideo_recording_progress" android:layout_width="@dimen/funvideo_progress_view_height" android:layout_height="@dimen/funvideo_progress_view_height" />
+        </com.transsion.camera.app.ui.widget.RotateFrameLayout>
+    </FrameLayout>
+</FrameLayout>

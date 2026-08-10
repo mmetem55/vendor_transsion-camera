@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>स्वयंचलित</item>
+        <item>सातत्याचे-चित्र</item>
+        <item>सातत्याचा-व्हिडिओ</item>
+        <item>edof</item>
+        <item>निराकरण केले</item>
+        <item>अनंत</item>
+        <item>मॅक्रो</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>बंद</item>
+        <item>3से</item>
+        <item>5से</item>
+        <item>10से</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>शटर</item>
+        <item>झूम करा</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.mode.more.linearlist.LinearListItemView android:id="@id/more_linear_main" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/more_linear_root_layout" android:background="@drawable/ic_more_linear_item_bg" android:paddingTop="15.0dp" android:paddingBottom="12.599976dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/more_linear_item_margin" android:layout_marginBottom="@dimen/more_linear_item_margin">
+        <ImageView android:id="@id/more_linear_item_selling_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginLeft="14.0dp" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/more_linear_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/more_linear_content_left_margin" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/more_linear_item_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp">
+                <TextView android:textSize="15.329987dp" android:textColor="#ffdedede" android:id="@id/more_linear_item_title" android:layout_width="230.0dp" android:layout_height="wrap_content" android:text="Mode" android:textDirection="locale" style="@style/MoreModeItemNormalTextAppearance" />
+                <TextView android:textSize="12.0dp" android:textColor="#63dedede" android:id="@id/more_linear_item_desc" android:layout_width="256.32812dp" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:textDirection="locale" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.transsion.camera.app.ui.mode.more.linearlist.LinearListItemView>

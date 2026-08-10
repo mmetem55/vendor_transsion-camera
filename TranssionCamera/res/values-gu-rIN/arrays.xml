@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>સ્વતઃ</item>
+        <item>સતત ચિત્ર</item>
+        <item>સતત -વિડીઓ</item>
+        <item>એડોલ્ફ</item>
+        <item>ફિક્સ્ડ</item>
+        <item>અનંત</item>
+        <item>મેક્રો</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>બંધ</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>શટર</item>
+        <item>ઝૂમ કરો</item>
+    </string-array>
+</resources>

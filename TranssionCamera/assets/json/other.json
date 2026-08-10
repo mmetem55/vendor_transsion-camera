@@ -1,0 +1,27 @@
+{
+  "FEMALE_PUBLIC": {
+    "1": {"name" : "controller.bundle", "gender" : "", "resId" : "", "path" :"new/controller.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "controller_config.bundle", "gender" : "", "resId" : "", "path" :"new/controller_config.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "AR_mask.bundle", "gender" : "", "resId" : "", "path" :"new/other/AR_mask.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "light_0.6.bundle", "gender" : "", "resId" : "", "path" :"new/other/light_0.6.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "FEMALE_SOUTH_ASIA": {
+  },
+
+  "FEMALE_AFRICA": {
+  },
+
+  "MALE_PUBLIC": {
+    "1": {"name" : "controller.bundle", "gender" : "", "resId" : "", "path" :"new/controller.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "controller_config.bundle", "gender" : "", "resId" : "", "path" :"new/controller_config.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "AR_mask.bundle", "gender" : "", "resId" : "", "path" :"new/other/AR_mask.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "light_0.6.bundle", "gender" : "", "resId" : "", "path" :"new/other/light_0.6.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "MALE_SOUTH_ASIA": {
+  },
+
+  "MALE_AFRICA": {
+  }
+}

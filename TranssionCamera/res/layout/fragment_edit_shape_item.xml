@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.camera.feature.arcore.common.fragments.editface.core.item.ItemSelectView android:id="@id/shape_item_recycler" android:paddingLeft="4.0dp" android:paddingRight="4.0dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="160.0dp" />
+    <FrameLayout android:background="#40ffffff" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <com.transsion.camera.feature.arcore.common.widgets.seekbar.DiscreteSeekBar android:layout_gravity="center" android:id="@id/color_seek_bar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" app:dsb_bg_thumbColor="#ffffff" app:dsb_bg_thumbSize="@dimen/x30dp" app:dsb_indicatorColor="#ebbba4" app:dsb_indicatorElevation="0.0dp" app:dsb_indicatorPopupEnabled="true" app:dsb_max="100" app:dsb_min="0" app:dsb_progressColor="#00000000" app:dsb_rippleColor="#00000000" app:dsb_scrubberHeight="3.0dp" app:dsb_thumbColor="#ebbba4" app:dsb_thumbSize="@dimen/x26dp" app:dsb_trackBaseHeight="5.0dp" app:dsb_trackColor="#000000" app:dsb_trackHeight="@dimen/color_item_margin" app:dsb_value="0" />
+        <com.transsion.camera.feature.arcore.common.fragments.editface.core.color.ColorSelectView android:layout_gravity="center" android:id="@id/color_recycler" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

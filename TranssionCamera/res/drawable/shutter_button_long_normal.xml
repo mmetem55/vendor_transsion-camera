@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shutter_button_size" android:width="@dimen/shutter_button_size" android:viewportWidth="180.0" android:viewportHeight="180.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="shutter_long_loading_bg_group" android:pivotX="150.0" android:pivotY="150.0" android:scaleX="0.5" android:scaleY="0.5">
+        <path android:name="shutter_long_loading_bg" android:fillColor="#00ffffff" android:pathData="M151.7,300C67.5,300,0,233.2,0,151.7C0,67.2,67.2,0,151.7,0C233.2,0,300,67.5,300,151.7         C300,232.8,232.8,300,151.7,300z         M151.8,282c71.1,0,130.2-59.1,130.2-130.2C282,77.1,222.9,18,151.8,18C77.1,18,18,77.1,18,151.8         C18,222.9,77.1,282,151.8,282z" />
+    </group>
+    <path android:name="shutter_long_loading" android:pathData="         M291,9         m-141,0         a141,141 0 1,1 0,282         a141,141 0 1,1 0,-282" android:strokeColor="#0011ff75" android:strokeWidth="18.0" />
+    <path android:name="shutter_button_scale_in" android:fillColor="#ffffff" android:pathData="@string/shutter_button_outside_border_180_90" android:strokeColor="#ffffff" android:strokeWidth="15.0" android:strokeAlpha="1.0" android:fillAlpha="0.0" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/movie_record_shutter_size" android:width="@dimen/movie_record_shutter_size" android:viewportWidth="198.0" android:viewportHeight="198.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#000000" android:pathData="M99,99m-98,0a98,98 0,1 1,196 0a98,98 0,1 1,-196 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.1" android:fillType="nonZero" />
+    <path android:fillColor="#ff3232" android:pathData="M99,99m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

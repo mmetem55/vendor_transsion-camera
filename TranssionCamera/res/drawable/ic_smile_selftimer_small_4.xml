@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="66.0dp" android:width="66.0dp" android:viewportWidth="198.0" android:viewportHeight="198.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="shutter_button_background_group" android:pivotX="99.0" android:pivotY="99.0" android:scaleX="0.8" android:scaleY="0.8">
+        <path android:fillColor="#464646" android:pathData="M99,99m-96,0a96,96 0,1 1,192 0a96,96 0,1 1,-192 0" android:fillAlpha="0.5" />
+        <path android:fillColor="#ffffff" android:pathData="M80,57h38c12.7,0 23,10.3 23,23v38c0,12.7 -10.3,23 -23,23H80c-12.7,0 -23,-10.3 -23,-23V80C57,67.3 67.3,57 80,57z" android:fillType="evenOdd" />
+    </group>
+</vector>

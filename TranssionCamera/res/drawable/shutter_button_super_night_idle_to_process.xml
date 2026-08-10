@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/shutter_button_super_night_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="shutter_button_outside_border" android:animation="@drawable/$shutter_button_super_night_idle_to_process__0" />
+    <target android:name="shutter_button_outside_progress_border" android:animation="@drawable/$shutter_button_super_night_idle_to_process__1" />
+    <target android:name="red_item" android:animation="@drawable/$shutter_button_super_night_idle_to_process__2" />
+    <target android:name="red_item" android:animation="@drawable/$shutter_button_super_night_idle_to_process__3" />
+    <target android:name="green_item" android:animation="@drawable/$shutter_button_super_night_idle_to_process__4" />
+    <target android:name="green_item" android:animation="@drawable/$shutter_button_super_night_idle_to_process__5" />
+    <target android:name="root_group" android:animation="@drawable/$shutter_button_super_night_idle_to_process__6" />
+    <target android:name="red_group" android:animation="@drawable/$shutter_button_super_night_idle_to_process__7" />
+    <target android:name="green_group" android:animation="@drawable/$shutter_button_super_night_idle_to_process__8" />
+</animated-vector>

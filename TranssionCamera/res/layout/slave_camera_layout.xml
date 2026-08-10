@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_slave_screen_root" android:background="#ff000000" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/preview_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+    <com.transsion.camera.app.ui.view.SwitchAnimView android:id="@id/preview_cover" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/animation_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layerType="hardware" />
+    </com.transsion.camera.app.ui.view.SwitchAnimView>
+    <FrameLayout android:id="@id/kidmode_layer_root" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+    <FrameLayout android:id="@id/common_ui_layer_root" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+</FrameLayout>

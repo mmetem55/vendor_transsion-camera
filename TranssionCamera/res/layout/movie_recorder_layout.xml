@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/movie_recorder_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/movie_recorder_operation" />
+    <include layout="@layout/movie_recorder_circle_progress" />
+</FrameLayout>

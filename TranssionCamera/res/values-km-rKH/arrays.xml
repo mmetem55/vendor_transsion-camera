@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>ស្វ័យប្រវត្តិ</item>
+        <item>បន្ត - រូបភាព</item>
+        <item>បន្ត -វីដេអូ</item>
+        <item>edof</item>
+        <item>ថេរ</item>
+        <item>គ្មានកំណត់</item>
+        <item>ម៉ាក្រូ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>បិទ</item>
+        <item>3វិនាទី</item>
+        <item>5វិនាទី</item>
+        <item>10វិនាទី</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>សន្ទះ</item>
+        <item>ពង្រីក/បង្រួម</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>ස්වයං</item>
+        <item>අඛණ්ඩ -පින්තූරය</item>
+        <item>අඛණ්ඩ-වීඩියෝව</item>
+        <item>edof</item>
+        <item>ස්ථිර විය</item>
+        <item>අනන්තය</item>
+        <item>මැක්‍රෝ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ඕෆ්</item>
+        <item>තත් 3</item>
+        <item>තත් 5</item>
+        <item>තත් 10</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ෂටරය</item>
+        <item>විශාලනය කරන්න</item>
+    </string-array>
+</resources>

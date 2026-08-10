@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/time_lapse_root" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/time_lapse_root_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/time_lapse_level_indicator" android:background="@drawable/indicator_bg" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/time_lapse_item_view_height" android:layout_marginTop="@dimen/time_lapse_level_indicator_margin_top" android:maxWidth="@dimen/time_lapse_indicator_max_width" android:minWidth="@dimen/time_lapse_item_view_width" android:singleLine="true" android:marqueeRepeatLimit="3" android:paddingStart="@dimen/time_lapse_item_view_padding" android:paddingEnd="@dimen/time_lapse_item_view_padding" android:layout_marginStart="@dimen/time_lapse_level_indicator_margin_start" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/time_lapse_tab" android:focusable="false" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</FrameLayout>

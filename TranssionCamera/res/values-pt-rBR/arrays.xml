@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>Automático</item>
+        <item>Foto contínua</item>
+        <item>Vídeo contínuo</item>
+        <item>edof</item>
+        <item>Fixo</item>
+        <item>Infinidade</item>
+        <item>Macro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Desativado</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Obturador</item>
+        <item>Zoom</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/edit_watermark_dialog_shape_dark" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="56.0dp" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ffdedede" android:id="@id/dialog_title" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:layout_marginTop="20.0dp" />
+    <EditText android:textSize="16.0sp" android:textColor="#ffdedede" android:textColorHint="#40000000" android:id="@id/input_edit_text" android:background="@color/edit_watermark_dialog_background_color_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="16.0dp" android:hint="@string/text_water_mark_input_tip" android:textCursorDrawable="@drawable/edit_watermark_dialog_cursor" />
+    <View android:background="#4da1a1a1" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginLeft="16.0dp" android:layout_marginTop="8.0dp" android:layout_marginRight="16.0dp" />
+    <LinearLayout android:orientation="horizontal" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+        <Button android:textSize="15.0sp" android:textColor="#b3dedede" android:gravity="center" android:id="@id/negative" android:background="@null" android:focusable="false" android:layout_width="0.0dp" android:layout_height="52.0dp" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:textSize="15.0sp" android:textColor="#6601bc62" android:gravity="center" android:id="@id/positive" android:background="@null" android:focusable="false" android:layout_width="0.0dp" android:layout_height="52.0dp" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

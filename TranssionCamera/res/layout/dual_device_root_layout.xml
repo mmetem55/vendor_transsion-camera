@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dual_device_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/dual_device_group_root" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/dual_device_item_height">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/dual_device_group_view" android:focusable="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="ltr" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/dual_device_group_button_root" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.app.ui.widget.RotateImageView android:layout_gravity="right|center" android:id="@id/dual_device_group_button" android:layout_width="43.0dp" android:layout_height="43.0dp" />
+    </FrameLayout>
+</FrameLayout>

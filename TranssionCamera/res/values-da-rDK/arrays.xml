@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>auto</item>
+        <item>kontinuerligt billede</item>
+        <item>kontinuerlig video</item>
+        <item>edof</item>
+        <item>Fast</item>
+        <item>Uendelighed</item>
+        <item>Makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Fra</item>
+        <item>3 sek.</item>
+        <item>5 sek.</item>
+        <item>10 sek.</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Lukker</item>
+        <item>Zoom</item>
+    </string-array>
+</resources>

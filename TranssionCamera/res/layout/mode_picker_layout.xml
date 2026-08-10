@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/mode_picker_tab_frame" style="@style/ModePickerMainLayout">
+        <com.transsion.camera.app.ui.widget.TabLayout android:id="@id/mode_picker_tab_layout" android:fillViewport="false" android:splitMotionEvents="false" style="@style/ModePickerTabLayout" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/current_mode_root" android:background="@drawable/select_mode_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mode_picker_cancel_top_margin">
+            <TextView android:textSize="14.0dp" android:layout_gravity="start|center" android:id="@id/current_mode_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#33000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="4.0" android:fontFamily="sans-serif-medium" android:paddingStart="@dimen/mode_picker_name_left_margin" android:elegantTextHeight="@bool/is_elegant_text_height" style="@style/ModePanelItemNormalTextAppearance" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/current_mode_cancel" android:focusable="false" android:layout_width="36.0dp" android:layout_height="28.0dp" android:src="@drawable/ic_mode_cancel" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/mode_picker_arrow_root" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/mode_picker_arrow_icon" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/mode_picker_arrow_width" android:layout_height="@dimen/mode_picker_arrow_height" android:src="@drawable/ic_panel_up_arrow" />
+        <com.opensource.svgaplayer.SVGAImageView android:id="@id/mode_picker_arrow_svga" android:visibility="gone" android:layout_width="@dimen/mode_picker_arrow_width" android:layout_height="@dimen/mode_picker_arrow_height" app:autoPlay="false" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/more_mode_guide_right_root" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/mode_picker_main_layout_height" android:layout_marginEnd="@dimen/more_mode_guide_root_end_margin">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/more_mode_guide_right_icon" android:focusable="false" android:layout_width="@dimen/more_mode_guide_icon_size" android:layout_height="@dimen/more_mode_guide_icon_size" android:src="@drawable/ic_more_mode_guide_right_icon" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/more_mode_guide_left_root" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/mode_picker_main_layout_height" android:layout_marginEnd="@dimen/more_mode_guide_root_end_margin">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/more_mode_guide_left_icon" android:focusable="false" android:layout_width="@dimen/more_mode_guide_icon_size" android:layout_height="@dimen/more_mode_guide_icon_size" android:src="@drawable/ic_more_mode_guide_left_icon" />
+    </FrameLayout>
+</merge>

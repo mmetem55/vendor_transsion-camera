@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dp" android:width="48.0dp" android:autoMirrored="true" android:viewportWidth="144.0" android:viewportHeight="144.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#d8d8d8" android:pathData="M0.5,0.5h143v143h-143z" android:strokeColor="#979797" android:strokeWidth="1.0" android:strokeAlpha="0.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_multi_fb_skin_off__0" android:pathData="M72,72m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M80.498,45.265C77.81,44.443 74.957,44 72,44C55.984,44 43,56.984 43,73C43,89.016 55.984,102 72,102C88.016,102 101,89.016 101,73C101,69.746 100.464,66.617 99.476,63.697" android:strokeColor="#ffffff" android:strokeWidth="3.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M63.193,79.113C64.816,82.028 67.928,84 71.5,84C75.064,84 78.17,82.037 79.796,79.133" android:strokeColor="#ffffff" android:strokeWidth="3.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffff" android:pathData="M103.849,51.849C99.021,53.279 95.239,57.401 93.889,62.689L93.849,62.849C92.549,57.538 88.802,53.378 83.995,51.893L83.849,51.849C88.678,50.419 92.46,46.298 93.809,41.01L93.849,40.849C95.149,46.16 98.896,50.321 103.703,51.805L103.849,51.849Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="#ffffff" android:pathData="M50,99.5C47.586,100.215 45.695,102.276 45.02,104.92L45,105C44.35,102.344 42.477,100.264 40.073,99.522L40,99.5C42.414,98.785 44.305,96.724 44.98,94.08L45,94C45.65,96.656 47.523,98.736 49.927,99.478L50,99.5Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

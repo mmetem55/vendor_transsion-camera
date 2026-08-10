@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/focus_view_size" android:width="@dimen/focus_view_size" android:viewportWidth="204.0" android:viewportHeight="204.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="focus_frame_group" android:pivotX="102.0" android:pivotY="102.0">
+        <path android:pathData="M102,102m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" android:strokeColor="@color/ev_progress_color" android:strokeWidth="4.0" />
+    </group>
+    <path android:pathData="M102,102m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" android:strokeColor="@color/ev_progress_color" android:strokeWidth="4.0" />
+</vector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:id="@id/flash_adjust" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/flash_luminance_adjust_view_layout" android:layout_width="268.0dp" android:layout_height="40.0dp">
+        <com.transsion.camera.ui.setting.flash.LuminanceAdjustProgressBar android:id="@id/flash_luminance_adjust_view" android:layout_width="268.0dp" android:layout_height="40.0dp" />
+        <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/low_rotation_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_luminance_low_selected" />
+        <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/medium_rotation_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_luminance_medium_unselected" android:layout_centerHorizontal="true" />
+        <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/high_rotation_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_luminance_high_unselected" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/adjust_shrink_bar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/adjust_progress_bar_shrink" android:visibility="gone" android:layout_width="92.0dp" android:layout_height="5.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:progressDrawable="@drawable/adjust_progress_shrink_bar" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+</LinearLayout>

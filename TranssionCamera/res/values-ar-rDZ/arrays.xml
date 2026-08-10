@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="self_timer_setting_entries">
+        <item>إيقاف التشغيل</item>
+        <item>3 ث</item>
+        <item>5 ث</item>
+        <item>10 ث</item>
+    </string-array>
+</resources>

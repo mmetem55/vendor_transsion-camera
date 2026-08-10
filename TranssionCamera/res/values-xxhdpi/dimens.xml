@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_cursor_round_corner">2.0px</dimen>
+    <dimen name="default_edit_watermark_text_size">35.0dp</dimen>
+    <dimen name="edit_watermark_brand_height_1">14.0dp</dimen>
+    <dimen name="edit_watermark_brand_height_2">28.0dp</dimen>
+    <dimen name="os_dialog_top_margin">114.0dp</dimen>
+    <dimen name="os_seekbar_thumb_pressed_size">22.0dp</dimen>
+    <dimen name="professional_divider_height">2.0px</dimen>
+    <dimen name="super_moon_indicator_height">8.0dp</dimen>
+    <dimen name="super_moon_indicator_width">6.669983dp</dimen>
+    <dimen name="wideselfie_fold_notify_arrow_marginTop">99.0dp</dimen>
+    <dimen name="wideselfie_fold_notify_arrow_marginTop_land">70.0dp</dimen>
+    <dimen name="wideselfie_fold_notify_arrow_width">220.0dp</dimen>
+    <dimen name="wideselfie_fold_progressBarThumbHeight">100.0dp</dimen>
+    <dimen name="wideselfie_fold_top_interval">126.0dp</dimen>
+    <dimen name="wideselfie_idle_arrow_marginTop">10.0dp</dimen>
+    <dimen name="wideselfie_notify_arrow_height">120.0dp</dimen>
+    <dimen name="wideselfie_notify_arrow_land_height">90.0dp</dimen>
+    <dimen name="wideselfie_notify_arrow_land_width">340.0dp</dimen>
+    <dimen name="wideselfie_notify_arrow_marginTop">39.0dp</dimen>
+    <dimen name="wideselfie_notify_gap">17.0dp</dimen>
+    <dimen name="wideselfie_notify_gap_land">16.0dp</dimen>
+    <dimen name="wideselfie_progressBarThumbHeight">194.0dp</dimen>
+    <dimen name="wideselfie_progressBarThumbHeight_land">90.0dp</dimen>
+    <dimen name="wideselfie_top_interval">52.0dp</dimen>
+    <dimen name="wideselfie_top_interval_hover">82.0dp</dimen>
+    <dimen name="wideselfie_top_interval_land">40.0dp</dimen>
+    <dimen name="wideselfie_top_interval_land_hover">40.0dp</dimen>
+</resources>

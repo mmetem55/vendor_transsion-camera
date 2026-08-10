@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.transsion.camera" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT"/>
+    <uses-permission android:name="android.permission.ADD_TRUSTED_DISPLAY"/>
+    <queries>
+        <package android:name="com.google.android.apps.photos"/>
+        <package android:name="com.google.android.apps.photosgo"/>
+        <package android:name="com.gallery20"/>
+        <package android:name="com.google.android.googlequicksearchbox"/>
+        <package android:name="com.yomobigroup.chat"/>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <package android:name="com.google.ar.core"/>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+    </queries>
+    <permission android:name="transsion.permission.camera.LIFE_CYCLE" android:protectionLevel="normal"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
+    <permission android:name="com.transsion.camera.ar.provider.read" android:protectionLevel="signatureOrSystem"/>
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-feature android:glEsVersion="0x30000" android:required="true"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <meta-data android:name="tran_widgets_version" android:value="13.5.1.4"/>
+    <meta-data android:name="tran_widgets_core_version" android:value="13.5.1.4"/>
+    <permission android:name="androidx.legacy.v4.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="androidx.legacy.v4.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="androidx.recyclerview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="androidx.recyclerview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="com.transsion.camera.feature.arcore.ar.provider.read" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.transsion.dataservice.permission.READ"/>
+    <uses-permission android:name="com.transsion.dataservice.permission.WRITE"/>
+    <meta-data android:name="tran_athena_version" android:value="2.3.3.9"/>
+    <meta-data android:name="tran_coreutil_version" android:value="1.0.61.06"/>
+    <meta-data android:name="tran_gslb_version" android:value="1.0.1.3"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <meta-data android:name="tran_json_version" android:value="1.0.5.01"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <uses-feature android:name="com.google.ar.core.depth" android:required="true"/>
+    <permission android:name="androidx.appcompat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="androidx.appcompat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="com.google.android.material.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.google.android.material.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="androidx.constraintlayout.widget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="androidx.constraintlayout.widget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="androidx.dynamicanimation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="androidx.dynamicanimation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/camera_app_logo" android:label="@string/camera_label" android:largeHeap="true" android:name="com.transsion.camera.app.CameraApplication" android:persistent="@bool/app_persistent" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:restoreAnyVersion="true" android:roundIcon="@mipmap/camera_app_logo" android:supportsRtl="true" android:theme="@style/Theme.Camera" android:usesNonSdkApi="true">
+        <meta-data android:name="android.supports_size_changes" android:value="true"/>
+        <provider android:authorities="com.transsion.camera.SpecialTypesProvider" android:exported="true" android:grantUriPermissions="true" android:label="@string/provider_label" android:name="com.transsion.camera.app.common.provider.ProcessPhotoProvider" android:syncable="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.photos.OEM_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <provider android:authorities="androidx.constraintlayout.widget.androidx-startup,androidx.appcompat.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="true" android:label="@string/camera_label" android:launchMode="singleTop" android:name="com.transsion.camera.app.CameraActivity" android:screenOrientation="portrait" android:taskAffinity="com.transsion.camera.app.CameraActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.transsion.camera.action.START_SPECIFY_MODE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity>
+        <activity-alias android:exported="true" android:label="@string/camera_label" android:name="com.android.camera.CameraLauncher" android:targetActivity="com.transsion.camera.app.CameraActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|screenSize" android:exported="true" android:icon="@mipmap/ic_launcher_document" android:label="@string/doc_mode_title" android:launchMode="singleTask" android:name="com.transsion.camera.app.DocumentActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Camera" android:visibleToInstantApps="true" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="ACTION_VIRTUAL_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="ModeName" android:value="DocumentEntry"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|uiMode|screenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.transsion.camera.app.ShortcutsIntentActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="transsion.action.CAMERA_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="true" android:label="@string/camera_label" android:name="com.transsion.camera.app.CaptureActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/Theme.Camera" android:visibleToInstantApps="true" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.FANS_IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:label="@string/video_camera_label" android:name="com.android.camera.VideoCamera" android:targetActivity="com.transsion.camera.app.CaptureActivity">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/camera_label" android:launchMode="singleTask" android:name="com.transsion.camera.app.SecureCameraActivity" android:screenOrientation="portrait" android:showWhenLocked="true" android:taskAffinity="com.transsion.camera.app.SecureCameraActivity" android:theme="@style/Theme.SecureCamera" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.VOICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.VOICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity>
+        <activity android:exported="true" android:name="com.transsion.camera.app.ThermalThrottleUrgentActivity" android:screenOrientation="portrait" android:taskAffinity="com.transsion.camera.app.CameraActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.transsion.camera.app.SleepCameraActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="transsion.action.CAMERA_SLEEP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.transsion.camera.app.ReviewCameraActivity" android:resizeableActivity="false" android:taskAffinity="com.android.camera.CameraActivity"/>
+        <activity android:exported="true" android:name="com.transsion.camera.ui.setting.CodeResultActivity"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/camera_label" android:launchMode="singleTask" android:name="com.transsion.camera.app.AODSelfieActivity" android:screenOrientation="portrait" android:taskAffinity="com.transsion.camera.app.AODSelfieActivity" android:theme="@style/Theme.Camera" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="transsion.media.action.AOD_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.transsion.feature.fold.launch_into_pocket" android:value="true"/>
+            <meta-data android:name="com.transsion.feature.fold.lock_pocket_rotation" android:value="true"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.transsion.camera.app.AODThermalThrottleUrgentActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <meta-data android:name="com.transsion.feature.fold.launch_into_pocket" android:value="true"/>
+        </activity>
+        <receiver android:exported="true" android:name="com.transsion.camera.app.AODWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/aod_appwidget_info"/>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.transsion.camera.app.SlaveScreenActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="com.transsion.camera.app.SlaveScreenActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.transsion.feature.fold.lock_pocket_rotation" android:value="true"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.transsion.camera.app.SlaveScreenSelfHintActivity" android:screenOrientation="portrait" android:theme="@style/Theme.SlaveSelfieHint">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.ar.core" android:value="required"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.transsion.camera.app.ArCoreMainActivity" android:screenOrientation="portrait" android:taskAffinity="com.transsion.camera.app.CameraActivity" android:theme="@style/Theme.ARCore">
+            <intent-filter>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.transsion.camera.app.AvatarActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ARCore"/>
+        <provider android:authorities="com.transsion.camera.ar.provider" android:enabled="true" android:exported="true" android:name="com.transsion.camera.app.ArAvatarProvider" android:readPermission="com.transsion.camera.ar.provider.read"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.transsion.camera.app.AddAvatarActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:theme="@style/Theme.AddAvatar">
+            <intent-filter>
+                <action android:name="com.transsion.intent.action.CAMERA_AR_ADD_AVATAR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.camera.app.AREntranceActivity" android:screenOrientation="portrait" android:taskAffinity="com.transsion.camera.app.CameraActivity" android:theme="@style/Theme.AREntrance"/>
+        <provider android:authorities="com.transsion.camera.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.transsion.camera.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="true"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <meta-data android:name="com.google.ar.core.min_apk_version" android:value="221020000"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:name="com.google.ar.core.InstallActivity" android:theme="@android:style/Theme.Material.Light.Dialog.Alert"/>
+        <activity android:allowBackup="false" android:configChanges="mcc|mnc|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection" android:excludeFromRecents="true" android:exported="true" android:name="com.transsion.ardrawlines.ARDrawLinesActivity" android:process=":ARDrawLinesActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:supportsRtl="true" android:taskAffinity="com.transsion.camera.app.CameraActivity" android:theme="@style/ARDrawLines.AppTheme">
+            <meta-data android:name=".ARDrawLinesActivity" android:value="true"/>
+            <meta-data android:name="android.notch_support" android:value="true"/>
+            <meta-data android:name=".ARDrawLinesActivity" android:value="true"/>
+            <meta-data android:name=".ARDrawLinesActivity" android:value="true"/>
+            <meta-data android:name=".ARDrawLinesActivity" android:value="true"/>
+        </activity>
+        <activity android:allowBackup="false" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection|fontScale" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.transsion.ardrawlines.PlaybackActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:supportsRtl="true" android:taskAffinity="com.transsion.camera.app.CameraActivity" android:theme="@style/ARDrawLines.AppTheme"/>
+        <activity android:allowBackup="false" android:configChanges="mcc|mnc|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|layoutDirection" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.transsion.ardrawlines.screen.ScreenOffActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:supportsRtl="true" android:taskAffinity="com.transsion.camera.app.CameraActivity" android:theme="@style/ARDrawLines.AppTheme"/>
+        <meta-data android:name="unity.splash-mode" android:value="0"/>
+        <meta-data android:name="unity.splash-enable" android:value="true"/>
+        <meta-data android:name="unity.launch-fullscreen" android:value="true"/>
+        <meta-data android:name="unity.allow-resizable-window" android:value="false"/>
+        <meta-data android:name="notch.config" android:value="portrait|landscape"/>
+        <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true"/>
+    </application>
+</manifest>

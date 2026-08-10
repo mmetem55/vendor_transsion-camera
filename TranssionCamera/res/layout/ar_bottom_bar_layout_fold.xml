@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/anchor" android:visibility="visible" android:layout_width="40.0dp" android:layout_height="92.0dp" android:layout_marginRight="60.0dp" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.transsion.camera.feature.arcore.common.widgets.recycleview.VerticalRecyclerView android:id="@id/item_recycler" android:fadingEdgeLength="20.0dp" android:layout_width="120.0dp" android:layout_height="424.0dp" android:layout_marginTop="142.0dp" android:requiresFadingEdge="vertical" app:ItemMargin="0.0dp" app:ItemWidth="@dimen/item_recycler_item_width" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/anchor" app:layout_constraintRight_toRightOf="@id/anchor" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.375" app:layout_constraintVertical_chainStyle="packed" />
+    <com.transsion.camera.feature.arcore.common.widgets.ShutterBarView android:id="@id/shutter_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="123.0dp" android:src="@drawable/ic_shutter_bar_arcore" app:layout_constraintLeft_toLeftOf="@id/item_recycler" app:layout_constraintRight_toRightOf="@id/item_recycler" app:layout_constraintTop_toTopOf="@id/item_recycler" />
+</merge>

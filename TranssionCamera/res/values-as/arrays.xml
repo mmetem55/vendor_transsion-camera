@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>স্বচালিতভাৱে</item>
+        <item>নিৰন্তৰ-ছবি</item>
+        <item>"নিৰন্তৰ ভিডিঅ'"</item>
+        <item>edof</item>
+        <item>নিৰ্দিষ্ট</item>
+        <item>অসীম</item>
+        <item>মেক্ৰ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>বন্ধ</item>
+        <item>3ছেকেণ্ড</item>
+        <item>5ছেকেণ্ড</item>
+        <item>10ছেকেণ্ড</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>শ্বাটাৰ</item>
+        <item>জুম কৰক</item>
+    </string-array>
+</resources>

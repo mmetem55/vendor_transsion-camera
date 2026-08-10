@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>خۆکار</item>
+        <item>وێنەی بەردەوام</item>
+        <item>ڤیدیۆی بەردەوام</item>
+        <item>ئێدۆف</item>
+        <item>جێگیر کرا</item>
+        <item>بێ سنوور</item>
+        <item>گەورە</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>کووژانەوە</item>
+        <item>٣ چرکە</item>
+        <item>٥ چرکە</item>
+        <item>١٠ چرکە</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>هەڵگرەوە</item>
+        <item>زووم</item>
+    </string-array>
+</resources>

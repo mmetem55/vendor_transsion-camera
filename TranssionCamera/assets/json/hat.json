@@ -1,0 +1,76 @@
+{
+  "FEMALE_RES": {
+    "1": {"name" : "hat_00.bundle", "gender" : "GENDER_MID", "resId" : "edit_face_item_none", "path" :"", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "hat_02.bundle", "gender" : "GENDER_MID", "resId" : "hat2", "path" :"new/hat/hat_02.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "toushi_toujin.bundle", "gender" : "GENDER_MID", "resId" : "toushi_toujin", "path" :"new/peishi/toushi_toujin.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "4": {"name" : "peishi_n_02.bundle", "gender" : "GENDER_MID", "resId" : "peishi_n_02", "path" :"new/peishi/peishi_n_02.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "5": {"name" : "peishi_n_14.bundle", "gender" : "GENDER_MID", "resId" : "peishi_n_14", "path" :"new/peishi/peishi_n_14.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "6": {"name" : "toushi_erji.bundle", "gender" : "GENDER_MID", "resId" : "toushi_erji", "path" :"new/peishi/toushi_erji.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "7": {"name" : "toushi_fadai01.bundle", "gender" : "GENDER_MID", "resId" : "toushi_fadai01", "path" :"new/peishi/toushi_fadai01.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "8": {"name" : "toushi_danshuhua.bundle", "gender" : "GENDER_MID", "resId" : "toushi_danshuhua", "path" :"new/peishi/toushi_danshuhua.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "9": {"name" : "toushi_huahuan.bundle", "gender" : "GENDER_MID", "resId" : "toushi_huahuan", "path" :"new/peishi/toushi_huahuan.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "10": {"name" : "peishi_n_03.bundle", "gender" : "GENDER_MID", "resId" : "peishi_n_03", "path" :"new/peishi/peishi_n_03.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "11": {"name" : "peishi_n_09_AR.bundle", "gender" : "GENDER_MID", "resId" : "peishi_n_09", "path" :"new/peishi/peishi_n_09_AR.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""}
+  },
+
+  "FEMALE_PUBLIC": {
+    "basic": {"order": ["1","2","7","6","3","5","4","9","8","11","10"]},
+    "AE": {"order": ["1","2","7","6","3","8","9","4","5","11","10"]},
+    "OM": {"order": ["1","2","7","6","3","8","9","4","5","11","10"]},
+    "QA": {"order": ["1","2","7","6","3","8","9","4","5","11","10"]},
+    "SA": {"order": ["1","2","7","6","3","8","9","4","5","11","10"]}
+  },
+
+  "FEMALE_SOUTH_ASIA": {
+    "basic": {
+      "order": ["1","4","5","2","11","9","10","8","7","6","3"],
+      "name": ["toushi_toujin.bundle"]
+    }
+  },
+
+  "FEMALE_AFRICA": {
+    "basic": {"order": ["1","2","7","6","3","5","4","9","8","11","10"]}
+  },
+
+  "MALE_RES": {
+    "1": {"name" : "hat_00.bundle", "gender" : "GENDER_MID", "resId" : "edit_face_item_none", "path" :"", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "hat_01.bundle", "gender" : "GENDER_MID", "resId" : "hat1", "path" :"new/hat/hat_01.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "hat_02.bundle", "gender" : "GENDER_MID", "resId" : "hat2", "path" :"new/hat/hat_02.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "hat_03.bundle", "gender" : "GENDER_MID", "resId" : "hat3", "path" :"new/hat/hat_03.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "peishi_n_02.bundle", "gender" : "GENDER_MID", "resId" : "peishi_n_02", "path" :"new/peishi/peishi_n_02.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "6": {"name" : "peishi_n_05.bundle", "gender" : "GENDER_MID", "resId" : "peishi_n_05", "path" :"new/peishi/peishi_n_05.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "7": {"name" : "peishi_n_14.bundle", "gender" : "GENDER_MID", "resId" : "peishi_n_14", "path" :"new/peishi/peishi_n_14.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "8": {"name" : "peishi_n_12.bundle", "gender" : "GENDER_MID", "resId" : "peishi_n_12", "path" :"new/peishi/peishi_n_12.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "9": {"name" : "toushi_erji.bundle", "gender" : "GENDER_MID", "resId" : "toushi_erji", "path" :"new/peishi/toushi_erji.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""},
+    "10": {"name" : "toushi_fadai02.bundle", "gender" : "GENDER_MID", "resId" : "toushi_fadai02", "path" :"new/peishi/toushi_fadai02.bundle", "labels" :[1,0], "isSupport" : "true", "others": ""}
+  },
+
+  "MALE_PUBLIC": {
+    "basic": {
+      "order": ["1","4","3","10","9","8","7","5","2","6"],
+      "name": ["hat_01.bundle","peishi_n_05.bundle"]
+    },
+    "AE": {
+      "order": ["1","4","3","10","9","8","5","7","2","6"]},
+    "OM": {
+      "order": ["1","4","3","10","9","8","5","7","2","6"]},
+    "QA": {
+      "order": ["1","4","3","10","9","8","5","7","2","6"]},
+    "SA": {
+      "order": ["1","4","3","10","9","8","5","7","2","6"]}
+  },
+
+  "MALE_SOUTH_ASIA": {
+    "basic": {
+      "order": ["1","8","7","10","5","6","3","4","9","2"],
+      "name": ["hat_01.bundle"]
+    }
+  },
+
+  "MALE_AFRICA": {
+    "basic": {
+      "order": ["1","2","4","3","10","9","8","7","5","6"],
+      "name": ["peishi_n_05.bundle"]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/effect_panel_root" android:paddingTop="@dimen/video_sight_shock_item_panel_padding_top" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/video_sight_shock_item_panel_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/effect_recyclerview" android:focusable="true" android:visibility="visible" android:fadingEdge="horizontal" android:fadingEdgeLength="@dimen/video_sight_shock_panel_fading_edge_width" android:layout_width="match_parent" android:layout_height="match_parent" android:requiresFadingEdge="horizontal" android:layoutDirection="ltr" />
+</FrameLayout>

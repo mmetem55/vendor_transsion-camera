@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>Tự động</item>
+        <item>hình ảnh liên tục</item>
+        <item>video liên tục</item>
+        <item>Mở rộng độ sâu lấy nét</item>
+        <item>đã sửa</item>
+        <item>vô cực</item>
+        <item>macro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Tắt</item>
+        <item>3 giây</item>
+        <item>5 giây</item>
+        <item>10 giây</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Chụp ảnh</item>
+        <item>Thu phóng</item>
+    </string-array>
+</resources>

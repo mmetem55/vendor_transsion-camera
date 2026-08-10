@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dp" android:width="16.0dp" android:autoMirrored="true" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffffff" android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_module_delete_icon__0" android:pathData="M18,13.7L18,13.7l5.8,5.8l5.7,-5.7c1.2,-1.2 3.1,-1.2 4.2,0c1.1,1.1 1.2,2.9 0.1,4.1L33.7,18L28,23.8l5.7,5.7c1.2,1.2 1.2,3.1 0,4.2c-1.1,1.1 -2.9,1.2 -4.1,0.1l-0.1,-0.1L23.8,28l-5.7,5.7c-1.2,1.2 -3.1,1.2 -4.2,0c-1.1,-1.1 -1.2,-2.9 -0.1,-4.1l0.1,-0.1l5.7,-5.7l-5.7,-5.7c-1.2,-1.2 -1.2,-3.1 0,-4.2c1.1,-1.1 2.8,-1.2 3.9,-0.3L18,13.7z" />
+</vector>

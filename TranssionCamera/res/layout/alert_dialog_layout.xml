@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="20.0dp" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="52.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/tv_title" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gender_select_title" android:fontFamily="sans-serif" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+    <View android:background="#26a1a1a1" android:layout_width="match_parent" android:layout_height="2.0px" android:layout_marginTop="18.0dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="52.0dp">
+        <TextView android:textSize="14.0sp" android:textColor="#a6000000" android:gravity="center" android:id="@id/tv_negative" android:background="@drawable/alert_dialog_ripple_selector" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/delete_avatar_cancel" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/tv_positive" android:gravity="center" android:id="@id/tv_positive" android:background="@drawable/alert_dialog_ripple_selector" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/gender_select_confirm" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</LinearLayout>

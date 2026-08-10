@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>ഓട്ടോ</item>
+        <item>തുടർച്ചയായ ചിത്രം</item>
+        <item>തുടർച്ചയായ വീഡിയോ</item>
+        <item>edof</item>
+        <item>നിശ്ചിതം</item>
+        <item>അനന്തത</item>
+        <item>മാക്രോ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ഓഫ് ആണ്</item>
+        <item>3 സെക്കൻഡ്</item>
+        <item>5 സെക്കൻഡ്</item>
+        <item>10 സെക്കൻഡ്</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ഷട്ടർ</item>
+        <item>സൂം ചെയ്യുക</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/aux_preview_root" android:layout_width="@dimen/aux_preview_width" android:layout_height="@dimen/aux_preview_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:layout_gravity="center" android:id="@id/aux_preview_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1.0dp" />
+    <com.transsion.camera.app.ui.view.AuxLocateView android:layout_gravity="center" android:id="@id/aux_preview_locate_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

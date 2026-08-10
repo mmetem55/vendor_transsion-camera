@@ -1,0 +1,10 @@
+{
+  "CUSTOM_COUNTRY_FF": {
+    "1":{"bundleDir": "", "smallThumbNailRes": "ic_smallthumb_kt", "bigThumbNailRes": "ic_bigthumb_kt", "bodyFile": "new/body/KTnv_body.bundle", "gender": "GENDER_FEMALE", "headFile": "new/head/head_1/KTnv_head.bundle", "hairFile": "new/hair/KTnv_hair.bundle", "beardFile": "",
+      "clothesFile": "new/clothes/KTnv_cloth.bundle", "shoeFile": "new/shoes/KTnv_shoes.bundle", "eyebrowFile": "new/eyebrow/eyebrow_01.bundle", "facemakeFile": "", "glassesFile": "", "hatFile": "", "isDualHairColor": "false", "hairColorValue": 0, "skinColorValue": 0,"isCustomAvatar": "true"},
+    "2":{"bundleDir": "", "smallThumbNailRes": "ic_smallthumb_alvaro", "bigThumbNailRes": "ic_smallthumb_alvaro", "bodyFile": "new/body/KTnv_body.bundle", "gender": "GENDER_FEMALE", "headFile": "new/head/head_1/alvaro.bundle", "hairFile": "", "beardFile": "",
+      "clothesFile": "", "shoeFile": "", "eyebrowFile": "", "facemakeFile": "", "glassesFile": "", "hatFile": "", "isDualHairColor": "false", "hairColorValue": 0, "skinColorValue": 0,"isCustomAvatar": "true"},
+    "3":{"bundleDir": "", "smallThumbNailRes": "ic_smallthumb_kapella", "bigThumbNailRes": "ic_smallthumb_kapella", "bodyFile": "new/body/KTnv_body.bundle", "gender": "GENDER_FEMALE", "headFile": "new/head/head_1/kapella.bundle", "hairFile": "", "beardFile": "",
+      "clothesFile": "", "shoeFile": "", "eyebrowFile": "", "facemakeFile": "", "glassesFile": "", "hatFile": "", "isDualHairColor": "false", "hairColorValue": 0, "skinColorValue": 0,"isCustomAvatar": "true"}
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.camera.app.ui.mode.magicsky.widget.RoundImageView android:layout_gravity="center|top" android:id="@id/sky_item" android:layout_width="@dimen/magic_sky_item_thumbnail_width" android:layout_height="@dimen/magic_sky_item_thumbnail_height" />
+    <View android:layout_gravity="center|top" android:id="@id/sky_item_select" android:background="@drawable/ic_sky_item_select_border" android:layout_width="@dimen/magic_sky_item_thumbnail_width" android:layout_height="@dimen/magic_sky_item_thumbnail_height" />
+    <TextView android:textSize="9.0dp" android:textColor="#fffafafa" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/sky_name" android:layout_width="@dimen/magic_sky_item_thumbnail_text_width" android:layout_height="wrap_content" android:layout_marginBottom="1.0dp" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+</FrameLayout>

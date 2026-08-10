@@ -1,0 +1,43 @@
+{
+  "DanceExpression_RES": {
+    "1": {"name" : "ani_hi.bundle", "gender" : "GENDER_MID", "resId" : "action_1", "path" :"new/animation/ani_hi.bundle", "misicId" : "0"},
+    "2": {"name" : "ani_tiaowu06.bundle", "gender" : "GENDER_MID", "resId" : "action_5", "path" :"new/animation/ani_tiaowu06.bundle", "misicId" : "m01_the_cosmopolitan_groove"},
+    "3": {"name" : "ani_tiaowu07.bundle", "gender" : "GENDER_MID", "resId" : "action_6", "path" :"new/animation/ani_tiaowu07.bundle", "misicId" : "m02_disco_house"},
+    "4": {"name" : "ani_tiaowu08.bundle", "gender" : "GENDER_MID", "resId" : "action_7", "path" :"new/animation/ani_tiaowu08.bundle", "misicId" : "m03_in_trap"},
+    "5": {"name" : "ani_tiaowu01.bundle", "gender" : "GENDER_MID", "resId" : "action_8", "path" :"new/animation/ani_tiaowu01.bundle", "misicId" : "m04_groovy_indian_bhangra"},
+    "6": {"name" : "ani_tiaowu13.bundle", "gender" : "GENDER_MID", "resId" : "action_9", "path" :"new/animation/ani_tiaowu13.bundle", "misicId" : "m05_indian_dance_v1"},
+    "7": {"name" : "ani_tiaowu14.bundle", "gender" : "GENDER_MID", "resId" : "action_10", "path" :"new/animation/ani_tiaowu14.bundle", "misicId" : "m06_funky_dance_loop"},
+    "8": {"name" : "ani_tiaowu15.bundle", "gender" : "GENDER_MID", "resId" : "action_11", "path" :"new/animation/ani_tiaowu15.bundle", "misicId" : "m07_disco_fashion_party"},
+    "9": {"name" : "ani_tiaowu09.bundle", "gender" : "GENDER_MID", "resId" : "action_3", "path" :"new/animation/ani_tiaowu09.bundle", "misicId" : "m08_mumbai_groove"},
+    "10": {"name" : "ani_tiaowu02.bundle", "gender" : "GENDER_MID", "resId" : "action_4", "path" :"new/animation/ani_tiaowu02.bundle", "misicId" : "m09_pop_dance"},
+    "11": {"name" : "ani_n_01.bundle", "gender" : "GENDER_MID", "resId" : "action_6", "path" :"new/animation/ani_n_01.bundle", "misicId" : "m10_little_havana"},
+    "12": {"name" : "ani_n_02.bundle", "gender" : "GENDER_MID", "resId" : "action_7", "path" :"new/animation/ani_n_02.bundle", "misicId" : "m11_funk_disco"},
+    "13": {"name" : "ani_n_03.bundle", "gender" : "GENDER_MID", "resId" : "action_8", "path" :"new/animation/ani_n_03.bundle", "misicId" : "m12_funky_indie_pop"},
+    "14": {"name" : "ani_n_04.bundle", "gender" : "GENDER_MID", "resId" : "action_9", "path" :"new/animation/ani_n_04.bundle", "misicId" : "m13_india_pop_half"},
+    "15": {"name" : "ani_n_05.bundle", "gender" : "GENDER_MID", "resId" : "action_10", "path" :"new/animation/ani_n_05.bundle", "misicId" : "m14_funny_disco_dance_loop"},
+    "16": {"name" : "ani_n_06.bundle", "gender" : "GENDER_MID", "resId" : "action_11", "path" :"new/animation/ani_n_06.bundle", "misicId" : "m15_india_dj"},
+    "17": {"name" : "ani_n_07.bundle", "gender" : "GENDER_MID", "resId" : "action_3", "path" :"new/animation/ani_n_07.bundle", "misicId" : "m16_cubano_capptv"},
+    "18": {"name" : "ani_n_08.bundle", "gender" : "GENDER_MID", "resId" : "action_4", "path" :"new/animation/ani_n_08.bundle", "misicId" : "m17_disco_party"}
+  },
+
+  "DanceExpression_PUBLIC": {
+    "basic":{
+      "name": ["ani_tiaowu01.bundle","ani_tiaowu15.bundle","ani_n_03.bundle","ani_n_04.bundle","ani_n_05.bundle","ani_n_06.bundle"],
+      "order": ["1","11","12","2","18","17","3","4","6","7","10","9",    "5","8","13","14","15","16"]
+    }
+  },
+
+  "DanceExpression_SOUTH_ASIA": {
+    "basic":{
+      "name": ["ani_tiaowu06.bundle","ani_tiaowu07.bundle","ani_tiaowu08.bundle","ani_tiaowu13.bundle","ani_tiaowu14.bundle","ani_tiaowu15.bundle","ani_tiaowu09.bundle","ani_tiaowu02.bundle","ani_n_01.bundle","ani_n_02.bundle"],
+      "order": ["1","13","14","15","16","17","18","5",    "2","3","4","6","7","8","9","10","11","12"]
+    }
+  },
+
+  "DanceExpression_AFRICA": {
+    "basic":{
+      "name": ["ani_tiaowu06.bundle","ani_tiaowu01.bundle","ani_n_01.bundle","ani_n_02.bundle","ani_n_03.bundle","ani_n_04.bundle","ani_n_05.bundle","ani_n_06.bundle","ani_n_07.bundle","ani_n_08.bundle"],
+      "order": ["1","9","3","4","6","7","10","8",    "2","5","11","12","13","14","15","16","17","18"]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dp" android:width="32.0dp" android:autoMirrored="true" android:viewportWidth="120.0" android:viewportHeight="120.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_create_mudule__0" android:pathData="M60,62m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_create_mudule__1" android:pathData="M60.5,40c1.6,0 2.9,1.2 3,2.8l0,0.2v38c0,1.7 -1.3,3 -3,3c-1.6,0 -2.9,-1.2 -3,-2.8l0,-0.2V43C57.5,41.3 58.8,40 60.5,40z" />
+    <path android:fillColor="@drawable/$ic_create_mudule__2" android:pathData="M79,59.5c1.7,0 3,1.3 3,3c0,1.6 -1.2,2.9 -2.8,3l-0.2,0H41c-1.7,0 -3,-1.3 -3,-3c0,-1.6 1.2,-2.9 2.8,-3l0.2,0H79z" />
+</vector>

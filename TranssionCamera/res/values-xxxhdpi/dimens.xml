@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_cursor_round_corner">2.0px</dimen>
+    <dimen name="default_edit_watermark_text_size">26.25dp</dimen>
+    <dimen name="edit_watermark_brand_height_1">10.5dp</dimen>
+    <dimen name="edit_watermark_brand_height_2">21.0dp</dimen>
+    <dimen name="super_moon_indicator_height">6.0dp</dimen>
+    <dimen name="super_moon_indicator_width">5.0dp</dimen>
+</resources>

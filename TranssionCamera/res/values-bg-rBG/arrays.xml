@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>автоматично</item>
+        <item>continuous-picture</item>
+        <item>continuous-video</item>
+        <item>edof</item>
+        <item>фиксирано</item>
+        <item>безкрайност</item>
+        <item>макро</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Изкл.</item>
+        <item>3 сек</item>
+        <item>5 сек</item>
+        <item>10 сек</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Затвор</item>
+        <item>Мащабиране</item>
+    </string-array>
+</resources>

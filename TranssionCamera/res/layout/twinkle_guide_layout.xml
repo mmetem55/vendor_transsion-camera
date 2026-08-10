@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/super_night_guide_root" style="@style/twinkleGuide"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/twinkle_guide_img" style="@style/twinkleGuide_img" />
+    <TextView android:id="@id/twinkle_guide_tx" style="@style/twinkleGuide_tx" />
+    <com.opensource.svgaplayer.SVGAImageView android:id="@id/twinkle_guide_anim" app:source="enter_twinkle_anim.svga" style="@style/twinkleGuide_anim_indicator" />
+</RelativeLayout>

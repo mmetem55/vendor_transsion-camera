@@ -1,0 +1,65 @@
+{
+  "FEMALE_RES": {
+    "1": {"name" : "female_cloth01_shoes01.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_cloth01_shoes01", "path" :"new/shoes/female_cloth01_shoes01.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "female_cloth02_linglei_shoes.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_cloth02_linglei_shoes", "path" :"new/shoes/female_cloth02_linglei_shoes.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "female_cloth03_shoes.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_cloth03_shoes", "path" :"new/shoes/female_cloth03_shoes.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "female_cloth04_shoes.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_cloth04_shoes", "path" :"new/shoes/female_cloth04_shoes.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "female_shoes_n_01.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_shoes_n_01", "path" :"new/shoes/female_shoes_n_01.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "6": {"name" : "female_shoes_n_03.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_shoes_n_03", "path" :"new/shoes/female_shoes_n_03.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "7": {"name" : "female_shoes_n_04.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_shoes_n_04", "path" :"new/shoes/female_shoes_n_04.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "8": {"name" : "female_shoes_n_05.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_shoes_n_05", "path" :"new/shoes/female_shoes_n_05.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "FEMALE_PUBLIC": {
+    "basic": {"order": ["1","2","8","6","5","4","3","7"],
+      "name": ["female_cloth02_linglei_shoes.bundle"]},
+    "AE": {"order": ["5","7","6","8","3","1","2","4"],
+      "name": ["female_cloth04_shoes.bundle"]},
+    "OM": {"order": ["5","7","6","8","3","1","2","4"],
+      "name": ["female_cloth04_shoes.bundle"]},
+    "QA": {"order": ["5","7","6","8","3","1","2","4"],
+      "name": ["female_cloth04_shoes.bundle"]},
+    "SA": {"order": ["5","7","6","8","3","1","2","4"],
+      "name": ["female_cloth04_shoes.bundle"]}
+  },
+
+  "FEMALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","5","8","6","7","3","4","2"]}
+  },
+
+  "FEMALE_AFRICA": {
+    "basic": {"order": ["1","8","7","6","5","4","3","2"]}
+  },
+
+  "MALE_RES": {
+    "1": {"name" : "male_cloth01_shoes.bundle", "gender" : "GENDER_MALE", "resId" : "male_cloth01_shoes", "path" :"new/shoes/male_cloth01_shoes.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "male_cloth02_shoes.bundle", "gender" : "GENDER_MALE", "resId" : "male_cloth02_shoes", "path" :"new/shoes/male_cloth02_shoes.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "male_cloth03_shoes.bundle", "gender" : "GENDER_MALE", "resId" : "male_cloth03_shoes", "path" :"new/shoes/male_cloth03_shoes.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "male_cloth04_shoes.bundle", "gender" : "GENDER_MALE", "resId" : "male_cloth04_shoes", "path" :"new/shoes/male_cloth04_shoes.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "male_shoes_n_01.bundle", "gender" : "GENDER_MALE", "resId" : "male_shoes_n_01", "path" :"new/shoes/male_shoes_n_01.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "6": {"name" : "male_shoes_n_02.bundle", "gender" : "GENDER_MALE", "resId" : "male_shoes_n_02", "path" :"new/shoes/male_shoes_n_02.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "7": {"name" : "male_shoes_n_03.bundle", "gender" : "GENDER_MALE", "resId" : "male_shoes_n_03", "path" :"new/shoes/male_shoes_n_03.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "MALE_PUBLIC": {
+    "basic":{
+      "order": ["1","7","6","5","2","4","3"]
+    },
+    "AE": {"order": ["1","7","2","4","6","3","5"]},
+    "OM": {"order": ["1","7","2","4","6","3","5"]},
+    "QA": {"order": ["1","7","2","4","6","3","5"]},
+    "SA": {"order": ["1","7","2","4","6","3","5"]}
+  },
+
+  "MALE_SOUTH_ASIA": {
+    "basic": {
+      "order": ["1","7","2","5","4","3","6"]
+    }
+  },
+
+  "MALE_AFRICA": {
+    "basic": {
+      "order": ["1","7","5","2","4","3","6"]
+    }
+  }
+}

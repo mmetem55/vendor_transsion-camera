@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.feature.mode.professional.widget.ProfessionalSettingItemView android:gravity="center" android:focusable="false" android:clickable="true" android:layout_width="@dimen/pro_setting_item_width" android:layout_height="@dimen/pro_setting_item_height" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center|top" android:id="@id/pro_setting_item_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+    <TextView android:textSize="10.0dp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/pro_setting_item_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:alpha="0.6" />
+    <ImageView android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/pro_setting_item_drawable_value" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginBottom="8.0dp" android:alpha="0.6" />
+</com.transsion.camera.feature.mode.professional.widget.ProfessionalSettingItemView>

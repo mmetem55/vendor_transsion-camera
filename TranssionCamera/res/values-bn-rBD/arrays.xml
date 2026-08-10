@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>স্বতঃ</item>
+        <item>ক্রমাগত-ছবি</item>
+        <item>ক্রমাগত-ভিডিও</item>
+        <item>edof</item>
+        <item>নির্ধারিত</item>
+        <item>অনন্ত</item>
+        <item>ম্যাক্রো</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>বন্ধ</item>
+        <item>3 সেকেন্ড</item>
+        <item>5 সেকেন্ড</item>
+        <item>10 সেকেন্ড</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>শাটার</item>
+        <item>জুম্</item>
+    </string-array>
+</resources>

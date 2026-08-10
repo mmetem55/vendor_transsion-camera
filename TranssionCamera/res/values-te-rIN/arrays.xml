@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>స్వయంచాలకం</item>
+        <item>నిరంతర-పిక్చర్</item>
+        <item>నిరంతర-వీడియో</item>
+        <item>edof</item>
+        <item>ఫిక్సిడ్</item>
+        <item>ఇన్‌ఫినిటీ</item>
+        <item>మ్యాక్రో</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ఆఫ్‌లో ఉన్నాయి</item>
+        <item>3సె</item>
+        <item>5సె</item>
+        <item>10సె</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>షటర్ వేయి</item>
+        <item>జూమ్ చేయి</item>
+    </string-array>
+</resources>

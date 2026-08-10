@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>auto</item>
+        <item>ci gaban-hoto</item>
+        <item>ci gaban-bidiyo</item>
+        <item>edof</item>
+        <item>an gyara</item>
+        <item>ba ƙarshe</item>
+        <item>babba</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>kashe</item>
+        <item>Daƙ 3</item>
+        <item>Daƙ 5</item>
+        <item>Daƙ 10</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Maɗauki</item>
+        <item>Zuƙo</item>
+    </string-array>
+</resources>

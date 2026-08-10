@@ -1,0 +1,57 @@
+{
+  "FEMALE_RES": {
+    "1": {"name" : "eyebrow_01.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_01", "path" :"new/eyebrow/eyebrow_01.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "eyebrow_03.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_03", "path" :"new/eyebrow/eyebrow_03.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "eyebrow_04.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_04", "path" :"new/eyebrow/eyebrow_04.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "eyebrow_05.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_05", "path" :"new/eyebrow/eyebrow_05.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "eyebrow_02.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_02", "path" :"new/eyebrow/eyebrow_02.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "6": {"name" : "eyebrow_12.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_12", "path" :"new/eyebrow/eyebrow_12.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "7": {"name" : "eyebrow_11.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_11", "path" :"new/eyebrow/eyebrow_11.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "8": {"name" : "eyebrow_10.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_10", "path" :"new/eyebrow/eyebrow_10.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "9": {"name" : "eyebrow_07.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_07", "path" :"new/eyebrow/eyebrow_07.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "10": {"name" : "eyebrow_06.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_06", "path" :"new/eyebrow/eyebrow_06.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+
+  },
+
+  "FEMALE_PUBLIC": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8","9","10"]},
+    "AE": {"order": ["1","2","3","4","5","6","7","8","9","10"]},
+    "OM": {"order": ["1","2","3","4","5","6","7","8","9","10"]},
+    "QA": {"order": ["1","2","3","4","5","6","7","8","9","10"]},
+    "SA": {"order": ["1","2","3","4","5","6","7","8","9","10"]}
+  },
+
+  "FEMALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8","9","10"]}
+  },
+
+  "FEMALE_AFRICA": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8","9","10"]}
+  },
+
+  "MALE_RES": {
+    "1": {"name" : "eyebrow_02.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_02", "path" :"new/eyebrow/eyebrow_02.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "eyebrow_08.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_08", "path" :"new/eyebrow/eyebrow_08.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "eyebrow_05.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_05", "path" :"new/eyebrow/eyebrow_05.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "eyebrow_12.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_12", "path" :"new/eyebrow/eyebrow_12.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "eyebrow_11.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_11", "path" :"new/eyebrow/eyebrow_11.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "6": {"name" : "eyebrow_10.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_10", "path" :"new/eyebrow/eyebrow_10.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "7": {"name" : "eyebrow_09.bundle", "gender" : "GENDER_MID", "resId" : "eyebrow_09", "path" :"new/eyebrow/eyebrow_09.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "MALE_PUBLIC": {
+    "basic": {"order": ["1","2","3","4","5","6","7"]},
+    "AE": {"order": ["1","2","3","4","5","6","7"]},
+    "OM": {"order": ["1","2","3","4","5","6","7"]},
+    "QA": {"order": ["1","2","3","4","5","6","7"]},
+    "SA": {"order": ["1","2","3","4","5","6","7"]}
+  },
+
+  "MALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","2","3","4","5","6","7"]}
+  },
+
+  "MALE_AFRICA": {
+    "basic": {"order": ["1","2","3","4","5","6","7"]}
+  }
+}

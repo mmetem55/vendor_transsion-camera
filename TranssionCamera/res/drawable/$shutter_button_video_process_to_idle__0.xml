@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@anim/interpolator_common" android:duration="@integer/shutter_button_anim_duration" android:repeatCount="0" android:repeatMode="reverse" android:valueFrom="@string/shutter_button_inside_rounded_square_192_66" android:valueTo="@string/video_button_inside_circle" android:valueType="pathType" android:propertyName="pathData"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" />

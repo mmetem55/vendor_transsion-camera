@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>ସ୍ୱତଃ</item>
+        <item>କ୍ରମାଗତ-ଚିତ୍ର</item>
+        <item>କ୍ରମାଗତ-ଭିଡିଓ</item>
+        <item>ଇଡୋଫ୍</item>
+        <item>ନିଶ୍ଚିତ</item>
+        <item>ଅସୀମ</item>
+        <item>ମାକ୍ରୋ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ଅଫ୍</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ସଟର</item>
+        <item>ଜୁମ୍</item>
+    </string-array>
+</resources>

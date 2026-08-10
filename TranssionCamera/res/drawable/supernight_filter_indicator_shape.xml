@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/still_supernight_filter_indicator_background" />
+    <corners android:radius="4.0dp" />
+    <padding android:left="8.0dp" android:right="8.0dp" />
+</shape>

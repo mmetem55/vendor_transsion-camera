@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auto_scene_detection_mode_title">AI CAM</string>
+    <string name="guide_asd_content1">Geniş çəkimli AI CAM ən yaxşı görüntü keyfiyəti üçün görüntünü avtomatik aşkarlayır və parametrləri dəyişdirir.</string>
+    <string name="guide_photo_content1">Foto rejimi avtomatik olaraq mənzərələri tanıyır və optimal görüntü keyfiyyəti üçün parametrləri tənzimləyir.</string>
+    <string name="photo_mode_title">Foto</string>
+    <string name="time_lapse_video_mode_title">VAXT FASİLƏSİ</string>
+</resources>

@@ -1,0 +1,49 @@
+{
+  "FEMALE_RES": {
+    "1": {"name" : "nv_eye_Col_1.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_1", "path" :"new/pupil/nv_eye_Col_1.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "nv_eye_Col_2.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_2", "path" :"new/pupil/nv_eye_Col_2.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "nv_eye_Col_3.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_3", "path" :"new/pupil/nv_eye_Col_3.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "nv_eye_Col_4.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_4", "path" :"new/pupil/nv_eye_Col_4.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "nv_eye_Col_5.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_5", "path" :"new/pupil/nv_eye_Col_5.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "FEMALE_PUBLIC": {
+    "basic": {"order": ["1","2","3","4","5"]},
+    "AE": {"order": ["1","2","3","4","5"]},
+    "OM": {"order": ["1","2","3","4","5"]},
+    "QA": {"order": ["1","2","3","4","5"]},
+    "SA": {"order": ["1","2","3","4","5"]}
+  },
+
+  "FEMALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","2","3","4","5"]}
+  },
+
+  "FEMALE_AFRICA": {
+    "basic": {"order": ["1","2","3","4","5"]}
+  },
+
+  "MALE_RES": {
+    "1": {"name" : "nv_eye_Col_1.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_1", "path" :"new/pupil/nv_eye_Col_1.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "nv_eye_Col_2.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_2", "path" :"new/pupil/nv_eye_Col_2.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "nv_eye_Col_3.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_3", "path" :"new/pupil/nv_eye_Col_3.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "nv_eye_Col_4.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_4", "path" :"new/pupil/nv_eye_Col_4.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "nv_eye_Col_5.bundle", "gender" : "GENDER_MID", "resId" : "nv_eye_col_5", "path" :"new/pupil/nv_eye_Col_5.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "MALE_PUBLIC": {
+    "basic": {"order": ["1","2","3","4","5"]},
+    "AE": {"order": ["1","2","3","4","5"]},
+    "OM": {"order": ["1","2","3","4","5"]},
+    "QA": {"order": ["1","2","3","4","5"]},
+    "SA": {"order": ["1","2","3","4","5"]}
+  },
+
+  "MALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","2","3","4","5"]}
+  },
+
+  "MALE_AFRICA": {
+    "basic": {"order": ["1","2","3","4","5"]}
+  }
+}

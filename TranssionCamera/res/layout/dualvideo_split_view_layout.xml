@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dualvideo_split_root" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/dualvideo_split_divider" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_centerVertical="true" />
+    </FrameLayout>
+    <com.transsion.camera.feature.mode.dualvideo.DragRectView android:id="@id/drag_rect_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

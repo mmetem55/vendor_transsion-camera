@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@anim/interpolator_common" android:duration="@integer/shutter_button_anim_duration" android:repeatCount="0" android:repeatMode="reverse" android:valueFrom="24" android:valueTo="15" android:valueType="floatType" android:propertyName="strokeWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" />

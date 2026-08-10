@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>အော်တို</item>
+        <item>မရပ်မနားရိုက်-ပုံ</item>
+        <item>မရပ်မနားရိုက်-ဗီဒီယို</item>
+        <item>edof</item>
+        <item>ပုံသေထား</item>
+        <item>အဆုံးမဲ့</item>
+        <item>အနီးကပ်ပုံ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ပိတ်</item>
+        <item>3စက္ကန့်</item>
+        <item>5စက္ကန့်</item>
+        <item>10စက္ကန့်</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ရှပ်တာ</item>
+        <item>ချုံ့ချဲ့</item>
+    </string-array>
+</resources>

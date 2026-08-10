@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateLayout android:id="@id/dual_recording_time_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/ic_recording_time_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="125.0dp">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0dp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/dual_recording_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-0.5dp" android:maxLines="1" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" />
+    </LinearLayout>
+</com.transsion.camera.app.ui.widget.RotateLayout>

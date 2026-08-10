@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/arcore_guide_layout" android:background="@drawable/shape_arcore_guide_background" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title_guide" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/guide_layout_tv1_margin_top" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+    <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="@dimen/guide_layout_tv_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/guide_layout_tv2_margin_top">
+        <TextView android:textSize="14.0dp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/content_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_guide" android:layout_width="@dimen/guide_layout_iv_width" android:layout_height="@dimen/guide_layout_iv_height" android:layout_marginTop="@dimen/guide_layout_iv1_margin_top" />
+    <FrameLayout android:layout_gravity="center|bottom" android:layout_width="@dimen/guide_layout_tv3_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/guide_layout_tv3_margin_bottom">
+        <TextView android:textSize="15.0dp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/arcore_guide" android:background="@drawable/shape_arcore_guide_text" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ar_tip_guide_start" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+    </FrameLayout>
+</FrameLayout>

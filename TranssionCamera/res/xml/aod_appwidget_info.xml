@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="100.0dp" android:minHeight="100.0dp" android:updatePeriodMillis="1800000" android:initialLayout="@layout/aod_camera_widget" android:previewImage="@drawable/aod_camera_widget_preview_image" android:resizeMode="horizontal|vertical" android:widgetCategory="1024" scendaryHome:widgetFeature="feature_camera"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:scendaryHome="SecondaryHome" />

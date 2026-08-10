@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:id="@id/state_pressed" android:drawable="@drawable/proshutter_097" />
+    <item android:id="@id/state_normal" android:drawable="@drawable/proshutter_080" />
+    <transition android:toId="@id/state_pressed" android:fromId="@id/state_normal">
+        <animation-list>
+            <item android:duration="17" android:drawable="@drawable/proshutter_080" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_081" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_082" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_083" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_084" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_085" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_086" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_087" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_088" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_089" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_090" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_091" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_092" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_093" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_094" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_095" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_096" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_097" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/state_normal" android:fromId="@id/state_pressed">
+        <animation-list>
+            <item android:duration="17" android:drawable="@drawable/proshutter_097" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_111" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_112" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_113" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_114" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_115" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_116" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_117" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_118" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_119" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_120" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_121" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_122" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_123" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_124" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_125" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_126" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_127" />
+            <item android:duration="17" android:drawable="@drawable/proshutter_128" />
+        </animation-list>
+    </transition>
+</animated-selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.feature.slimbody.ui.SlimBodyEntryView android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/setting_preview" />
+    <include layout="@layout/setting_bottom_layout" />
+</com.transsion.camera.feature.slimbody.ui.SlimBodyEntryView>

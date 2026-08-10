@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center|bottom" android:focusable="false" android:layout_width="@dimen/click_zoom_view_size" android:layout_height="@dimen/click_zoom_view_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.camera.ui.setting.clickzoom.ClickZoomView android:layout_gravity="center" android:id="@id/click_zoom_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:zoomInDrawable="@drawable/ic_click_zoom_in" app:zoomOutDrawable="@drawable/ic_click_zoom_out" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mode_above_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/column_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/hint_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.transsion.camera.app.ui.widget.ScrollFrameLayout android:layout_gravity="bottom" android:id="@id/mode_panel_layout" android:paddingBottom="@dimen/mode_panel_layout_shake_height" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+</merge>

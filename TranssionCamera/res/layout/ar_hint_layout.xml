@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/hint_view_root" android:focusable="false" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/hint_text_view" android:background="@drawable/hint_text_background" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+        <ImageView android:layout_gravity="center" android:id="@id/face_detect_indicator" android:focusable="false" android:visibility="gone" android:layout_width="120.0dp" android:layout_height="120.0dp" android:src="@drawable/ic_face_detect_indicator" />
+    </FrameLayout>
+</FrameLayout>

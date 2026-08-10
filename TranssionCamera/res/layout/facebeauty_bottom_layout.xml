@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.feature.mode.makeup.ui.FaceBeautyBottomUI android:layout_gravity="bottom" android:id="@id/bottom_ui" android:paddingTop="@dimen/mu_bottom_layout_padding" android:paddingBottom="@dimen/mu_bottom_layout_padding" android:layout_width="match_parent" android:layout_height="@dimen/mu_rv_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feature_makeup_layout" />
+    <include layout="@layout/feature_slimbody_layout" />
+    <include layout="@layout/feature_facebeauty_extends_layout" />
+</com.transsion.camera.feature.mode.makeup.ui.FaceBeautyBottomUI>

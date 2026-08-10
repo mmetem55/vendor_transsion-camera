@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/sdof_scroll_view_background" />
+        </shape>
+    </item>
+    <item android:top="51.399994dp">
+        <shape android:shape="line">
+            <stroke android:width="0.6dp" android:color="#3311ff75" />
+        </shape>
+    </item>
+    <item android:gravity="center_horizontal" android:height="7.0dp" android:width="7.0dp" android:drawable="@drawable/ic_arrow_indicator" />
+</layer-list>

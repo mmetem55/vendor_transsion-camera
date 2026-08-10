@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/img_barcode" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_rt" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_righttop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/image_rb" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_rightbottom" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/image_lt" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_lefttop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/image_lb" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_leftbottom" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mask" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

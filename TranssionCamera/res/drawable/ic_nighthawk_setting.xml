@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dp" android:width="32.0dp" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_nighthawk_setting__0" android:pathData="M36,53c8.8,0 16,-7.1 16,-15.9c0,0 -32,-0.3 -32,0C20,45.9 27.2,53 36,53z" android:fillType="evenOdd" />
+    <path android:fillColor="#cccccc" android:pathData="M36,6c16.6,0 30,13.4 30,30S52.6,66 36,66S6,52.6 6,36S19.4,6 36,6zM36,10c-14.4,0 -26,11.6 -26,26s11.6,26 26,26s26,-11.6 26,-26S50.4,10 36,10z" />
+</vector>

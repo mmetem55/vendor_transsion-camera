@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>auto</item>
+        <item>kontinuerlig-bild</item>
+        <item>kontinuerlig-video</item>
+        <item>utökat fokusdjup</item>
+        <item>korrigerad</item>
+        <item>oändlig</item>
+        <item>makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Av</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Slutare</item>
+        <item>Zoom</item>
+    </string-array>
+</resources>

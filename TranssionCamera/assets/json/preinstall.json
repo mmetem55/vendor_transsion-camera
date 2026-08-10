@@ -1,0 +1,46 @@
+{
+  "PUBLIC": {
+    "1":{"bundleDir": "public01", "smallThumbNailRes": "ic_smallthumb_public01", "bigThumbNailRes": "ic_bigthumb_public01", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_n_5_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth_n_03.bundle", "shoeIndex": "female_cloth_n_03.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "2":{"bundleDir": "public02", "smallThumbNailRes": "ic_smallthumb_public02", "bigThumbNailRes": "ic_bigthumb_public02", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_n_2_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth03_xizhuang.bundle", "shoeIndex": "female_cloth03_xizhuang.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "3":{"bundleDir": "public03", "smallThumbNailRes": "ic_smallthumb_public03", "bigThumbNailRes": "ic_bigthumb_public03", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_0_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth_n_01.bundle", "shoeIndex": "female_cloth_n_01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": "peishi_n_09_AR.bundle", "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "4":{"bundleDir": "public04", "smallThumbNailRes": "ic_smallthumb_public04", "bigThumbNailRes": "ic_bigthumb_public04", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_0_change.bundle", "beardIndex": 0,
+      "clothesIndex": "male_cloth01.bundle", "shoeIndex": "male_cloth01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "true", "hairColorValue": 0, "skinColorValue": 0},
+    "5":{"bundleDir": "public05", "smallThumbNailRes": "ic_smallthumb_public05", "bigThumbNailRes": "ic_bigthumb_public05", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_n_4_change.bundle", "beardIndex": 0,
+      "clothesIndex": "male_cloth_n_01.bundle", "shoeIndex": "male_cloth_n_01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "6":{"bundleDir": "public06", "smallThumbNailRes": "ic_smallthumb_public06", "bigThumbNailRes": "ic_bigthumb_public06", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_4_change.bundle", "beardIndex": 0,
+      "clothesIndex": "male_cloth03_xiuxian.bundle", "shoeIndex": "male_cloth03_xiuxian.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "true", "hairColorValue": 0, "skinColorValue": 0}
+  },
+
+  "SOUTH_ASIA": {
+    "1":{"bundleDir": "asia01", "smallThumbNailRes": "ic_smallthumb_south_asia01", "bigThumbNailRes": "ic_bigthumb_south_asia01", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_n_4_change.bundle", "beardIndex": 0,
+      "clothesIndex": "male_cloth_n_03.bundle", "shoeIndex": "male_cloth_n_03.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "2":{"bundleDir": "asia02", "smallThumbNailRes": "ic_smallthumb_south_asia02", "bigThumbNailRes": "ic_bigthumb_south_asia02", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_n_3_change.bundle", "beardIndex": "huzi_04.bundle",
+      "clothesIndex": "male_cloth_n_01.bundle", "shoeIndex": "male_cloth_n_01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": "glass02.bundle", "hatIndex": "glass02.bundle", "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "3":{"bundleDir": "asia03", "smallThumbNailRes": "ic_smallthumb_south_asia03", "bigThumbNailRes": "ic_bigthumb_south_asia03", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_0_change.bundle", "beardIndex": 0,
+      "clothesIndex": "male_cloth01.bundle", "shoeIndex": "male_cloth01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "true", "hairColorValue": 0, "skinColorValue": 0},
+    "4":{"bundleDir": "asia04", "smallThumbNailRes": "ic_smallthumb_south_asia04", "bigThumbNailRes": "ic_bigthumb_south_asia04", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_0_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth_n_01.bundle", "shoeIndex": "female_cloth_n_01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": "peishi_n_09_AR.bundle", "isDualHairColor": "true", "hairColorValue": 0, "skinColorValue": 0},
+    "5":{"bundleDir": "asia05", "smallThumbNailRes": "ic_smallthumb_south_asia05", "bigThumbNailRes": "ic_bigthumb_south_asia05", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_0_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth_n_04.bundle", "shoeIndex": "female_cloth_n_04.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "6":{"bundleDir": "asia06", "smallThumbNailRes": "ic_smallthumb_south_asia06", "bigThumbNailRes": "ic_bigthumb_south_asia06", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_6_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth01.bundle", "shoeIndex": "female_cloth01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 0, "skinColorValue": 0}
+  },
+
+  "AFRICA": {
+    "1":{"bundleDir": "africa01", "smallThumbNailRes": "ic_smallthumb_africa01", "bigThumbNailRes": "ic_bigthumb_africa01", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_2_change.bundle", "beardIndex": 0,
+      "clothesIndex": "male_cloth_n_02.bundle", "shoeIndex": "male_cloth_n_02.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 6},
+    "2":{"bundleDir": "africa02", "smallThumbNailRes": "ic_smallthumb_africa02", "bigThumbNailRes": "ic_bigthumb_africa02", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_6_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth_n_04.bundle", "shoeIndex": "female_cloth_n_04.bundle", "eyebrowIndex": 0, "facemakeIndex": "facemake08.bundle", "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "3":{"bundleDir": "africa03", "smallThumbNailRes": "ic_smallthumb_africa03", "bigThumbNailRes": "ic_bigthumb_africa03", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_n_3_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth01.bundle", "shoeIndex": "female_cloth01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": "peishi_n_03.bundle", "isDualHairColor": "true", "hairColorValue": 0, "skinColorValue": 0},
+    "4":{"bundleDir": "africa04", "smallThumbNailRes": "ic_smallthumb_africa04", "bigThumbNailRes": "ic_bigthumb_africa04", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_n_4_change.bundle", "beardIndex": 0,
+      "clothesIndex": "male_cloth_n_01.bundle", "shoeIndex": "male_cloth_n_01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": 0, "isDualHairColor": "false", "hairColorValue": 3, "skinColorValue": 0},
+    "5":{"bundleDir": "africa05", "smallThumbNailRes": "ic_smallthumb_africa05", "bigThumbNailRes": "ic_bigthumb_africa05", "gender": "GENDER_FEMALE", "headFile": "GENDER_FEMALE", "hairIndex": "female_hair_change.bundle", "beardIndex": 0,
+      "clothesIndex": "female_cloth_n_05.bundle", "shoeIndex": "female_cloth_n_05.bundle", "eyebrowIndex": 0, "facemakeIndex": "facemake01.bundle", "glassesIndex": "glass02.bundle", "hatIndex": "peishi_n_14.bundle", "isDualHairColor": "false", "hairColorValue": 0, "skinColorValue": 0},
+    "6":{"bundleDir": "africa06", "smallThumbNailRes": "ic_smallthumb_africa06", "bigThumbNailRes": "ic_bigthumb_africa06", "gender": "GENDER_MALE", "headFile": "GENDER_MALE", "hairIndex": "male_hair_3_change.bundle", "beardIndex": 0,
+      "clothesIndex": "male_cloth01.bundle", "shoeIndex": "male_cloth01.bundle", "eyebrowIndex": 0, "facemakeIndex": 0, "glassesIndex": 0, "hatIndex": "toushi_erji.bundle", "isDualHairColor": "false", "hairColorValue": 0, "skinColorValue": 0}
+  }
+}

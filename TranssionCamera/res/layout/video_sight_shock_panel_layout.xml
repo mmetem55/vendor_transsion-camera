@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/video_sight_shock_select_root" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" android:layoutDirection="ltr" />
+</FrameLayout>

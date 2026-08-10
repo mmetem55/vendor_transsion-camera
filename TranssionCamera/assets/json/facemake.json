@@ -1,0 +1,62 @@
+{
+  "FEMALE_RES": {
+    "1": {"name" : "facemake00.bundle", "gender" : "GENDER_MID", "resId" : "edit_face_item_none", "path" :"", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "facemake13.bundle", "gender" : "GENDER_MID", "resId" : "facemake13", "path" :"new/facemake/facemake13.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "facemake12.bundle", "gender" : "GENDER_MID", "resId" : "facemake12", "path" :"new/facemake/facemake12.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "facemake11.bundle", "gender" : "GENDER_MID", "resId" : "facemake11", "path" :"new/facemake/facemake11.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "facemake10.bundle", "gender" : "GENDER_MID", "resId" : "facemake10", "path" :"new/facemake/facemake10.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "6": {"name" : "facemake09.bundle", "gender" : "GENDER_MID", "resId" : "facemake09", "path" :"new/facemake/facemake09.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "7": {"name" : "facemake08.bundle", "gender" : "GENDER_MID", "resId" : "facemake08", "path" :"new/facemake/facemake08.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "8": {"name" : "facemake07.bundle", "gender" : "GENDER_MID", "resId" : "facemake07", "path" :"new/facemake/facemake07.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "9": {"name" : "facemake06.bundle", "gender" : "GENDER_MID", "resId" : "facemake06", "path" :"new/facemake/facemake06.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "10": {"name" : "facemake06_n.bundle", "gender" : "GENDER_MID", "resId" : "facemake06_n", "path" :"new/facemake/facemake06_n.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "11": {"name" : "facemake05_n.bundle", "gender" : "GENDER_MID", "resId" : "facemake05_n", "path" :"new/facemake/facemake05_n.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "12": {"name" : "facemake01.bundle", "gender" : "GENDER_MID", "resId" : "facemake01", "path" :"new/facemake/facemake01.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "13": {"name" : "facemake05.bundle", "gender" : "GENDER_MID", "resId" : "facemake05", "path" :"new/facemake/facemake05.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "14": {"name" : "facemake04_n.bundle", "gender" : "GENDER_MID", "resId" : "facemake04_n", "path" :"new/facemake/facemake04_n.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "15": {"name" : "facemake04.bundle", "gender" : "GENDER_MID", "resId" : "facemake04", "path" :"new/facemake/facemake04.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "16": {"name" : "facemake02.bundle", "gender" : "GENDER_MID", "resId" : "facemake02", "path" :"new/facemake/facemake02.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "17": {"name" : "facemake03.bundle", "gender" : "GENDER_MID", "resId" : "facemake03", "path" :"new/facemake/facemake03.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "FEMALE_PUBLIC": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8","10","13","9","12","11","14","15","16","17"]},
+    "AE": {"order": ["1","2","3","4","7","10","13","9","12","11","14","15","16","17","5","6","8"]},
+    "OM": {"order": ["1","2","3","4","7","10","13","9","12","11","14","15","16","17","5","6","8"]},
+    "QA": {"order": ["1","2","3","4","7","10","13","9","12","11","14","15","16","17","5","6","8"]},
+    "SA": {"order": ["1","2","3","4","7","10","13","9","12","11","14","15","16","17","5","6","8"]}
+  },
+
+  "FEMALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8","10","13","9","12","11","14","15","16","17"]}
+  },
+
+  "FEMALE_AFRICA": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8","10","13","9","12","11","14","15","16","17"]}
+  },
+
+  "MALE_RES": {
+    "1": {"name" : "facemake00.bundle", "gender" : "GENDER_MID", "resId" : "edit_face_item_none", "path" :"", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "facemake13.bundle", "gender" : "GENDER_MID", "resId" : "facemake13", "path" :"new/facemake/facemake13.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "3": {"name" : "facemake12.bundle", "gender" : "GENDER_MID", "resId" : "facemake12", "path" :"new/facemake/facemake12.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "4": {"name" : "facemake11.bundle", "gender" : "GENDER_MID", "resId" : "facemake11", "path" :"new/facemake/facemake11.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "5": {"name" : "facemake10.bundle", "gender" : "GENDER_MID", "resId" : "facemake10", "path" :"new/facemake/facemake10.bundle", "labels" :"", "isSupport" : "true", "others": ""},
+    "6": {"name" : "facemake09.bundle", "gender" : "GENDER_MID", "resId" : "facemake09", "path" :"new/facemake/facemake09.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "MALE_PUBLIC": {
+    "basic": {"order": ["1","2","3","4","5","6"]},
+    "AE": {"order": ["1","2","3","4","5","6"]},
+    "OM": {"order": ["1","2","3","4","5","6"]},
+    "QA": {"order": ["1","2","3","4","5","6"]},
+    "SA": {"order": ["1","2","3","4","5","6"]}
+  },
+
+  "MALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","2","3","4","5","6"]}
+  },
+
+  "MALE_AFRICA": {
+    "basic": {"order": ["1","2","3","4","5","6"]}
+  }
+}

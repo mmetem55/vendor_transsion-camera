@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>خودکار</item>
+        <item>تصویر-پیوسته</item>
+        <item>ویدئوی-پیوسته</item>
+        <item>edof</item>
+        <item>اصلاح شده</item>
+        <item>بی نهایت</item>
+        <item>ماکرو</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>خاموش</item>
+        <item>3 ثانیه</item>
+        <item>5 ثانیه</item>
+        <item>10 ثانیه</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>کلید دوربین</item>
+        <item>بزرگ‌نمایی</item>
+    </string-array>
+</resources>

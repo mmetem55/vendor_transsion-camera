@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:id="@id/time_lapse_root" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/time_lapse_view_height" android:layout_marginTop="@dimen/time_lapse_layout_margin_top" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|top" android:id="@id/time_lapse_level_indicator" android:background="@drawable/ic_indicator_selected_bg" android:focusable="false" android:layout_width="@dimen/time_lapse_level_indicator_width" android:layout_height="@dimen/time_lapse_level_indicator_width" android:layout_marginStart="@dimen/time_lapse_indicator_margin_start" />
+    <FrameLayout android:id="@id/time_lapse_select_view" android:background="#4d000000" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/time_lapse_view_background_height" android:layout_marginTop="@dimen/time_lapse_level_view_margin_top" android:splitMotionEvents="false">
+        <com.transsion.camera.app.ui.widget.LinearGradientFrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.transsion.camera.app.ui.widget.AutoFitCenterTabLayout android:id="@id/time_lapse_tab" android:focusable="false" android:visibility="visible" style="@style/TimeLapseRateTabLayout" />
+        </com.transsion.camera.app.ui.widget.LinearGradientFrameLayout>
+        <View android:layout_gravity="center_horizontal" android:background="@drawable/ic_selected_bg" android:focusable="false" android:layout_width="@dimen/time_lapse_selector_rect_width" android:layout_height="@dimen/time_lapse_selector_rect_height" android:layout_marginTop="@dimen/time_lapse_selector_rect_margin_top" />
+        <ImageView android:id="@id/time_lapse_auto_indicator" android:background="@drawable/ic_time_lapse_auto" android:focusable="false" android:layout_width="@dimen/time_lapse_auto_indicator_width" android:layout_height="@dimen/time_lapse_auto_indicator_width" android:layout_marginTop="@dimen/time_lapse_auto_indicator_margin_top" android:layout_marginStart="@dimen/time_lapse_auto_indicator_margin_start" />
+    </FrameLayout>
+</FrameLayout>

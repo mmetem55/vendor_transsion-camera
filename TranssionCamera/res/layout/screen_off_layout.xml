@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/screen_off_layout_0" android:background="@color/app_black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/app_white" android:gravity="center" android:id="@id/btn_screen_on_id" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20.0dp" android:text="@string/power_save_mode_title" />
+</FrameLayout>

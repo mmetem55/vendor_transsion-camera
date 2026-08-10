@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@anim/interpolator_common" android:duration="100"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <propertyValuesHolder android:valueFrom="1.0" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleX" />
+    <propertyValuesHolder android:valueFrom="1.0" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleY" />
+</objectAnimator>

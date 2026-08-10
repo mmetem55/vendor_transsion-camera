@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_multi_fb_skin_brown" android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+    <item>
+        <shape android:dither="true" android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="2.0dp" android:color="#00e07b" />
+        </shape>
+    </item>
+</layer-list>

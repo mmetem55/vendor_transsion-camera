@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/unselected_mode_color" android:gravity="start|bottom" android:layout_gravity="left" android:id="@id/mode_order_editor_item_ui_title" android:layout_width="match_parent" android:layout_height="20.0dp" style="@style/ModePanelTextAppearance" />
+</LinearLayout>

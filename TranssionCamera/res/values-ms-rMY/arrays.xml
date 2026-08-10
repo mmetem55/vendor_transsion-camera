@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>Auto</item>
+        <item>gambar berterusan</item>
+        <item>video berterusan</item>
+        <item>edof</item>
+        <item>tetap</item>
+        <item>infiniti</item>
+        <item>makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Mati</item>
+        <item>3S</item>
+        <item>5S</item>
+        <item>10S</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Pengatup</item>
+        <item>Zum</item>
+    </string-array>
+</resources>

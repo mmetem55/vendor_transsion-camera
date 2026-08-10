@@ -1,0 +1,62 @@
+{
+  "FEMALE_RES": {
+    "1": {"name" : "female_hair_change.bundle", "gender" : "GENDER_MID", "resId" : "edit_face_item_none", "path" :"", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "female_hair_0_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_0", "path" :"new/hair/female_hair_0_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_0.bundle"]},
+    "3": {"name" : "female_hair_1_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_1", "path" :"new/hair/female_hair_1_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_1.bundle"]},
+    "4": {"name" : "female_hair_2_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_2", "path" :"new/hair/female_hair_2_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_2.bundle"]},
+    "5": {"name" : "female_hair_4_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_4", "path" :"new/hair/female_hair_4_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_4.bundle"]},
+    "6": {"name" : "female_hair_5_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_5", "path" :"new/hair/female_hair_5_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_5.bundle"]},
+    "7": {"name" : "female_hair_6_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_6", "path" :"new/hair/female_hair_6_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_6.bundle"]},
+    "8": {"name" : "female_hair_n_1_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_n_1", "path" :"new/hair/female_hair_n_1_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_n_1.bundle"]},
+    "9": {"name" : "female_hair_n_2_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_n_2", "path" :"new/hair/female_hair_n_2_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_n_2.bundle"]},
+    "10": {"name" : "female_hair_n_3_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_n_3", "path" :"new/hair/female_hair_n_3_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_n_3.bundle"]},
+    "11": {"name" : "female_hair_n_4_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_n_4", "path" :"new/hair/female_hair_n_4_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_n_4.bundle"]},
+    "12": {"name" : "female_hair_n_5_change.bundle", "gender" : "GENDER_FEMALE", "resId" : "female_hair_n_5", "path" :"new/hair/female_hair_n_5_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/female_hair_n_5.bundle"]}
+  },
+
+  "FEMALE_PUBLIC": {
+    "basic": {"order": ["1","12","11","10","9","8","7","6","5","4","3","2"]},
+    "AE": {"order": ["1","11","10","9","8","6","5","7","2","4","3","12"]},
+    "OM": {"order": ["1","11","10","9","8","6","5","7","2","4","3","12"]},
+    "QA": {"order": ["1","11","10","9","8","6","5","7","2","4","3","12"]},
+    "SA": {"order": ["1","11","10","9","8","6","5","7","2","4","3","12"]}
+  },
+
+  "FEMALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","12","8","10","9","11","6","7","5","4","3","2"]}
+  },
+
+  "FEMALE_AFRICA": {
+    "basic": {"order": ["1","12","11","10","9","8","7","6","5","4","3","2"]}
+  },
+
+  "MALE_RES": {
+    "1": {"name" : "male_hair_change.bundle", "gender" : "GENDER_MID", "resId" : "edit_face_item_none", "path" :"", "labels" :"", "isSupport" : "true", "others": ""},
+    "2": {"name" : "male_hair_0_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_0", "path" :"new/hair/male_hair_0_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_0.bundle"]},
+    "3": {"name" : "male_hair_1_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_1", "path" :"new/hair/male_hair_1_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_1.bundle"]},
+    "4": {"name" : "male_hair_2_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_2", "path" :"new/hair/male_hair_2_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_2.bundle"]},
+    "5": {"name" : "male_hair_3_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_3", "path" :"new/hair/male_hair_3_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_3.bundle"]},
+    "6": {"name" : "male_hair_4_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_4", "path" :"new/hair/male_hair_4_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_4.bundle"]},
+    "7": {"name" : "male_hair_n_5_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_n_5", "path" :"new/hair/male_hair_n_5_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_n_5.bundle"]},
+    "8": {"name" : "male_hair_n_2_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_n_2", "path" :"new/hair/male_hair_n_2_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_n_2.bundle"]},
+    "9": {"name" : "male_hair_n_3_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_n_3", "path" :"new/hair/male_hair_n_3_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_n_3.bundle"]},
+    "10": {"name" : "male_hair_n_4_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_n_4", "path" :"new/hair/male_hair_n_4_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_n_4.bundle"]},
+    "11": {"name" : "male_hair_n_1_change.bundle", "gender" : "GENDER_MALE", "resId" : "male_hair_n_1", "path" :"new/hair/male_hair_n_1_change.bundle", "labels" :[0], "isSupport" : "true", "others": ["new/hair/male_hair_n_1.bundle"]}
+  },
+
+  "MALE_PUBLIC": {
+    "basic": {"order": ["1","7","10","9","8","11","6","5","4","3","2"]},
+    "AE": {"order": ["1","10","8","11","6","5","4","3","2","7","9"]},
+    "OM": {"order": ["1","10","8","11","6","5","4","3","2","7","9"]},
+    "QA": {"order": ["1","10","8","11","6","5","4","3","2","7","9"]},
+    "SA": {"order": ["1","10","8","11","6","5","4","3","2","7","9"]}
+  },
+
+  "MALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","7","10","9","8","11","6","5","4","3","2"]}
+  },
+
+  "MALE_AFRICA": {
+    "basic": {"order": ["1","7","10","9","8","11","6","5","4","3","2"]}
+  }
+}

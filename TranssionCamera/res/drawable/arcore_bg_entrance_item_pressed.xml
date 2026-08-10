@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="444.0dp" android:width="444.0dp" android:viewportWidth="444.0" android:viewportHeight="444.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$arcore_bg_entrance_item_pressed__0" android:pathData="M402,0C425.2,0 444,18.8 444,42L444,402C444,425.2 425.2,444 402,444L42,444C18.8,444 0,425.2 0,402L0,42C0,18.8 18.8,0 42,0L402,0ZM402,6L42,6C22.32,6 6.32,21.8 6,41.4L6,42L6,402C6,421.68 21.8,437.68 41.4,438L42,438L402,438C421.68,438 437.68,422.2 438,402.6L438,402L438,42C438,22.32 422.2,6.32 402.6,6L402,6Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

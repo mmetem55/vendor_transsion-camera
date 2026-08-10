@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/time_lapse_duration_layout_height" android:layout_marginTop="@dimen/time_lapse_duration_layout_margin_top" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/time_lapse_duration_root" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="24.0dp">
+        <com.transsion.camera.app.ui.widget.LinearGradientFrameLayout android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.transsion.camera.app.ui.widget.AutoFitCenterTabLayout android:id="@id/time_lapse_duration_tab" android:focusable="false" android:visibility="visible" style="@style/TimeLapseDurationTabLayout" />
+        </com.transsion.camera.app.ui.widget.LinearGradientFrameLayout>
+        <TextView android:textSize="@dimen/time_lapse_duration_indicator_text_size" android:textColor="@color/primary_highlight_color" android:layout_gravity="center_horizontal" android:id="@id/time_lapse_min" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/time_lapse_duration_indicator_margin_top" android:text="@string/time_lapse_duration_select_min" android:alpha="0.6" />
+    </FrameLayout>
+</FrameLayout>

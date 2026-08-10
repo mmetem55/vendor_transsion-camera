@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/editor_preference_fragment_background_color" android:focusable="false" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Toolbar android:id="@id/editor_fragment_toolbar" android:title="@string/pref_setting_title" style="@style/PreferenceFragmentToolbar" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <com.transsion.camera.app.ui.widget.ModeOrderEditorRecyclerView android:id="@id/mode_order_editor_recyclerview" android:tag="type_a" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:background="@android:color/transparent" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dp" />
+    <TextView android:textSize="15.0sp" android:textColor="@android:color/white" android:gravity="center" android:visibility="visible" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginBottom="48.0dp" android:text="@string/pref_editor_category_drag_hint" />
+</LinearLayout>

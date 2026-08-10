@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="@dimen/blurlevel_view_height" android:layout_marginTop="@dimen/blurlevel_layout_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center|bottom" android:id="@id/level_indicator_layout" android:focusable="false" android:layout_width="@dimen/blurlevel_indicator_layout_width" android:layout_height="@dimen/blurlevel_indicator_layout_height">
+        <TextView android:textSize="12.0dp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/level_indicator" android:background="@drawable/blurlevel_ic_indicator_bg" android:focusable="false" android:layout_width="@dimen/blurlevel_indicator_width" android:layout_height="@dimen/blurlevel_indicator_height" android:layout_marginBottom="@dimen/blurlevel_indicator_margin_bottom" android:fontFamily="sans-serif-medium" />
+    </FrameLayout>
+    <com.transsion.camera.app.ui.widget.GraduationView android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/sdof_wheel_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/blurlevel_wheel_view_height" app:graduationStyle="portrait_blur" />
+</FrameLayout>

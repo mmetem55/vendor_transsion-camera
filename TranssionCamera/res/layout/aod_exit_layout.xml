@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateLayout android:layout_gravity="center_horizontal" android:id="@id/aod_exit_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.transsion.camera.app.ui.widget.DragIndicator android:layout_gravity="center_horizontal" android:id="@id/aod_exit_indicator" android:layout_width="30.0dp" android:layout_height="20.0dp" />
+        <TextView android:textSize="10.0dp" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/aod_exit_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:maxWidth="87.32999dp" android:text="@string/aod_swipe_down_exit_tip" android:textAlignment="center" />
+    </FrameLayout>
+</com.transsion.camera.app.ui.widget.RotateLayout>

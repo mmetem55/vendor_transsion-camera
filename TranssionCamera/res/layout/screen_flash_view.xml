@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/screen_supply_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/aperture_circle_view" layout="@layout/aperture_layout" />
+    <com.opensource.svgaplayer.SVGAImageView android:layout_gravity="center" android:id="@id/screen_flashing" android:layout_width="@dimen/screen_flash_size" android:layout_height="@dimen/screen_flash_size" app:autoPlay="false" app:source="screen_flashing.svga" />
+</FrameLayout>

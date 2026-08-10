@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="7.0dp" android:insetRight="7.0dp" android:insetTop="7.0dp" android:insetBottom="7.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="oval" android:useLevel="false">
+        <solid android:color="#ffffff" />
+        <corners android:radius="360.0dp" />
+        <size android:height="@dimen/full_zoom_item_size" android:width="@dimen/full_zoom_item_size" />
+    </shape>
+</inset>

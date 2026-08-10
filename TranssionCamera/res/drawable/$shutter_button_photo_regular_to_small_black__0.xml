@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@anim/interpolator_common" android:duration="@integer/shutter_button_anim_duration" android:repeatCount="0" android:repeatMode="reverse" android:valueFrom="M98,98m0,-88.5a88.5,88.5 0,1 1, 0,177 a88.5,88.5 0,1 1,0 -177" android:valueTo="@string/shutter_button_outside_border_196_70" android:valueType="pathType" android:propertyName="pathData" />
+</set>

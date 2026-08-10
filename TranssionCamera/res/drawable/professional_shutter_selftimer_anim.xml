@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_000" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_001" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_002" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_003" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_004" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_005" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_006" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_007" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_008" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_009" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_010" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_011" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_012" />
+    <item android:duration="17" android:drawable="@drawable/ic_prodelay_013" />
+</animation-list>

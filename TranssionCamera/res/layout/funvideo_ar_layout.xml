@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/funvideo_ar_root" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/funvideo_progress_panel_height" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.camera.app.ui.widget.GridRecyclerView android:gravity="center" android:id="@id/funvideo_ar_recycler_view" android:paddingTop="10.0dp" android:focusable="false" android:visibility="gone" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/funvideo_ar_grid_height" android:listSelector="@android:color/transparent" android:layout_alignParentBottom="true" app:orientation="0" app:spanCount="2" />
+    <ImageView android:id="@id/funvideo_ar_icon" android:focusable="false" android:layout_width="@dimen/funvideo_ar_icon_height" android:layout_height="@dimen/funvideo_ar_icon_height" android:layout_marginTop="@dimen/funvideo_ar_margin_top" android:src="@drawable/ic_fun_ar_off" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/funvideo_ar_margin" android:layout_marginEnd="@dimen/funvideo_ar_margin" />
+</RelativeLayout>

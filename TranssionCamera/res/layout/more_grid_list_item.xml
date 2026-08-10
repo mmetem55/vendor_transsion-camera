@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.mode.more.gridlist.GridListItemView android:id="@id/more_grid_main" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/more_grid_list_item_margin_bottom">
+        <ImageView android:id="@id/more_grid_item_background" android:background="@drawable/ic_more_grid_item_bg" android:visibility="invisible" android:layout_width="90.0dp" android:layout_height="90.0dp" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/more_grid_item_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="11.0dp" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/more_grid_item_selling_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="11.0dp" android:layout_centerHorizontal="true" android:scaleX="-1.0" />
+        <TextView android:textSize="12.0dp" android:textColor="#d9dedede" android:ellipsize="end" android:id="@id/more_grid_item_text" android:layout_width="90.0dp" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:maxLines="2" android:layout_below="@id/more_grid_item_icon" android:layout_centerHorizontal="true" android:textAlignment="center" style="@style/MoreModeItemNormalTextAppearance" />
+    </RelativeLayout>
+</com.transsion.camera.app.ui.mode.more.gridlist.GridListItemView>

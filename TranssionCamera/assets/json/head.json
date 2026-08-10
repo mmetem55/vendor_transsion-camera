@@ -1,0 +1,20 @@
+{
+  "FEMALE_PUBLIC": {
+    "name": "female_head.bundle",
+    "path" :"new/head/head_1/female_head.bundle",
+    "": {"name" : "", "gender" : "GENDER_FEMALE", "resId" : "", "path" :"new/head/head_1/female_head.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "MALE_PUBLIC": {
+    "name": "male_head.bundle",
+    "path" :"new/head/head_1/male_head.bundle",
+    "male_head": {"name" : "", "gender" : "GENDER_MALE", "resId" : "", "path" :"new/head/head_1/male_head.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  },
+
+  "KT_NEW_PUBLIC": {
+    "name": "KTnv_head.bundle",
+    "path" :"new/head/head_1/KTnv_head.bundle",
+    "": {"name" : "", "gender" : "GENDER_FEMALE", "resId" : "", "path" :"new/head/head_1/KTnv_head.bundle", "labels" :"", "isSupport" : "true", "others": ""}
+  }
+
+}

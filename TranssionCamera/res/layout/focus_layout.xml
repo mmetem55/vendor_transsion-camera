@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/focus_preview_root" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.app.ui.widget.DrawBackgroundView android:id="@id/focus_view" android:visibility="gone" android:layout_width="@dimen/focus_view_size" android:layout_height="@dimen/focus_view_size" />
+    </FrameLayout>
+</FrameLayout>

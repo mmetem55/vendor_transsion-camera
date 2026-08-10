@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_shutter_fun_video_60s_stop_black"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="shutter_button_outside" android:animation="@drawable/$shutter_button_fun_video_60s_process_to_idle_black__0" />
+    <target android:name="shutter_button_inside" android:animation="@drawable/$shutter_button_fun_video_60s_process_to_idle_black__1" />
+</animated-vector>

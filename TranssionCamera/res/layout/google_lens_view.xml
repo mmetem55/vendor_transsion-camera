@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/google_lens_container" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GoogleLensStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/google_lens_button" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/google_lens_size" android:layout_height="@dimen/google_lens_size" android:src="@drawable/ic_google_lens" />
+</FrameLayout>

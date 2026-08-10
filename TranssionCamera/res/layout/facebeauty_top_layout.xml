@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.ui.setting.facebeauty.FaceBeautyTopLayout android:gravity="center" android:orientation="vertical" android:id="@id/facebeauty_topbar_root" android:focusable="false" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/face_beauty_interactive_bottom_margin" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="84.0dp" android:splitMotionEvents="false">
+        <ImageView android:id="@id/facebeauty_bar" android:focusable="false" android:layout_width="@dimen/face_item_icon_size" android:layout_height="@dimen/face_item_icon_size" android:src="@drawable/ic_beauty_face_selected" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.transsion.camera.ui.setting.facebeauty.FaceBeautyTopLayout>

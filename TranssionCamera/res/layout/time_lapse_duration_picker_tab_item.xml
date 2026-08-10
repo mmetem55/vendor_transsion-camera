@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/time_lapse_duration_text_tab_view_margin_top" android:layout_width="wrap_content" android:layout_height="@dimen/time_lapse_duration_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/time_lapse_duration_and_rate_text_size" android:gravity="center" android:id="@id/tv_mode_item" android:layout_width="@dimen/time_lapse_duration_item_view_width" android:layout_height="wrap_content" android:maxLines="1" />
+    <ImageView android:id="@id/img_selling_point" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/tv_mode_item" android:layout_toEndOf="@id/tv_mode_item" />
+</RelativeLayout>

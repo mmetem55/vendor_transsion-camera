@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>automatski</item>
+        <item>neprekidna slika</item>
+        <item>neprekidni video</item>
+        <item>edof</item>
+        <item>fiksno</item>
+        <item>beskonačnost</item>
+        <item>makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Isključeno</item>
+        <item>3 s</item>
+        <item>5s</item>
+        <item>10s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Okidač</item>
+        <item>Zumiraj</item>
+    </string-array>
+</resources>

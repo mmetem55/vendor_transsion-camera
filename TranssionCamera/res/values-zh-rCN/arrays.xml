@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>自动</item>
+        <item>连拍照片</item>
+        <item>连拍视频</item>
+        <item>edof</item>
+        <item>固定</item>
+        <item>无限远</item>
+        <item>微距</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>关闭</item>
+        <item>3 秒</item>
+        <item>5 秒</item>
+        <item>10 秒</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>快门</item>
+        <item>变焦</item>
+    </string-array>
+</resources>

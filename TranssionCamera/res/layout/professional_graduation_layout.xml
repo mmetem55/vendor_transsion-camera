@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateLayout android:id="@id/pro_graduation_ui_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.app.ui.widget.GraduationView android:id="@id/pro_graduation_view_ui" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/pro_graduation_view_height" app:graduationStyle="professional" />
+    </LinearLayout>
+</com.transsion.camera.app.ui.widget.RotateLayout>

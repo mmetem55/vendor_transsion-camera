@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="144.0" android:viewportHeight="144.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_face_beauty_level4_selected__0" android:pathData="M80.7,20.33L112.6,38.72C117.9,41.83 121.2,47.42 121.2,53.63L121.2,90.43C121.2,96.53 117.9,102.22 112.6,105.32L80.7,123.72C75.4,126.82 68.8,126.82 63.5,123.72L31.6,105.32C26.3,102.22 23,96.63 23,90.43L23,53.63C23,47.53 26.3,41.83 31.6,38.72L63.5,20.33C68.9,17.23 75.4,17.23 80.7,20.33Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffff" android:pathData="M63.3,77.53L73.9,77.53L73.9,60.83L73.4,61.83L63.3,77.53ZM83,81.13L78.2,81.13L78.2,89.03L73.9,89.03L73.9,81.13L58.3,81.13L58.3,78.53L73.6,54.92L78.2,54.92L78.2,77.53L83,77.53L83,81.13L83,81.13Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

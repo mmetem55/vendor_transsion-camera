@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.mode.more.linearlist.LinearListItemView android:id="@id/linear_item_layout" android:layout_width="wrap_content" android:layout_height="60.0dp" android:layout_marginTop="@dimen/more_drag_area_normal_item_top_padding" android:paddingHorizontal="@dimen/more_mode_list_item_half_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/linear_item_background" android:layout_width="match_parent" android:layout_height="30.0dp" android:src="@drawable/ic_more_normal_item_background" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13.0dp" android:textColor="#ffebebeb" android:gravity="center_vertical" android:id="@id/linear_item_text" android:layout_width="wrap_content" android:layout_height="@dimen/more_mode_grid_item_height" android:layout_centerHorizontal="true" android:fontFamily="sec" style="@style/MoreModeItemNormalTextAppearance" />
+</com.transsion.camera.app.ui.mode.more.linearlist.LinearListItemView>

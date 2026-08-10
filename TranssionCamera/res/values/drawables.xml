@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_dual_cam_split_style_icon">@drawable/ic_split_style_up_down</drawable>
+    <drawable name="ic_dual_cam_switch_screen_icon">@drawable/ic_dual_switch_screen</drawable>
+    <drawable name="ic_flash_icon">@drawable/ic_flash_auto</drawable>
+    <drawable name="ic_super_night_stable">@drawable/super_night_stable_on</drawable>
+    <drawable name="ic_video_fps_icon">@drawable/ic_video_fps_120</drawable>
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+</resources>

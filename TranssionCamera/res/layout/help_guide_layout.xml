@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateImageView android:layout_gravity="right|top" android:id="@id/img_help_guide" android:focusable="false" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="@dimen/top_bar_guide_top_margin" android:layout_marginRight="@dimen/top_bar_guide_end_margin" android:src="@drawable/ic_guide_unselected" android:scaleType="fitXY"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

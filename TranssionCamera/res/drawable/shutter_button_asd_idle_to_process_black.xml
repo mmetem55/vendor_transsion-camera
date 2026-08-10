@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/shutter_button_asd_normal_black"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="shutter_button_circle_outside_background" android:animation="@drawable/$shutter_button_asd_idle_to_process_black__0" />
+    <target android:name="shutter_button_circle" android:animation="@drawable/$shutter_button_asd_idle_to_process_black__1" />
+    <target android:name="shutter_button_circle_outside_white" android:animation="@drawable/$shutter_button_asd_idle_to_process_black__2" />
+    <target android:name="shutter_button_half_circle" android:animation="@drawable/$shutter_button_asd_idle_to_process_black__3" />
+    <target android:name="shutter_asd_ring" android:animation="@drawable/$shutter_button_asd_idle_to_process_black__4" />
+</animated-vector>

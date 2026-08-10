@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateFrameLayout android:id="@id/shutter_panel_thumbnail_root" style="@style/ThumbnailRootStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.widget.RoundedThumbnailView android:id="@id/previous_shutter_panel_thumbnail" android:clickable="false" style="@style/ThumbnailViewStyle" />
+    <com.transsion.camera.app.ui.widget.RoundedThumbnailView android:id="@id/btn_shutter_panel_thumbnail" android:focusable="false" android:clickable="true" style="@style/ThumbnailViewStyle" />
+    <com.transsion.camera.app.ui.widget.ThumbnailBackgroundView android:layout_gravity="center" android:id="@id/view_thumbnail_bg" android:background="@drawable/thumbnail_image_background" android:visibility="visible" android:layout_width="@dimen/thumbnail_background_size" android:layout_height="@dimen/thumbnail_background_size" />
+</com.transsion.camera.app.ui.widget.RotateFrameLayout>

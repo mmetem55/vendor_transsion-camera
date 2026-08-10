@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.ardrawlines.view.FlowRadioGroup android:orientation="horizontal" android:id="@id/brush_type_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:button="@drawable/brush_flowing_selector" android:layout_marginStart="28.0dp" style="@style/BrushSizeSelectionButton" />
+        <RadioButton android:button="@drawable/brush_firework_selector" android:layout_marginStart="28.0dp" style="@style/BrushSizeSelectionButton" />
+        <RadioButton android:button="@drawable/brush_gradient_selector" android:layout_marginStart="28.0dp" style="@style/BrushSizeSelectionButton" />
+        <RadioButton android:button="@drawable/brush_neon_selector" android:layout_marginStart="28.0dp" style="@style/BrushSizeSelectionButton" />
+        <RadioButton android:button="@drawable/brush_solid_selector" style="@style/BrushSizeSelectionButton" />
+    </com.transsion.ardrawlines.view.FlowRadioGroup>
+</LinearLayout>

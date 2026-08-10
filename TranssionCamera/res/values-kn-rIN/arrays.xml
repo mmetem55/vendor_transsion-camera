@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>ಸ್ವಯಂ</item>
+        <item>ಸತತ-ಚಿತ್ರ</item>
+        <item>ಸತತ-ವೀಡಿಯೊ</item>
+        <item>ಇಡಿಒಎಫ್</item>
+        <item>ಫಿಕ್ಸೆಡ್</item>
+        <item>ಇನ್ಫಿನಿಟಿ</item>
+        <item>ಮ್ಯಾಕ್ರೊ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ಆಫ್</item>
+        <item>3 ಸೆ</item>
+        <item>5 ಸೆ</item>
+        <item>10 ಸೆ</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ಶಟರ್</item>
+        <item>ಝೂಮ್ ಮಾಡು</item>
+    </string-array>
+</resources>

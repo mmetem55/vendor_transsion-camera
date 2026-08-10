@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/aod_camera_root" android:background="@android:color/black" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/preview_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/overlay_ui_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" />
+    <ViewStub android:id="@id/preview_cover_layer_layout" android:layout="@layout/preview_cover_layer_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/mode_picker_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/shutter_panel_layout_root" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" />
+    <FrameLayout android:id="@id/mode_above_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/exit_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/hint_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

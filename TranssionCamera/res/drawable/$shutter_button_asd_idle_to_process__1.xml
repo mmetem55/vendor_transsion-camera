@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="1500" android:repeatCount="infinite" android:repeatMode="restart"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <propertyValuesHolder android:valueType="floatType" android:propertyName="trimPathStart">
+        <keyframe android:value="0" android:fraction="0.0" />
+        <keyframe android:value="0" android:fraction="0.45" />
+        <keyframe android:value="1" android:fraction="1.0" />
+    </propertyValuesHolder>
+</objectAnimator>

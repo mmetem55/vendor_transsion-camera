@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/edit_watermark_word_item_ui_title" android:layout_width="match_parent" android:layout_height="30.0dp" />
+        <TextView android:textAppearance="@style/PreferenceSummary" android:ellipsize="marquee" android:id="@id/edit_watermark_word_item_ui_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" />
+    </LinearLayout>
+    <Switch android:layout_gravity="center_vertical" android:id="@id/edit_watermark_item_ui_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="30.0dp" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>auto</item>
+        <item>immagine multipla</item>
+        <item>video multiplo</item>
+        <item>edof</item>
+        <item>fisso</item>
+        <item>infinito</item>
+        <item>macro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Disattivata</item>
+        <item>3 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Otturatore</item>
+        <item>Zoom</item>
+    </string-array>
+</resources>

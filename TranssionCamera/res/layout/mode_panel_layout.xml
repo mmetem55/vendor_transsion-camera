@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/mode_panel_indicator_layout" android:background="@drawable/mode_panel_view_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/mode_panel_indicator_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:src="@drawable/ic_panel_back" />
+        <com.transsion.camera.app.ui.widget.ModePanelRecycleView android:id="@id/mode_panel_view" android:paddingBottom="59.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dp" android:overScrollMode="never" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" />
+    </FrameLayout>
+</merge>

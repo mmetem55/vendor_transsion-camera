@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shutter_button_size" android:width="@dimen/shutter_button_size" android:viewportWidth="196.0" android:viewportHeight="196.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="shutter_button_outside_group" android:pivotX="96.0" android:pivotY="96.0" android:scaleX="0.64" android:scaleY="0.64">
+        <path android:name="shutter_button_shadow_outside_border" android:fillColor="#00000000" android:pathData="M98,98m-88.5,0a88.5,88.5 0,1 1,177 0a88.5,88.5 0,1 1,-177 0" android:strokeColor="#000000" android:strokeWidth="27.0" android:strokeAlpha="0.1" android:fillType="evenOdd" />
+        <path android:name="shutter_button_outside_border" android:fillColor="#00000000" android:pathData="M98,98m-88.5,0a88.5,88.5 0,1 1,177 0a88.5,88.5 0,1 1,-177 0" android:strokeColor="#ffffff" android:strokeWidth="24.0" android:fillType="evenOdd" />
+        <group android:name="shutter_button_inside_group" android:pivotX="96.0" android:pivotY="96.0">
+            <path android:name="shutter_button_inside_circle_path" android:fillColor="#ff4d5b" android:pathData="@string/video_button_inside_circle" android:fillType="evenOdd" />
+        </group>
+        <group android:name="shutter_button_inside_rounded_square" android:pivotX="96.0" android:pivotY="96.0" android:scaleX="@dimen/shutter_button_inside_scale_ratio" android:scaleY="@dimen/shutter_button_inside_scale_ratio">
+            <path android:name="shutter_button_inside_rounded_square_path" android:fillColor="#ff4d5b" android:pathData="@string/shutter_button_inside_rounded_square_192_66" android:fillAlpha="0.0" android:fillType="evenOdd" />
+        </group>
+    </group>
+</vector>

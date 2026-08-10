@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.feature.arcore.common.widgets.TakePictureCallBackView android:layout_gravity="center" android:id="@id/TackPictureCallBackView" android:background="@drawable/takepicture_callback_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

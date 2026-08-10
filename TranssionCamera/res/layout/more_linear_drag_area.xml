@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/more_linear_drag_area_size" android:layout_height="@dimen/more_linear_drag_area_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.mode.more.dragdrop.MoreDragBoxBackground android:id="@id/drag_area_linear_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/drag_area_linear_layout" android:paddingTop="12.5dp" android:paddingBottom="12.599976dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/more_linear_content_left_margin" android:layout_marginTop="@dimen/more_linear_item_margin" android:layout_marginBottom="@dimen/more_linear_item_margin" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/drag_area_item_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dp">
+            <TextView android:textSize="15.329987dp" android:textColor="#ffffffff" android:id="@id/drag_area_item_title" android:layout_width="230.0dp" android:layout_height="wrap_content" android:text="Mode" android:textDirection="locale" style="@style/MoreModeItemNormalTextAppearance" />
+            <TextView android:textSize="12.0dp" android:textColor="#ffd0d0d0" android:id="@id/drag_area_item_desc" android:layout_width="256.32812dp" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="Mode Desc" android:textDirection="locale" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0dp" android:textColor="#ebebeb" android:id="@id/drag_area_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/MoreModeItemNormalTextAppearance" />
+</RelativeLayout>

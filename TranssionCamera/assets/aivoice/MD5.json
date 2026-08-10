@@ -1,0 +1,11 @@
+{
+"asr_en_models.json": "1fee2f06b21bf50425a562e998002f4e",
+"asr_en_vocab.bin": "eb070c7cab5f89d56273daae666391bd",
+"vad.bin": "2fc62134a746750b037afb4b68a0fba6",
+"asr_en_fbank.bin": "1b978f781b3f2a2f1e4ed5fdf166e9c0",
+"threshold.json": "96605a5cb8e1bc97136abee734b83571",
+"asr_en_lm.bin": "4f217c5f1924cd96463dd9226fa54798",
+"feedback.cnt": "a9b7ba70783b617e9998dc4dd82eb3c5",
+"asr_en_hann_window.bin": "f332f60d2e73ae8a135c28d22f320298",
+"asr_en_acoustic.bin": "761ca5ae2a90271089a1e94b5e5175ef"
+}

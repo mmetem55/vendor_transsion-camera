@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="8.0dp" android:width="16.0dp" android:viewportWidth="200.0" android:viewportHeight="200.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="triangle">
+        <path android:name="@string/video_60s" android:fillColor="#99000000" android:pathData="M 0 0 L 200 0 L 100 200 z" />
+    </group>
+</vector>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>Авто</item>
+        <item>үзбей түсірілетін сурет</item>
+        <item>үзбей түсірілетін видео</item>
+        <item>Кеңейтілген айқындық тереңдігі</item>
+        <item>тұрақты</item>
+        <item>шексіз</item>
+        <item>макро</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Өшірулі</item>
+        <item>3 с</item>
+        <item>5 с</item>
+        <item>10 с</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Сырғыту</item>
+        <item>Ұлғайту</item>
+    </string-array>
+</resources>

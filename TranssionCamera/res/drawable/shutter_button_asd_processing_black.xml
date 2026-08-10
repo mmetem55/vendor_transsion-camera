@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shutter_button_size" android:width="@dimen/shutter_button_size" android:viewportWidth="198.0" android:viewportHeight="198.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="shutter_button_circle_outside_background" android:pivotX="99.0" android:pivotY="99.0" android:scaleX="0.0" android:scaleY="0.0">
+        <path android:name="shutter_button_background" android:fillColor="#464646" android:pathData="M99,99 m-96,0 a96,96 0,1 1,192 0 a96,96 0,1 1,-192 0 z" android:fillAlpha="0.5" />
+    </group>
+    <group android:name="shutter_button_circle" android:pivotX="99.0" android:pivotY="99.0" android:scaleX="0.0" android:scaleY="0.0">
+        <path android:pathData="M 99,59A 40,40 0 1,1 98.99,59" android:strokeColor="@color/shutter_black_color" android:strokeWidth="80.0" android:trimPathEnd="1.0" />
+    </group>
+    <path android:name="shutter_button_circle_outside_white" android:pathData="M 99,25A 74,74 0 1,1 98.99,25" android:strokeColor="@color/shutter_black_color" android:strokeWidth="12.0" android:trimPathEnd="1.0" />
+    <group android:name="shutter_button_half_circle" android:pivotX="99.0" android:pivotY="99.0">
+        <path android:name="shutter_asd_ring" android:pathData="M 99,41A 58,58 0 1,1 98.9,41" android:strokeColor="@color/shutter_black_color" android:strokeWidth="8.0" android:trimPathEnd="1.0" />
+    </group>
+</vector>

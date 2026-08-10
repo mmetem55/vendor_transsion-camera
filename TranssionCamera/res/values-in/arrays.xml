@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>otomatis</item>
+        <item>gambar bersambung</item>
+        <item>video bersambung</item>
+        <item>edof</item>
+        <item>tetap</item>
+        <item>tak terbatas</item>
+        <item>makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Nonaktif</item>
+        <item>3d</item>
+        <item>5d</item>
+        <item>10d</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Rana</item>
+        <item>Perbesar</item>
+    </string-array>
+</resources>

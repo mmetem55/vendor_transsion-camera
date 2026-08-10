@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="@dimen/guide_title_margin_top" android:layout_marginStart="@dimen/guide_title_margin_start" android:layout_marginEnd="@dimen/guide_title_margin_start">
+        <TextView android:id="@id/mode_title" android:text="@string/guide_facebeauty_title" style="@style/guide_title" />
+        <ImageView android:layout_gravity="end" android:id="@id/img_exit_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_guide_exit" />
+    </FrameLayout>
+    <ImageView android:src="@drawable/ic_guide_facebeauty_content" style="@style/guide_big_image" />
+    <TextView android:text="@string/guide_facebeauty_content1" style="@style/guide_big_image_explanation" />
+    <ImageView android:src="@drawable/ic_guide_multi_facebauty_level1_itdv2" style="@style/guide_small_image" />
+    <TextView android:text="@string/guide_facebeauty_content2" style="@style/guide_small_image_explanation" />
+</LinearLayout>

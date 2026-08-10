@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shutter_button_size" android:width="@dimen/shutter_button_size" android:viewportWidth="180.0" android:viewportHeight="180.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffff" android:pathData="@string/shutter_button_outside_border_180_90" android:strokeColor="#ffffff" android:strokeWidth="18.0" android:strokeAlpha="0.7" android:fillAlpha="0.0" />
+    <path android:fillColor="#11ff75" android:pathData="M90,90m-56.5,0a56.5,56.5 0,1 1,113 0a56.5,56.5 0,1 1,-113 0" android:fillAlpha="0.3" />
+    <path android:fillColor="#11ff75" android:pathData="M90,143.5c29.5,0 53.5,-24 53.5,-53.5s-24,-53.5 -53.5,-53.5S36.5,60.5 36.5,90S60.5,143.5 90,143.5zM90,146.5c-31.2,0 -56.5,-25.3 -56.5,-56.5S58.8,33.5 90,33.5s56.5,25.3 56.5,56.5S121.2,146.5 90,146.5z" android:fillAlpha="0.4" />
+</vector>

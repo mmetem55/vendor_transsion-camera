@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:id="@id/state_pressed" android:drawable="@drawable/shutter_button_selftimer_pressed" />
+    <item android:id="@id/state_normal" android:drawable="@drawable/ic_shutter_selftimer" />
+</animated-selector>

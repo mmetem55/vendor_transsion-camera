@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_item" android:paddingLeft="3.0dp" android:paddingRight="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.widget.RotateLayout android:id="@id/feature_item_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/iv_item" android:layout_width="@dimen/mu_big_item_width" android:layout_height="@dimen/mu_big_item_height" android:scaleType="fitCenter" />
+            <TextView android:textSize="@dimen/mu_item_title_text_size" android:textColor="@drawable/mu_item_title_color" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/iv_title" android:layout_width="@dimen/mu_item_title_width_for_makeup" android:layout_height="@dimen/mu_item_title_height" android:layout_marginBottom="4.0dp" android:singleLine="true" />
+        </FrameLayout>
+    </com.transsion.camera.app.ui.widget.RotateLayout>
+</FrameLayout>

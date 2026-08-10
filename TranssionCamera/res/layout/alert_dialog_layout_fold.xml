@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="328.0dp" android:layout_height="328.0dp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:background="@drawable/progress_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/tv_title" android:id="@id/tv_title" android:paddingTop="20.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gender_select_title" android:fontFamily="sans-serif" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <View android:background="#26a1a1a1" android:layout_width="match_parent" android:layout_height="2.0px" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+            <TextView android:textSize="14.0sp" android:textColor="#a6000000" android:gravity="center" android:id="@id/tv_negative" android:background="@drawable/arcore_button_background" android:layout_width="0.0dp" android:layout_height="54.0dp" android:text="@string/delete_avatar_cancel" android:fontFamily="sans-serif-medium" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/tv_positive" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/primary_highlight_color" android:gravity="center" android:id="@id/tv_positive" android:background="@drawable/arcore_button_background" android:clickable="true" android:layout_width="0.0dp" android:layout_height="54.0dp" android:text="@string/gender_select_confirm" android:fontFamily="sans-serif-medium" app:layout_constraintLeft_toRightOf="@id/tv_negative" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</com.transsion.camera.app.ui.widget.RotateLayout>

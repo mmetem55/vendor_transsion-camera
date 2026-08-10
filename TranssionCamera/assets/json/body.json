@@ -1,0 +1,21 @@
+{
+  "FEMALE_PUBLIC": {
+    "name": "female_body.bundle",
+    "path" :"new/body/female_body.bundle"
+  },
+
+  "MALE_PUBLIC": {
+    "name": "male_body.bundle",
+    "path" :"new/body/male_body.bundle"
+  },
+
+  "MALE_NEW_PUBLIC": {
+    "name": "male_body_intact.bundle",
+    "path" :"new/body/male_body_intact.bundle"
+  },
+
+  "KT_NEW_PUBLIC": {
+    "name": "ktnv_body.bundle",
+    "path" :"new/body/KTnv_body.bundle"
+  }
+}

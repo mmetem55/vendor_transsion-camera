@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>αυτόματο</item>
+        <item>συνεχής-εικόνα</item>
+        <item>συνεχές-βίντεο</item>
+        <item>edof</item>
+        <item>σταθερό</item>
+        <item>άπειρο</item>
+        <item>μάκρο</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Ανενεργό</item>
+        <item>3 δ</item>
+        <item>5 δ</item>
+        <item>10 δ</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Κλείστρο</item>
+        <item>Ζουμ</item>
+    </string-array>
+</resources>

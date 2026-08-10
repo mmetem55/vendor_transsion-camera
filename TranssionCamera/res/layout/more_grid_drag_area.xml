@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/more_drag_area_size" android:layout_height="@dimen/more_drag_area_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.mode.more.dragdrop.MoreDragBoxBackground android:id="@id/drag_area_grid_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/drag_area_icon" android:visibility="gone" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_centerInParent="true" />
+    <TextView android:textSize="12.0dp" android:textColor="#ffdedede" android:id="@id/drag_area_grid_text" android:visibility="gone" android:layout_width="90.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/more_drag_area_grid_text_top_padding" android:layout_centerHorizontal="true" android:textAlignment="center" style="@style/MoreModeItemNormalTextAppearance" />
+    <TextView android:textSize="14.0dp" android:textColor="#ffebebeb" android:id="@id/drag_area_normal_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/MoreModeItemNormalTextAppearance" />
+</RelativeLayout>

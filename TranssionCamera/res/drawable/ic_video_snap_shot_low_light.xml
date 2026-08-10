@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:id="@id/state_pressed" android:drawable="@drawable/video_snap_shot_pressed_low_light" />
+    <item android:id="@id/state_normal" android:drawable="@drawable/video_snap_shot_normal_low_light" />
+    <transition android:toId="@id/state_pressed" android:fromId="@id/state_normal">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/video_snap_shot_normal_low_light" />
+            <item android:duration="30" android:drawable="@drawable/video_snap_shot_1_low_light" />
+            <item android:duration="30" android:drawable="@drawable/video_snap_shot_3_low_light" />
+            <item android:duration="15" android:drawable="@drawable/video_snap_shot_pressed_low_light" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/state_normal" android:fromId="@id/state_pressed">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/video_snap_shot_pressed_low_light" />
+            <item android:duration="16" android:drawable="@drawable/video_snap_shot_3_low_light" />
+            <item android:duration="16" android:drawable="@drawable/video_snap_shot_1_low_light" />
+            <item android:duration="15" android:drawable="@drawable/video_snap_shot_normal_low_light" />
+        </animation-list>
+    </transition>
+</animated-selector>

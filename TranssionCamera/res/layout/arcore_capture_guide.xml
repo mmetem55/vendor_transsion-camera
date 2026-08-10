@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/arcore_capture_guide" android:background="@drawable/ic_arcore_capture_guide_color" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|bottom" android:orientation="vertical" android:id="@id/bubble_guide_layout" android:background="@drawable/bubble_guide" android:padding="@dimen/guide_layout_padding" android:layout_width="wrap_content" android:layout_height="@dimen/guide_layout_height" android:layout_marginBottom="@dimen/guide_layout_bottom_margin">
+        <TextView android:textSize="@dimen/guide_layout_text_size" android:textColor="@color/guide_text" android:layout_gravity="center_horizontal" android:id="@id/ar_click_on_photo" android:layout_width="wrap_content" android:layout_height="@dimen/guide_layout_text_height" android:text="@string/ar_click_on_photo" />
+        <TextView android:textSize="@dimen/guide_layout_text_size" android:textColor="@color/guide_text" android:layout_gravity="center_horizontal" android:id="@id/ar_long_press_video" android:layout_width="wrap_content" android:layout_height="@dimen/guide_layout_text_height" android:text="@string/ar_long_press_video" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/horizontal_recycle_root_height" android:layout_marginBottom="@dimen/ar_bottom_bar_layout_margin_bottom">
+        <com.transsion.camera.feature.arcore.common.widgets.RoundedThumbnailView android:layout_gravity="center" android:id="@id/item_default" android:layout_width="@dimen/guide_item_default_width" android:layout_height="@dimen/guide_item_default_width" android:src="@android:color/white" />
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail_ring_icon" android:layout_width="@dimen/guide_item_ring_default_width" android:layout_height="@dimen/guide_item_ring_default_width" android:src="@drawable/thumbnail_ring" />
+        <com.transsion.camera.feature.arcore.common.widgets.ShutterBarView android:layout_gravity="center" android:id="@id/shutter_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shutter_bar_arcore" />
+    </FrameLayout>
+</FrameLayout>

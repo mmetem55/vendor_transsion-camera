@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>auto</item>
+        <item>continue foto</item>
+        <item>continue video</item>
+        <item>edof</item>
+        <item>vast</item>
+        <item>oneindigheid</item>
+        <item>macro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Uit</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Sluiter</item>
+        <item>Zoomen</item>
+    </string-array>
+</resources>

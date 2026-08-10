@@ -1,0 +1,40 @@
+{
+  "FEMALE_RES": {
+  },
+
+  "FEMALE_PUBLIC": {
+  },
+
+  "FEMALE_SOUTH_ASIA": {
+  },
+
+  "FEMALE_AFRICA": {
+  },
+
+  "MALE_RES": {
+    "1": {"name" : "huzi_00.bundle", "gender" : "GENDER_MID", "resId" : "edit_face_item_none", "path" :"", "labels" : [-1, 0], "isSupport" : "true", "others": ""},
+    "2": {"name" : "huzi_01.bundle", "gender" : "GENDER_MALE", "resId" : "moustache_01", "path" :"new/beard/huzi_01.bundle", "labels" : [7, 8, 9, 10, 11, 12], "isSupport" : "true", "others": ""},
+    "3": {"name" : "huzi_02.bundle", "gender" : "GENDER_MALE", "resId" : "moustache_02", "path" :"new/beard/huzi_02.bundle", "labels" : [7, 8, 9, 10, 11, 12], "isSupport" : "true", "others": ""},
+    "4": {"name" : "huzi_03.bundle", "gender" : "GENDER_MALE", "resId" : "moustache_03", "path" :"new/beard/huzi_03.bundle", "labels" : [7, 8, 9, 10, 11, 12], "isSupport" : "true", "others": ""},
+    "5": {"name" : "huzi_04.bundle", "gender" : "GENDER_MALE", "resId" : "moustache_04", "path" :"new/beard/huzi_04.bundle", "labels" : [7, 8, 9, 10, 11, 12], "isSupport" : "true", "others": ""},
+    "6": {"name" : "huzi_05.bundle", "gender" : "GENDER_MALE", "resId" : "moustache_05", "path" :"new/beard/huzi_05.bundle", "labels" : [7, 8, 9, 10, 11, 12], "isSupport" : "true", "others": ""},
+    "7": {"name" : "huzi_06.bundle", "gender" : "GENDER_MALE", "resId" : "moustache_06", "path" :"new/beard/huzi_06.bundle", "labels" : [7, 8, 9, 10, 11, 12], "isSupport" : "true", "others": ""},
+    "8": {"name" : "huzi_mesh.bundle", "gender" : "GENDER_MALE", "resId" : "huzi_mesh", "path" :"new/beard/huzi_mesh.bundle", "labels" : [7, 8, 9, 10, 11, 12], "isSupport" : "true", "others": ""}
+  },
+
+  "MALE_PUBLIC": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8"]},
+    "AE": {"order": ["1","2","3","4","5","6","7","8"]},
+    "OM": {"order": ["1","2","3","4","5","6","7","8"]},
+    "QA": {"order": ["1","2","3","4","5","6","7","8"]},
+    "SA": {"order": ["1","2","3","4","5","6","7","8"]}
+  },
+
+  "MALE_SOUTH_ASIA": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8"]}
+  },
+
+  "MALE_AFRICA": {
+    "basic": {"order": ["1","2","3","4","5","6","7","8"]}
+  }
+}

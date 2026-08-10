@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shutter_button_size" android:width="@dimen/shutter_button_size" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="video_view_group" android:pivotX="96.0" android:pivotY="96.0">
+        <path android:fillColor="#ff4d5b" android:pathData="@string/shutter_button_inside_rounded_square_192_66" android:fillType="evenOdd" />
+    </group>
+</vector>

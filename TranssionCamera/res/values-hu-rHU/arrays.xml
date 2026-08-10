@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>automatikus</item>
+        <item>folyamatos kép</item>
+        <item>folyamatos videó</item>
+        <item>edof</item>
+        <item>fixed</item>
+        <item>infinity</item>
+        <item>macro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Ki</item>
+        <item>3 mp</item>
+        <item>5 mp</item>
+        <item>10 mp</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Exponálógomb</item>
+        <item>Nagyítás/kicsinyítés</item>
+    </string-array>
+</resources>

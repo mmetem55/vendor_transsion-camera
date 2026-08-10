@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main_control_ui_layer_parent" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/top_bar_layout_root" android:layoutDirection="ltr" style="@style/TopBarLayout" />
+    <FrameLayout android:id="@id/below_main_control_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/more_mode_layout_root" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+    <com.transsion.camera.app.ui.widget.ScrollFrameLayout android:id="@id/mode_picker_layout_root" android:layoutDirection="ltr" style="@style/ModePickerLayout" />
+    <com.transsion.camera.app.ui.widget.ScrollFrameLayout android:id="@id/bottombar_root" android:layoutDirection="ltr" style="@style/ShutterPanelLayout">
+        <FrameLayout android:id="@id/shutter_panel_layout_root" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" />
+    </com.transsion.camera.app.ui.widget.ScrollFrameLayout>
+    <com.transsion.camera.app.ui.widget.ScrollFrameLayout android:layout_gravity="bottom" android:id="@id/more_view_container" android:background="@drawable/mode_panel_view_bg" android:paddingBottom="@dimen/mode_panel_layout_shake_height" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+    <FrameLayout android:id="@id/wide_camera_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

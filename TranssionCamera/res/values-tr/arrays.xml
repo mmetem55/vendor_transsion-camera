@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>Otomatik</item>
+        <item>Sürekli-resim</item>
+        <item>Sürekli-video</item>
+        <item>edof</item>
+        <item>sabit</item>
+        <item>sonsuzluk</item>
+        <item>makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Kapalı</item>
+        <item>3sn</item>
+        <item>5sn</item>
+        <item>10sn</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Deklanşör</item>
+        <item>Büyütme</item>
+    </string-array>
+</resources>

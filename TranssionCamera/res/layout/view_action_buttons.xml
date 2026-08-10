@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="center_vertical" android:id="@id/button_sound" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_sound_on" android:layout_marginStart="10.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:id="@id/revoke_area" android:background="@drawable/undo_redo_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <Button android:id="@id/undo" android:background="@drawable/ic_undo_selector" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="12.0dp" />
+        <Button android:enabled="false" android:id="@id/redo" android:background="@drawable/ic_redo_selector" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginEnd="8.0dp" />
+    </LinearLayout>
+    <Button android:id="@id/button_clean" android:background="@drawable/ic_clean_selector" android:visibility="invisible" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginEnd="10.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

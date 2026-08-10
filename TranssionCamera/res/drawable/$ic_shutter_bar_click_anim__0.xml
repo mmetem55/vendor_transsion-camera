@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@anim/interpolator_normal" android:duration="90" android:repeatCount="1" android:repeatMode="reverse" android:valueFrom="@string/ring_96_radius_15_stroke" android:valueTo="@string/ring_116_radius_15_stroke" android:valueType="pathType" android:propertyName="pathData"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" />

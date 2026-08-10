@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center|bottom" android:id="@id/shutter_panel" android:layout_width="match_parent" android:layout_height="@dimen/shutter_panel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.mode.timelapsevideo.RecordingProgressView android:layout_gravity="center" android:id="@id/shutter_progress" android:layout_width="@dimen/video_recording_circle_progress_width" android:layout_height="@dimen/video_recording_circle_progress_width" />
+</FrameLayout>

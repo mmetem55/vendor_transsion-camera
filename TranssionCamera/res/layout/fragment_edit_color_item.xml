@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.feature.arcore.common.fragments.editface.core.item.ItemSelectView android:id="@id/color_item_recycler" android:paddingLeft="4.0dp" android:paddingRight="4.0dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="160.0dp" />
+    <com.transsion.camera.feature.arcore.common.fragments.editface.core.color.ColorSelectView android:id="@id/color_recycler" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="50.0dp" />
+</LinearLayout>

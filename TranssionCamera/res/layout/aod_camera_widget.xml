@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aod_camera_entry_root" android:background="@drawable/aod_camera_widget_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aod_camera_entry" android:layout_width="52.669983dp" android:layout_height="52.669983dp" android:layout_marginTop="46.0dp" android:src="@drawable/aod_camera_widget_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13.329987dp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:maxWidth="119.32999dp" android:text="@string/camera_label" android:layout_below="@id/aod_camera_entry" android:layout_centerHorizontal="true" />
+</RelativeLayout>

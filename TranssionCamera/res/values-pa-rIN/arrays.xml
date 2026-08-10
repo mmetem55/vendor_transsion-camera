@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>ਆਟੋ</item>
+        <item>ਲਗਾਤਾਰ-ਤਸਵੀਰ</item>
+        <item>ਲਗਾਤਾਰ-ਵੀਡੀਓ</item>
+        <item>ਈਡੀਓਐਫ</item>
+        <item>ਸਥਿਰ</item>
+        <item>ਅਸੀਮ</item>
+        <item>ਮਾਈਕਰੋੇ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ਬੰਦ</item>
+        <item>3ਸਕਿੰਟ</item>
+        <item>5ਸਕਿੰਟ</item>
+        <item>10ਸਕਿੰਟ</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ਸ਼ਟਰ</item>
+        <item>ਜ਼ੂਮ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.feature.mode.makeup.ui.MakeUpTopUI android:gravity="center" android:orientation="vertical" android:id="@id/top_ui" android:focusable="false" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/interactive_bottom_margin" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:paddingBottom="10.0dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false">
+        <LinearLayout android:orientation="vertical" android:id="@id/switch_bar" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/slimbody_bar" android:focusable="false" android:visibility="visible" android:layout_width="@dimen/cm_item_icon_size" android:layout_height="@dimen/cm_item_icon_size" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/makeup_bar" android:focusable="false" android:visibility="visible" android:layout_width="@dimen/cm_item_icon_size" android:layout_height="@dimen/cm_item_icon_size" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/face_beauty_bar" android:focusable="false" android:visibility="visible" android:layout_width="@dimen/cm_item_icon_size" android:layout_height="@dimen/cm_item_icon_size" android:layout_marginTop="14.0dp" />
+        </LinearLayout>
+        <com.transsion.camera.app.ui.widget.BiDiSeekBar android:id="@id/seek_bar" android:paddingLeft="15.0dp" android:paddingRight="15.0dp" android:paddingBottom="15.0dp" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/slimbody_seekbar_layout_width" android:layout_height="84.0dp" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dp" />
+        <ImageView android:id="@id/contrast" android:focusable="false" android:visibility="visible" android:layout_width="@dimen/cm_item_icon_size" android:layout_height="@dimen/cm_item_icon_size" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="16.0dp" />
+    </RelativeLayout>
+</com.transsion.camera.feature.mode.makeup.ui.MakeUpTopUI>

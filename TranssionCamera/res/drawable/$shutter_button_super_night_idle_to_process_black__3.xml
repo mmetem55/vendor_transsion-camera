@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="0" android:startOffset="@integer/super_night_capture_progress_duration" android:repeatCount="0" android:valueFrom="1.0" android:valueTo="1.0" android:valueType="floatType" android:propertyName="fillAlpha"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateLayout android:layout_gravity="center_horizontal" android:id="@id/wideselfie_root" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/divider" android:showDividers="middle">
+        <com.transsion.camera.app.ui.widget.AnimationRotationView android:layout_gravity="center_horizontal" android:id="@id/wideselfie_notify_arrow" android:visibility="invisible" android:layout_width="@dimen/wideselfie_notify_arrow_width" android:layout_height="@dimen/wideselfie_notify_arrow_height" />
+        <TextView android:textSize="@dimen/wideselfie_notify_text_size" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/wideselfie_notify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#4c000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+        <com.opensource.svgaplayer.SVGAImageView android:layout_gravity="center_horizontal" android:id="@id/wideselfie_idle_arrow_horizontal" android:visibility="gone" android:layout_width="@dimen/wideselfie_idle_arrow_width" android:layout_height="@dimen/wideselfie_idle_arrow_height" app:autoPlay="true" app:source="animation_idle_land.svga" />
+        <com.opensource.svgaplayer.SVGAImageView android:layout_gravity="center_horizontal" android:id="@id/wideselfie_idle_arrow_vertical" android:visibility="gone" android:layout_width="@dimen/wideselfie_idle_arrow_width" android:layout_height="@dimen/wideselfie_idle_arrow_height" app:autoPlay="true" app:source="animation_idle.svga" />
+    </LinearLayout>
+</com.transsion.camera.app.ui.widget.RotateLayout>

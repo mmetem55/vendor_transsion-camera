@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>אוטומטי</item>
+        <item>תמונה רציפה</item>
+        <item>וידאו רציף</item>
+        <item>סיום קובץ</item>
+        <item>תוקן</item>
+        <item>אינסוף</item>
+        <item>מאקרו</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>כבוי</item>
+        <item>3 שניות</item>
+        <item>5 שניות</item>
+        <item>10 שניות</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>לחצן הצילום</item>
+        <item>מקש זום</item>
+    </string-array>
+</resources>

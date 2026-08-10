@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>automatinis</item>
+        <item>nepertraukiamas fotografuojant</item>
+        <item>nepertraukiamas filmuojant</item>
+        <item>EDOF</item>
+        <item>Fiksuotas</item>
+        <item>Begalybė</item>
+        <item>Makrofotografija</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Išjungta</item>
+        <item>3 sek.</item>
+        <item>5 sek.</item>
+        <item>10 sek.</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Užraktas</item>
+        <item>Artinti</item>
+    </string-array>
+</resources>

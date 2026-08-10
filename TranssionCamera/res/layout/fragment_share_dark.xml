@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dialog_gray_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:paddingTop="@dimen/share_apps_grid_padding_top" android:layout_width="@dimen/share_picture_portrait_width_4_3" android:layout_height="@dimen/share_picture_height_4_3">
+        <VideoView android:layout_gravity="center" android:id="@id/video_surfaceView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:id="@id/image_frame" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/image_loading" android:visibility="gone" android:layout_width="80.0dp" android:layout_height="80.0dp" android:indeterminateTint="@color/color_control_activated" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/share_items" android:layout_width="match_parent" android:layout_height="@dimen/share_platform_list_height" />
+</LinearLayout>

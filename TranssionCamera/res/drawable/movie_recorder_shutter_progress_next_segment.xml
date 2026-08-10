@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/movie_record_shutter_size" android:width="@dimen/movie_record_shutter_size" android:viewportWidth="198.0" android:viewportHeight="198.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$movie_recorder_shutter_progress_next_segment__0" android:pathData="M98,3c52.6,0 95.3,42.3 96,94.7L179,97c-1,-43.3 -37.5,-79 -81,-79V3z" />
+</vector>

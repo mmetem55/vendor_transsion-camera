@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="18.0dp" android:paddingEnd="18.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="40.0dp" android:text="@string/time_lapse_video_mode_title" android:fontFamily="sans-serif-medium" />
+    <FrameLayout android:orientation="vertical" android:background="@drawable/ic_guide_asd_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+        <TextView android:textSize="12.0dp" android:textColor="@color/guide_text_color" android:layout_gravity="bottom" android:background="@drawable/half_round_corner_background" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/guide_asd_content1" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/round_corner_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/ic_guide_asd_icon" android:scaleType="fitXY" />
+        <TextView android:textSize="14.0dp" android:textColor="@color/guide_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="@string/guide_asd_content2" android:layout_marginHorizontal="12.0dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/preference_fragment_background_color" android:focusable="false" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Toolbar android:id="@id/edit_watermark_fragment_toolbar" android:layout_marginEnd="56.0dp" style="@style/PreferenceFragmentToolbar" />
+    <RelativeLayout android:background="@drawable/background_edit_watermark_preview" android:layout_width="wrap_content" android:layout_height="203.0dp" android:layout_marginTop="16.0dp" android:layoutDirection="ltr" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp">
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_watermark_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:divider="@drawable/edit_watermark_divider" android:layout_alignParentBottom="true" android:showDividers="middle" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+            <TextView android:textSize="10.0dp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/show_time_watermark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/default_edit_watermark_height" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="10.0dp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/show_city_watermark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/default_edit_watermark_height" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="10.0dp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/show_text_watermark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/default_edit_watermark_height" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="10.0dp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/show_brand_watermark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/default_edit_watermark_height" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@id/edit_watermark_scroll" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/time_water_mark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp">
+                    <TextView android:textSize="15.0sp" android:textColor="#dedede" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="58.0dp" android:text="@string/time_water_mark_title" android:layout_alignParentStart="true" />
+                    <Switch android:id="@id/time_switch_widget" android:focusable="false" android:clickable="false" android:layout_width="36.0dp" android:layout_height="20.0dp" android:checked="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:id="@id/city_water_mark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp">
+                    <TextView android:textSize="15.0sp" android:textColor="#dedede" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="58.0dp" android:text="@string/city_water_mark_title" android:layout_alignParentStart="true" />
+                    <Switch android:id="@id/city_switch_widget" android:focusable="false" android:clickable="false" android:layout_width="36.0dp" android:layout_height="20.0dp" android:checked="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:id="@id/brand_water_mark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp">
+                    <TextView android:textSize="15.0sp" android:textColor="#dedede" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="58.0dp" android:text="@string/brand_water_mark_title" android:layout_alignParentStart="true" />
+                    <Switch android:id="@id/brand_switch_widget" android:focusable="false" android:clickable="false" android:layout_width="36.0dp" android:layout_height="20.0dp" android:checked="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp">
+                    <LinearLayout android:orientation="vertical" android:id="@id/text_water_mark" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="15.0sp" android:textColor="#dedede" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="28.0dp" android:layout_marginTop="15.0dp" android:text="@string/text_water_mark_title" />
+                        <TextView android:textAppearance="@style/PreferenceSummary" android:ellipsize="marquee" android:id="@id/text_water_mark_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp" android:text="@string/text_water_mark_input_tip" android:singleLine="true" />
+                    </LinearLayout>
+                    <View android:layout_gravity="center_vertical" android:background="#30a1a1a1" android:layout_width="0.6700001dp" android:layout_height="16.0dp" android:layout_marginEnd="16.0dp" />
+                    <Switch android:layout_gravity="center_vertical" android:id="@id/text_switch_widget" android:focusable="false" android:clickable="false" android:layout_width="36.0dp" android:layout_height="20.0dp" android:checked="true" />
+                </LinearLayout>
+                <RelativeLayout android:orientation="horizontal" android:id="@id/edit_watermark_sort" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp">
+                    <TextView android:textSize="15.0sp" android:textColor="#dedede" android:gravity="center_vertical" android:id="@id/edit_watermark_sort_title" android:layout_width="wrap_content" android:layout_height="58.0dp" android:text="@string/sort_water_mark_title" android:layout_alignParentStart="true" />
+                    <ImageView android:id="@id/edit_watermark_item_ui_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_edit_watermark_arrow" android:layout_centerVertical="true" android:supportsRtl="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <View android:layout_gravity="center_vertical" android:background="#1fa1a1a1" android:layout_width="wrap_content" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/edit_watermark_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="22.0dp" android:layout_marginEnd="22.0dp">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_edit_watermark_tips" android:supportsRtl="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#66dedede" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/water_mark_support_tip" android:layout_marginStart="10.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

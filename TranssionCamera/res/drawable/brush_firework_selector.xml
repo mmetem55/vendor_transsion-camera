@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <stroke android:width="2.0dp" android:color="@color/app_white" />
+                    <solid android:color="@color/brush_type_background" />
+                    <size android:height="40.0dp" android:width="40.0dp" />
+                </shape>
+            </item>
+            <item android:height="40.0dp" android:width="40.0dp" android:drawable="@mipmap/brush_firework" />
+        </layer-list>
+    </item>
+    <item android:state_selected="false">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/brush_type_background" />
+                    <size android:height="40.0dp" android:width="40.0dp" />
+                </shape>
+            </item>
+            <item android:height="40.0dp" android:width="40.0dp" android:drawable="@mipmap/brush_firework" />
+        </layer-list>
+    </item>
+</selector>

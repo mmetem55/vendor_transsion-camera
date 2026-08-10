@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/sky_choose_root" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="bottom" android:id="@id/sky_choose_bar" android:focusable="false" android:layout_width="@dimen/magic_sky_item_icon_size" android:layout_height="@dimen/magic_sky_item_icon_size" android:layout_marginLeft="14.0dp" android:src="@drawable/ic_sky_choose_on" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/sky_select_root" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sky_select_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/magic_sky_item_thumbnail_height" android:layoutDirection="ltr" />
+    </FrameLayout>
+    <com.transsion.camera.app.ui.mode.magicsky.widget.ShutterButtonView android:id="@id/sky_shutter_bar" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

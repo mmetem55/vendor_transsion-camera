@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pro_capture_root" android:focusable="false" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.widget.RotateImageView android:layout_gravity="center" android:id="@id/pro_capture_button" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pro_exposure_bg_capturing" android:soundEffectsEnabled="false" />
+    <com.transsion.camera.app.ui.widget.RotateFrameLayout android:layout_gravity="center" android:id="@id/pro_capturing_rotate_framelayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.feature.mode.professional.ui.CapturingProgressView android:layout_gravity="center" android:id="@id/pro_capturing_progress" android:layout_width="64.0dp" android:layout_height="64.0dp" />
+    </com.transsion.camera.app.ui.widget.RotateFrameLayout>
+</FrameLayout>

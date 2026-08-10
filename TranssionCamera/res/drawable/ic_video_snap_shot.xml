@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:id="@id/state_pressed" android:drawable="@drawable/video_snap_shot_pressed" />
+    <item android:id="@id/state_normal" android:drawable="@drawable/video_snap_shot_normal" />
+    <transition android:toId="@id/state_pressed" android:fromId="@id/state_normal">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/video_snap_shot_normal" />
+            <item android:duration="30" android:drawable="@drawable/video_snap_shot_1" />
+            <item android:duration="30" android:drawable="@drawable/video_snap_shot_3" />
+            <item android:duration="15" android:drawable="@drawable/video_snap_shot_pressed" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/state_normal" android:fromId="@id/state_pressed">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/video_snap_shot_pressed" />
+            <item android:duration="16" android:drawable="@drawable/video_snap_shot_3" />
+            <item android:duration="16" android:drawable="@drawable/video_snap_shot_1" />
+            <item android:duration="15" android:drawable="@drawable/video_snap_shot_normal" />
+        </animation-list>
+    </transition>
+</animated-selector>

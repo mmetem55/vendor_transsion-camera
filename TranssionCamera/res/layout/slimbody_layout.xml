@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.feature.slimbody.ui.SlimBodyRoot android:id="@id/slimbody_root" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/bottom_layout_height" android:layout_alignParentBottom="true" android:splitMotionEvents="false" android:paddingStart="@dimen/slimbody_layout_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feature_layout" />
+</com.transsion.camera.feature.slimbody.ui.SlimBodyRoot>

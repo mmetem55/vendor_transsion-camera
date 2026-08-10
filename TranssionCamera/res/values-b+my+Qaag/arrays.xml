@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>အလိုအေလ်ာက္</item>
+        <item>ဆက္တိုက္-ဓာတ္ပံု</item>
+        <item>ဆက္တိုက္-ဗီဒီယို</item>
+        <item>edof</item>
+        <item>ျပင္ဆင္ထားသည္</item>
+        <item>အႏိႈင္းမဲ့</item>
+        <item>အနီးကပ္ပုံ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ပိတ္</item>
+        <item>3 စကၠန္႔</item>
+        <item>5 စကၠန္႔</item>
+        <item>10 စကၠန္႔</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ရွပ္တာ</item>
+        <item>ခ်ဳံ႕ခ်ဲ႕</item>
+    </string-array>
+</resources>

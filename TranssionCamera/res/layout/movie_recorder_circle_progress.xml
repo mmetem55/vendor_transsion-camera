@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateFrameLayout android:layout_gravity="center|bottom" android:id="@id/movie_progress_circle_wrap" android:visibility="gone" android:layout_width="@dimen/movie_record_progress_circle_size" android:layout_height="@dimen/movie_record_progress_circle_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.feature.mode.movie.ui.widget.RecorderProgressView android:id="@id/movie_progress_circle" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.transsion.camera.app.ui.widget.RotateFrameLayout>

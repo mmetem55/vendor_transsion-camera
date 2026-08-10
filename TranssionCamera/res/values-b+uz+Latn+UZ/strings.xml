@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auto_scene_detection_mode_title">AI CAM</string>
+    <string name="guide_asd_content1">Keng tasvir AI CAM sahnalarni avtomatik aniqlaydi va eng yaxshi tasvir sifati uchun sozlamalarni oʻzgartiradi.</string>
+    <string name="guide_photo_content1">Foto rejimi sahnalarni avtomatik aniqlaydi va parametrlarni optimal tasvir sifatiga avtomatik sozlaydi.</string>
+    <string name="photo_mode_title">Foto</string>
+    <string name="time_lapse_video_mode_title">VAQT ORALIGʻI</string>
+</resources>

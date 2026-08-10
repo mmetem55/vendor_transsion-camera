@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.feature.mode.makeup.ui.VideoMakeUpTopUI android:gravity="center" android:orientation="vertical" android:id="@id/top_ui" android:focusable="false" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/mu_big_item_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.widget.RotateLayout android:id="@id/makeup_top_seekbar_container" android:layout_width="@dimen/makeup_top_column_seekbar_parent_layout_width" android:layout_height="wrap_content">
+        <RelativeLayout android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:paddingBottom="12.0dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false">
+            <com.transsion.camera.app.ui.widget.BiDiSeekBar android:id="@id/seek_bar" android:paddingLeft="15.0dp" android:paddingRight="15.0dp" android:paddingBottom="15.0dp" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/slimbody_seekbar_layout_width" android:layout_height="84.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/contrast" android:background="@drawable/cw_btn_contrast" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/cm_item_icon_size" android:layout_height="@dimen/cm_item_icon_size" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </com.transsion.camera.app.ui.widget.RotateLayout>
+</com.transsion.camera.feature.mode.makeup.ui.VideoMakeUpTopUI>

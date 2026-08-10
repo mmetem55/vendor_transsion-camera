@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/supernight_filter_root" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/supernight_filter_switcher_height" android:layout_marginBottom="@dimen/supernight_filter_root_bottom_margin" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.camera.app.ui.widget.GridRecyclerView android:gravity="center_vertical" android:id="@id/supernight_filter_recycler_view" android:background="@android:color/transparent" android:focusable="false" android:fadingEdge="horizontal" android:fadingEdgeLength="@dimen/supernight_filter_recycler_view_header_footer_padding" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:requiresFadingEdge="horizontal" app:orientation="0" app:spanCount="1" app:useOSOverScroll="true" />
+</FrameLayout>

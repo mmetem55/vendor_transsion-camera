@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/add_item_height" android:width="@dimen/add_item_width" android:drawable="@drawable/ic_create_mudule_bg" />
+    <item android:gravity="center" android:height="@dimen/add_icon_width" android:width="@dimen/add_icon_width" android:drawable="@drawable/ic_create_mudule" />
+</layer-list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="@android:interpolator/linear" android:duration="2000" android:startOffset="0" android:repeatCount="infinite"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <propertyValuesHolder android:valueType="floatType" android:propertyName="translateX">
+        <keyframe android:value="52" android:interpolator="@anim/interpolator_new" android:fraction="0.3333" />
+        <keyframe android:value="26" android:interpolator="@anim/interpolator_new" android:fraction="0.6666" />
+        <keyframe android:value="0" android:interpolator="@anim/interpolator_new" android:fraction="1.0" />
+    </propertyValuesHolder>
+    <propertyValuesHolder android:valueType="floatType" android:propertyName="translateY">
+        <keyframe android:value="0" android:interpolator="@anim/interpolator_new" android:fraction="0.3333" />
+        <keyframe android:value="45" android:interpolator="@anim/interpolator_new" android:fraction="0.6667" />
+        <keyframe android:value="0" android:interpolator="@anim/interpolator_new" android:fraction="1.0" />
+    </propertyValuesHolder>
+</objectAnimator>

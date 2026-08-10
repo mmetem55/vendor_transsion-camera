@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mode_scroll_root" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/current_mode_ui_root" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.app.ui.widget.RotateFrameLayout android:layout_gravity="center|top" android:id="@id/current_mode_ui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mode_scroll_ui_top_margin">
+            <TextView android:id="@id/current_mode_title" style="@style/ModeScrollText" />
+        </com.transsion.camera.app.ui.widget.RotateFrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/new_mode_ui_root" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.app.ui.widget.RotateFrameLayout android:layout_gravity="center|top" android:id="@id/new_mode_ui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mode_scroll_ui_top_margin">
+            <TextView android:id="@id/new_mode_title" style="@style/ModeScrollText" />
+        </com.transsion.camera.app.ui.widget.RotateFrameLayout>
+    </FrameLayout>
+</FrameLayout>

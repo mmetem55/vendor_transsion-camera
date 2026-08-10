@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/preference_layout" android:background="@drawable/setting_list_item_view_select" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="58.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="22.0dp" android:paddingEnd="22.0dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:visibility="gone" android:layout_width="@dimen/preference_item_icon_size" android:layout_height="@dimen/preference_item_icon_size" android:scaleType="fitStart" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+            <TextView android:textAppearance="@style/PreferenceTitle" android:gravity="center_vertical" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" android:elegantTextHeight="@bool/is_elegant_text_height" />
+            <TextView android:textAppearance="@style/PreferenceSummary" android:id="@android:id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:textDirection="locale" android:elegantTextHeight="@bool/is_elegant_text_height" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_setting_arrow" android:supportsRtl="true" />
+        <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

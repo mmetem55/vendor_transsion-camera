@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/asd_hint_layout" android:layout_width="match_parent" android:layout_height="@dimen/asd_hint_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/asd_hint_algorith_result_layout" style="@style/HintAsdLayout">
+        <ImageView android:id="@id/asd_hint_algorith_result_img_bg" style="@style/HintAsdImgBg" />
+        <ImageView android:id="@id/asd_hint_algorith_result_img" style="@style/HintAsdImageView" />
+        <FrameLayout android:id="@id/asd_algorith_result_text_shell_layout" style="@style/AsdShellLayout">
+            <TextView android:id="@id/asd_hintalgorith_result_text" style="@style/HintAsdTextView" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/asd_hint_effect_layout" android:layout_toEndOf="@id/asd_hint_algorith_result_layout" style="@style/HintAsdLayout">
+        <ImageView android:id="@id/asd_hint_effect_img_bg" style="@style/HintAsdImgBg" />
+        <ImageView android:id="@id/asd_hint_effect_img" style="@style/HintAsdImageView" />
+        <FrameLayout android:id="@id/asd__effect_text_shell_layout" style="@style/AsdShellLayout">
+            <TextView android:id="@id/asd__effect_hint_text" style="@style/HintAsdTextView" />
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

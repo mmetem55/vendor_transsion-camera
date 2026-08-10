@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.feature.arcore.common.widgets.FragmentRootView android:id="@id/fragment_root" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ar_top_bar_layout" />
+    <include layout="@layout/ar_bottom_bar_layout" />
+    <include layout="@layout/ar_operation_layout" />
+    <include layout="@layout/facemoji_back_guide" />
+    <include layout="@layout/audio_toast" />
+</com.transsion.camera.feature.arcore.common.widgets.FragmentRootView>

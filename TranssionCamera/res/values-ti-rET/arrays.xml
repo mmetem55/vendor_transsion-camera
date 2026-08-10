@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>ብባዕሉ</item>
+        <item>ተኸታታሊ-ስእሊ</item>
+        <item>ተኸታታሊ-ቪድዮ</item>
+        <item>ምስትኽኻል</item>
+        <item>ቐዋሚ</item>
+        <item>መወዳእታ ብዘይብሉ</item>
+        <item>ማክሮ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ኣጥፍእ</item>
+        <item>3ሴ</item>
+        <item>5ሴ</item>
+        <item>10ሴ</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>መዕፀዊ</item>
+        <item>ኣዕብይ</item>
+    </string-array>
+</resources>

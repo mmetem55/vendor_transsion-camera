@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="#ffdedede" android:gravity="center_vertical" android:id="@id/edit_watermark_item_ui_title" android:layout_width="wrap_content" android:layout_height="58.0dp" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/edit_watermark_item_sort_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_edit_watermark_sort" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

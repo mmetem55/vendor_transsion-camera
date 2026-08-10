@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/top_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/temperature_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/ar_activity_cover" android:background="@color/preview_cover_default_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/toast_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

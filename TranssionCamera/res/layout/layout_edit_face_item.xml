@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="@dimen/arcore_edit_face_item_size" android:layout_height="@dimen/arcore_edit_face_item_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.camera.feature.arcore.common.widgets.RoundImageView android:layout_gravity="center" android:id="@id/bottom_item_img" android:layout_width="48.0dp" android:layout_height="48.0dp" android:scaleType="centerCrop" android:cropToPadding="true" app:round_radius="6.0dp" />
+    <View android:layout_gravity="center" android:id="@id/bottom_item_img_select" android:background="@drawable/main_item_select" android:layout_width="48.0dp" android:layout_height="48.0dp" />
+</FrameLayout>

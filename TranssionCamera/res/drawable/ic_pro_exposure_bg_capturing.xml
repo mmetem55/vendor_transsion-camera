@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/pro_shutter_ui_height" android:width="@dimen/pro_shutter_ui_width" android:viewportWidth="190.0" android:viewportHeight="190.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffff" android:pathData="M96,96m-88.5,0a88.5,88.5 0,1 1,177 0a88.5,88.5 0,1 1,-177 0" android:strokeColor="#ffffff" android:strokeWidth="6.0" android:strokeAlpha="0.3" android:fillAlpha="0.0" />
+    <path android:fillColor="#000000" android:pathData="M95,95m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.1" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffff" android:pathData="M96,63         L114,63         A15,15 0,0 1,129 78         L129,96         L129,114         A15,15 0,0 1,114 129         L96,129         L78,129         A15,15 0,0 1,63 114         L63,96         L63,78         A15,15 0,0 1,78 63         L96,63         z" />
+</vector>

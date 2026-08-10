@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shutter_button_size" android:width="@dimen/shutter_button_size" android:viewportWidth="192.0" android:viewportHeight="192.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="shutter_button_outside_group" android:pivotX="96.0" android:pivotY="96.0" android:scaleX="@dimen/shutter_button_scale_ratio" android:scaleY="@dimen/shutter_button_scale_ratio">
+        <path android:name="shutter_button_outside_border" android:fillColor="@color/shutter_black_color" android:pathData="@string/shutter_button_outside_border_196_70" android:strokeColor="@color/shutter_black_color" android:strokeWidth="24.0" android:fillAlpha="0.0" />
+    </group>
+</vector>

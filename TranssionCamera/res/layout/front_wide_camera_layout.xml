@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/front_wide_camera_view_root" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center|bottom" android:id="@id/front_wide_camera_layout_bg" android:background="@drawable/ic_wide_camera_layout_background_2_items" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+        <View android:layout_gravity="end|center" android:id="@id/front_wide_indicator" android:background="@drawable/ic_wide_camera_item_selected_bg" android:layout_width="@dimen/wide_camera_item_width" android:layout_height="@dimen/wide_camera_item_height" android:layout_margin="3.0dp" />
+        <com.transsion.camera.app.ui.widget.HorizontalAverageLayout android:id="@id/front_wide_camera_layout" android:tag="type_d" android:focusable="false" android:clickable="true" android:layout_width="@dimen/wide_camera_width_2_items" android:layout_height="@dimen/wide_camera_height" android:paddingStart="3.0dp" android:paddingEnd="3.0dp" />
+    </FrameLayout>
+</FrameLayout>

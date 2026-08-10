@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>خودکار</item>
+        <item>جاری-تصویر</item>
+        <item>جاری-ویڈیو</item>
+        <item>edof</item>
+        <item>مقررہ</item>
+        <item>ان گنت</item>
+        <item>میکرو</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>آف</item>
+        <item>3 سیکنڈ</item>
+        <item>5 سیکنڈ</item>
+        <item>10 سیکنڈ</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>شٹر</item>
+        <item>زوم</item>
+    </string-array>
+</resources>

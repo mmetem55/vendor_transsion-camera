@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/shutter_fun_video_small_normal_black"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="shutter_button_outside_group" android:animation="@drawable/$shutter_button_fun_video_small_normal_to_pressed_black__0" />
+    <target android:name="shutter_button_outside_border" android:animation="@drawable/$shutter_button_fun_video_small_normal_to_pressed_black__1" />
+</animated-vector>

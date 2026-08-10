@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>ອັດຕະໂນມັດ</item>
+        <item>ພາບຕໍ່ເນື່ອງ</item>
+        <item>ວິດີໂອແບບຕໍ່ເນື່ອງ</item>
+        <item>edof</item>
+        <item>ສ້ອມແປງ</item>
+        <item>ບໍ່ສິ້ນສຸດ</item>
+        <item>ໄມໂຄຣ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ປິດ</item>
+        <item>3 ວິນາທີ</item>
+        <item>5 ວິນາທີ</item>
+        <item>10 ວິນາທີ</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ປຸ່ມກົດຖ່າຍຮູບ</item>
+        <item>ຂະຫຍາຍ</item>
+    </string-array>
+</resources>

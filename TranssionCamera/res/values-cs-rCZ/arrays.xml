@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>auto</item>
+        <item>nepřetržitě-focení</item>
+        <item>nepřetržitě-video</item>
+        <item>edof</item>
+        <item>pevný</item>
+        <item>nekonečno</item>
+        <item>makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Vypnuto</item>
+        <item>3 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Závěrka</item>
+        <item>Zoom</item>
+    </string-array>
+</resources>

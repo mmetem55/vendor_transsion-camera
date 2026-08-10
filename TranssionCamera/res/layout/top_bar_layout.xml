@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.app.ui.topbar.TopBarContainer android:id="@id/top_bar_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+    <View android:id="@id/popup_option_background" android:background="@drawable/popup_option_layout_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/popup_option_item_size" android:layout_marginTop="@dimen/top_bar_popup_off_set" android:layout_marginStart="@dimen/popup_option_horizontal_mangin" android:layout_marginEnd="@dimen/popup_option_horizontal_mangin" />
+</merge>

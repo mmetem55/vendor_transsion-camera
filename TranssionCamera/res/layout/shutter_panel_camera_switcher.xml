@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/btn_shutter_panel_camera_switcher" android:focusable="false" android:clickable="true" style="@style/CameraSwitcherStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

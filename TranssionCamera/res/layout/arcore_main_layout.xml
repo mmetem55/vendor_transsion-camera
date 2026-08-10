@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.feature.arcore.common.preview.ARPreview android:layout_gravity="center" android:id="@id/glsurfaceview" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/iv_preview_cover" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <include layout="@layout/ar_takepic_callback" />
+    <include layout="@layout/ar_hint_layout" />
+    <FrameLayout android:id="@id/fragment_main_root" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/arcore_capture_guide" />
+    <include layout="@layout/ar_activity_cover_layout" />
+    <include layout="@layout/arcore_guide_layout" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginStart="9.0dp" android:layout_marginEnd="9.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.camera.app.ui.widget.NiceImageView android:layout_gravity="center" android:id="@id/fun_ar_image" android:layout_width="40.0dp" android:layout_height="40.0dp" app:corner_radius="6.0dp" />
+    <ImageView android:layout_gravity="left|bottom" android:id="@id/fun_ar_music" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginBottom="@dimen/funvideo_music_icon_margin" android:src="@drawable/ic_fun_music" android:layout_marginStart="@dimen/funvideo_music_icon_margin" />
+    <ImageView android:id="@id/fun_ar_select" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_fun_ar_select" />
+</FrameLayout>

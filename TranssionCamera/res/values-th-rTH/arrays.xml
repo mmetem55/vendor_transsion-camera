@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>อัตโนมัติ</item>
+        <item>ภาพต่อเนื่อง</item>
+        <item>วิดีโอต่อเนื่อง</item>
+        <item>ระยะชัดลึกอัตโนมัติ</item>
+        <item>คงที่</item>
+        <item>อนันต์</item>
+        <item>มาโคร</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>ปิด</item>
+        <item>3 วินาที</item>
+        <item>5 วินาที</item>
+        <item>10 วินาที</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ชัตเตอร์</item>
+        <item>ซูม</item>
+    </string-array>
+</resources>

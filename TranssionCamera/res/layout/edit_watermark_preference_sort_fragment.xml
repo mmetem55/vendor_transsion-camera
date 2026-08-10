@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/preference_fragment_background_color" android:focusable="false" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Toolbar android:id="@id/edit_watermark_sort_fragment_toolbar" android:layout_marginEnd="56.0dp" style="@style/PreferenceFragmentToolbar" />
+    <RelativeLayout android:background="@drawable/background_edit_watermark_preview" android:layout_width="match_parent" android:layout_height="203.0dp" android:layout_marginTop="16.0dp" android:layoutDirection="ltr" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:divider="@drawable/edit_watermark_divider" android:layout_alignParentBottom="true" android:showDividers="middle" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+            <TextView android:textSize="10.0dp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/show_time_watermark_sort" android:layout_width="wrap_content" android:layout_height="@dimen/default_edit_watermark_height" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="10.0dp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/show_city_watermark_sort" android:layout_width="wrap_content" android:layout_height="@dimen/default_edit_watermark_height" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="10.0dp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/show_text_watermark_sort" android:layout_width="wrap_content" android:layout_height="@dimen/default_edit_watermark_height" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="10.0dp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/show_brand_watermark_sort" android:layout_width="wrap_content" android:layout_height="@dimen/default_edit_watermark_height" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@android:id/list_container" android:layout_width="match_parent" android:layout_height="0.0px" android:layout_marginBottom="48.0dp" android:layout_weight="1.0">
+        <com.transsion.camera.app.ui.widget.EditWaterMarkRecyclerView android:id="@id/edit_watermark_order_recyclerview" android:tag="type_a" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16.0dp" android:overScrollMode="never" />
+    </FrameLayout>
+</LinearLayout>

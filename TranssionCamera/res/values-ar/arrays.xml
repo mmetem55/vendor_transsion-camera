@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>تلقائي</item>
+        <item>الصورة المتتابعة</item>
+        <item>مقاطع الفيديو المتتابعة</item>
+        <item>edof</item>
+        <item>ثابت</item>
+        <item>لا نهائي</item>
+        <item>مصغر</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>إيقاف التشغيل</item>
+        <item>٣ ثوان</item>
+        <item>٥ ثوان</item>
+        <item>١٠ ثوان</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>التقاط</item>
+        <item>تكبير</item>
+    </string-array>
+</resources>

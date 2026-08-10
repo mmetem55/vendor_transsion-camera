@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/burstpmk_layout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/id_burst_bridge_layout" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0dp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/burstpmk_notify" android:layout_width="@dimen/panorama_notify_text_max_line_width" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#4c000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_below="@id/id_burst_bridge_layout" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_shortcut_selfie_icon" android:enabled="true" android:shortcutId="selfie" android:shortcutShortLabel="@string/shortcut_selfie_label" android:shortcutLongLabel="@string/shortcut_selfie_label" android:shortcutDisabledMessage="@string/shortcut_selfie_disabled_message">
+        <intent android:targetPackage="com.transsion.camera" android:action="transsion.action.CAMERA_SHORTCUT" android:data="selfie" android:targetClass="com.transsion.camera.app.ShortcutsIntentActivity">
+            <extra android:name="android.intent.extras.IS_SHORTCUT" android:value="true" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

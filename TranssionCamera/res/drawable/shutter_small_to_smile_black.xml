@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="13" android:drawable="@drawable/ic_shutter_photo_small_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_2_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_3_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_4_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_5_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_6_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_7_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_8_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_9_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_10_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_11_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_12_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_13_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_14_black" />
+    <item android:duration="260" android:drawable="@drawable/ic_smile_small_15_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_14_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_13_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_12_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_11_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_10_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_9_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_8_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_7_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_6_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_5_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_4_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_3_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_smile_small_2_black" />
+    <item android:duration="13" android:drawable="@drawable/ic_shutter_photo_small_black" />
+</animation-list>

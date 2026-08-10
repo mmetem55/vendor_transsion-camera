@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_singht_shock_control" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/video_sight_shock_control_panel_bottom_margin" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/video_sight_shock_switch" android:clickable="true" android:layout_width="@dimen/video_sight_shock_control_panel_height" android:layout_height="@dimen/video_sight_shock_control_panel_height" android:src="@drawable/vss_tab_control_switch" android:layout_alignParentLeft="true" android:layout_marginStart="@dimen/video_sight_shock_switch_margin_left" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:id="@id/video_filter" style="@style/VideoSightShockContainer">
+            <TextView android:id="@id/video_filter_text" android:text="@string/video_filter" style="@style/VideoSightShockTextView" />
+            <View android:id="@id/video_filter_dot" style="@style/VideoSightShockDot" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/video_effect" android:layout_marginLeft="@dimen/video_effect_switch_margin_left" style="@style/VideoSightShockContainer">
+            <TextView android:id="@id/video_effect_text" android:text="@string/video_effect" style="@style/VideoSightShockTextView" />
+            <View android:id="@id/video_effect_dot" style="@style/VideoSightShockDot" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/video_frame" android:layout_marginLeft="@dimen/video_frame_switch_margin_left" style="@style/VideoSightShockContainer">
+            <TextView android:id="@id/video_frame_text" android:text="@string/video_frame" style="@style/VideoSightShockTextView" />
+            <View android:id="@id/video_frame_dot" style="@style/VideoSightShockDot" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

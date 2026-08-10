@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/color_item_width" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.transsion.camera.feature.arcore.common.widgets.CircleImageView android:layout_gravity="center" android:id="@id/bottom_item_img" android:layout_width="@dimen/color_item_width" android:layout_height="@dimen/color_item_width" />
+    <View android:layout_gravity="center" android:id="@id/bottom_item_img_select" android:background="@drawable/ic_color_select_bg" android:layout_width="32.0dp" android:layout_height="32.0dp" />
+</FrameLayout>

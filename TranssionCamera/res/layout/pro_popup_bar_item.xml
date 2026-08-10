@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateLayout android:id="@id/pro_popup_bar_item_layout_id" android:focusable="false" android:clickable="true" android:layout_width="@dimen/popup_bar_item_width" android:layout_height="@dimen/popup_bar_item_height" android:scaleType="fitXY"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pro_popup_bar_item_root" android:layout_width="@dimen/popup_bar_item_width" android:layout_height="@dimen/popup_bar_item_height">
+        <ImageView android:layout_gravity="center" android:id="@id/pro_popup_bar_item_id" android:layout_width="@dimen/popup_bar_item_child_width" android:layout_height="@dimen/popup_bar_item_child_height" />
+    </FrameLayout>
+</com.transsion.camera.app.ui.widget.RotateLayout>

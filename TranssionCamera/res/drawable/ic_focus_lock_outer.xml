@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/focus_view_size" android:width="@dimen/focus_view_size" android:viewportWidth="216.0" android:viewportHeight="216.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="focus_frame_group" android:pivotX="108.0" android:pivotY="108.0">
+        <path android:name="focus_frame" android:fillColor="@android:color/white" android:pathData="M106,212v-9h4v9c55.8,-1.1 100.9,-46.1 102,-102h-9v-4h9C210.9,50.2 165.8,5.1 110,4v9h-4V4C50.2,5.1 5.1,50.2 4,106h9v4H4C5.1,165.8 50.2,210.9 106,212zM108,216C48.4,216 0,167.6 0,108S48.4,0 108,0s108,48.4 108,108S167.6,216 108,216z" />
+    </group>
+</vector>

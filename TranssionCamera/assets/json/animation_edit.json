@@ -1,0 +1,7 @@
+{
+  "editExpression": {
+    "1": {"name" : "ani_huxi.bundle", "gender" : "GENDER_MID", "resId" : "", "path" :"new/animation/ani_huxi.bundle", "misicId" : "0"},
+    "2": {"name" : "ani16_zuoyoukan2.bundle", "gender" : "GENDER_MID", "resId" : "", "path" :"new/animation/ani16_zuoyoukan2.bundle", "misicId" : "0"},
+    "3": {"name" : "ani_huanzhuang.bundle", "gender" : "GENDER_MID", "resId" : "", "path" :"new/animation/ani_huanzhuang.bundle", "misicId" : "0"}
+  }
+}

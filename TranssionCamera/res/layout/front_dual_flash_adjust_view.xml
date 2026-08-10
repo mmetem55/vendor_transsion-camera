@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/front_dual_flash_adjust_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/front_dual_flash_adjust_layout" android:background="@drawable/front_dual_flash_adjust_bg" android:layout_width="320.0dp" android:layout_height="108.32999dp">
+        <RelativeLayout android:layout_width="276.0dp" android:layout_height="33.0dp" android:layout_marginTop="14.0dp">
+            <com.transsion.camera.ui.setting.flash.frontdualflash.FlashColorTempProgressBar android:id="@id/flash_color_temp_progress_bar" android:layout_width="276.0dp" android:layout_height="33.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <FrameLayout android:id="@id/flash_cold_color_temp_layout" android:background="@drawable/front_dual_flash_cold_color_temp_selected" android:layout_width="90.0dp" android:layout_height="24.0dp" android:layout_centerVertical="true">
+                <TextView android:textSize="11.0dp" android:textColor="#333333" android:ellipsize="marquee" android:gravity="center" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/flash_cold_color_temp" android:singleLine="true" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/flash_default_color_temp_layout" android:background="@drawable/front_dual_flash_default_color_temp_selected" android:visibility="gone" android:layout_width="90.0dp" android:layout_height="24.0dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <TextView android:textSize="11.0dp" android:textColor="#333333" android:ellipsize="marquee" android:gravity="center" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/flash_default_color_temp" android:singleLine="true" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/flash_warm_color_temp_layout" android:background="@drawable/front_dual_flash_warm_color_temp_selected" android:visibility="gone" android:layout_width="90.0dp" android:layout_height="24.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <TextView android:textSize="11.0dp" android:textColor="#333333" android:ellipsize="marquee" android:gravity="center" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/flash_warm_color_temp" android:singleLine="true" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+            </FrameLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="276.0dp" android:layout_height="33.0dp" android:layout_marginBottom="14.0dp" android:layout_alignParentBottom="true">
+            <com.transsion.camera.ui.setting.flash.frontdualflash.FlashStrengthModeProgressBar android:id="@id/flash_strength_mode_progress_bar" android:layout_width="276.0dp" android:layout_height="33.0dp" android:layout_alignParentBottom="true" />
+            <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/low_rotation_icon" android:layout_width="33.0dp" android:layout_height="33.0dp" android:src="@drawable/ic_front_dual_flash_low_selected" />
+            <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/medium_rotation_icon" android:layout_width="33.0dp" android:layout_height="33.0dp" android:src="@drawable/ic_front_dual_flash_medium_unselected" android:layout_centerHorizontal="true" />
+            <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/high_rotation_icon" android:layout_width="33.0dp" android:layout_height="33.0dp" android:src="@drawable/ic_front_dual_flash_high_unselected" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

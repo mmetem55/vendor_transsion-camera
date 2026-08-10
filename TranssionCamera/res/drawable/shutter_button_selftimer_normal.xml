@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shutter_button_size" android:width="@dimen/shutter_button_size" android:viewportWidth="198.0" android:viewportHeight="198.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="shutter_button_selftimer_icon" android:pivotX="99.0" android:pivotY="99.0">
+        <path android:fillColor="#ffffff" android:pathData="M99,99      m-80,0      a80,80 0,1 1,160 0      a80,80 0,1 1,-160 0      z" />
+        <path android:fillColor="#bebebe" android:pathData="M101.8,101.6c-1.5,1.6-4,1.6-5.5,0.1C94.8,100.2,86,86,86.1,86.1c0,0,14.4,8.5,15.9,10             C103.4,97.6,103.4,100.1,101.8,101.6z M99,124c-13.8,0-25-11.2-25-25c0-6.9,2.8-13.4,7.8-18.2l0.1,0.2c0.2-0.1,0.4-0.1,0.6-0.1             c0.8,0,1.5,0.7,1.5,1.5c0,0.6-0.4,1.2-1,1.4c-8.3,8.8-7.9,22.7,0.9,31.1c8.8,8.3,22.7,7.9,31.1-0.9c8.3-8.8,7.9-22.7-0.9-31.1             c-3.5-3.3-8-5.4-12.8-5.9l-0.4,0v8.4l0,0V86h-0.1c-0.3,0.8-1.1,1.2-1.9,0.9c-0.4-0.1-0.8-0.5-0.9-0.9H98V74h3v0.1             c13.7,1.1,24,13.1,22.9,26.9C122.9,114,112,124,99,124z" />
+    </group>
+    <path android:fillColor="#464646" android:pathData="M99,99      m0,-96      a96,96 0,1 1,0 192      a96,96 0,1 1,0 -192      z" android:fillAlpha="0.5" />
+</vector>

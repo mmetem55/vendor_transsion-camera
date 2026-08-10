@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@anim/interpolator_common" android:duration="200" android:repeatCount="0" android:repeatMode="reverse" android:valueFrom="@string/shutter_button_outside_border_180_90_2" android:valueTo="@string/shutter_button_outside_border_180_90" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@anim/interpolator_common" android:duration="200" android:repeatCount="0" android:repeatMode="reverse" android:valueFrom="12" android:valueTo="18" android:valueType="floatType" android:propertyName="strokeWidth" />
+    <objectAnimator android:interpolator="@anim/interpolator_common" android:duration="200" android:repeatCount="0" android:repeatMode="reverse" android:valueFrom="#80ffffff" android:valueTo="#ffffff" android:valueType="colorType" android:propertyName="strokeColor" />
+</set>

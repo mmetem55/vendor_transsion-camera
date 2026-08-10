@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shutter_button_size" android:width="@dimen/shutter_button_size" android:autoMirrored="true" android:viewportWidth="180.0" android:viewportHeight="180.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="shutter_button_outside" android:pathData="@string/shutter_button_outside_border_180_90_2" android:strokeColor="#ffffff" android:strokeWidth="12.0" />
+    <path android:name="shutter_button_inside" android:fillColor="@drawable/$ic_shutter_fun_video_stop__0" android:pathData="@string/shutter_button_inside_rounded_square_180_60" android:fillType="evenOdd" />
+</vector>

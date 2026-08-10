@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="60.0dp" android:layout_height="136.66998dp" android:layout_marginTop="6.0dp" android:layout_marginBottom="6.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.camera.feature.arcore.common.widgets.RoundImageView android:id="@id/arcore_item" android:layout_width="match_parent" android:layout_height="match_parent" app:round_radius="9.0dp" />
+    <View android:id="@id/arcore_item_select" android:background="@drawable/ic_thumbnail_select_bg" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

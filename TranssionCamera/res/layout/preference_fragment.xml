@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/preference_fragment_background_color" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Toolbar android:id="@id/setting_fragment_toolbar" android:title="@string/pref_setting_title" style="@style/PreferenceFragmentToolbar" />
+    <com.transsion.camera.app.ui.widget.HorizontalAverageLayout android:id="@id/setting_fragment_shortcut_list" android:tag="type_a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+    <FrameLayout android:id="@android:id/list_container" android:layout_width="match_parent" android:layout_height="0.0px" android:layout_marginBottom="48.0dp" android:layout_weight="1.0">
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:background="@android:color/transparent" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dp" />
+    </FrameLayout>
+</LinearLayout>

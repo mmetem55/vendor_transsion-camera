@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/view_guide_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/guide_animation" android:layout_width="180.0dp" android:layout_height="180.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="ar_animation_guide.json" app:lottie_imageAssetsFolder="guide_images/" app:lottie_loop="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/app_white" android:gravity="center" android:id="@id/guide_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:shadowColor="@color/shadow_gray" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="4.0" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/guide_animation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

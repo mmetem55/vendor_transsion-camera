@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>தானியங்கு</item>
+        <item>தொடர்-படம்</item>
+        <item>தொடர்-வீடியோ</item>
+        <item>edof</item>
+        <item>நிலையானது</item>
+        <item>முடிவிலி</item>
+        <item>மேக்ரோ</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>முடக்கத்தில்</item>
+        <item>3வி</item>
+        <item>5வி</item>
+        <item>10வி</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>ஷட்டர்</item>
+        <item>அளவை மாற்று</item>
+    </string-array>
+</resources>

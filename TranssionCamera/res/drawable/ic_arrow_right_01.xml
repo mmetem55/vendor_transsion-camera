@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/wideselfie_notify_arrow_height" android:width="@dimen/wideselfie_notify_arrow_width" android:viewportWidth="780.0" android:viewportHeight="360.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_arrow_right_01__0" android:pathData="M725.9,147c28.3,8.6 39.6,20.2 33.9,34.8c-3.8,9.8 -19.4,15.5 -46.6,17.1v12.2L686,188.7l27.2,-22.2v13.4c26,1.5 38.3,-1.6 37.1,-9.1S740.8,155.2 725.9,147z" android:fillType="evenOdd" />
+</vector>

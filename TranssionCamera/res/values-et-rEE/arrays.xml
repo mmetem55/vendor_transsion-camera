@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_setting_entries">
+        <item>automaatne</item>
+        <item>saripilt</item>
+        <item>sarivideo</item>
+        <item>EDOF</item>
+        <item>Fikseeritud</item>
+        <item>Lõpmatus</item>
+        <item>Makro</item>
+    </string-array>
+    <string-array name="self_timer_setting_entries">
+        <item>Väljas</item>
+        <item>3 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+    </string-array>
+    <string-array name="volume_key_setting_entries">
+        <item>Katik</item>
+        <item>Suum</item>
+    </string-array>
+</resources>

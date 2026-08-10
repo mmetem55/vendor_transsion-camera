@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:id="@id/state_pressed" android:drawable="@drawable/shutter_button_time_lapse_video_pressed" />
+    <item android:id="@id/state_normal" android:drawable="@drawable/shutter_button_time_lapse_video_normal" />
+    <transition android:drawable="@drawable/shutter_time_lapse_normal_to_pressed" android:toId="@id/state_pressed" android:fromId="@id/state_normal" />
+    <transition android:drawable="@drawable/shutter_time_lapse_pressed_to_normal" android:toId="@id/state_normal" android:fromId="@id/state_pressed" />
+</animated-selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateLayout android:layout_gravity="center|bottom" android:id="@id/continuous_shot_progress_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/continuous_shot_progress_bg" android:layout_width="@dimen/continuous_shot_progress_bg_width" android:layout_height="@dimen/continuous_shot_progress_bg_height">
+        <TextView android:enabled="false" android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/continuous_shot_progress_text_size" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/continuous_shot_progress" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </FrameLayout>
+</com.transsion.camera.app.ui.widget.RotateLayout>

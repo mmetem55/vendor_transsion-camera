@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dual_video_recording_root_group" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <View android:id="@id/dual_video_snap_shot_cover" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <include layout="@layout/dual_video_recording_time" />
+    <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/switch_screen_button" android:focusable="false" android:visibility="invisible" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_dual_switch_screen" android:soundEffectsEnabled="false" />
+    <FrameLayout android:id="@id/dual_video_shutter_panel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/dual_video_snap_shot" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dual_video_panel_image_width" android:layout_height="@dimen/dual_video_panel_image_width" android:src="@drawable/ic_video_snap_shot" android:soundEffectsEnabled="false" />
+        <com.transsion.camera.app.ui.widget.RotateImageView android:id="@id/dual_video_pause_resume" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dual_video_panel_image_width" android:layout_height="@dimen/dual_video_panel_image_width" android:src="@drawable/ic_recording_pause" android:soundEffectsEnabled="false" />
+    </FrameLayout>
+</FrameLayout>

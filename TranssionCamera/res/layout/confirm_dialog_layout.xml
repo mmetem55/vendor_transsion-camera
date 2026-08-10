@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RotateLayout android:id="@id/rootPanel" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingHorizontal="16.0dp" android:paddingVertical="20.0dp">
+            <ScrollView android:id="@id/scrollView" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls" android:defaultFocusHighlightEnabled="false">
+                <TextView android:textSize="14.0sp" android:id="@id/message" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:textAppearanceMedium" />
+            </ScrollView>
+        </LinearLayout>
+        <View android:background="@color/movie_dialog_divider_color" android:layout_width="match_parent" android:layout_height="0.6700001dp" />
+        <LinearLayout android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52.0dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?android:buttonBarStyle">
+                <Button android:textSize="15.0sp" android:textColor="@color/movie_dialog_negative_btn_color" android:layout_gravity="start" android:id="@id/button2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+                <Button android:textSize="15.0sp" android:textColor="@color/os_dialog_positive_btn_alert_color" android:layout_gravity="end" android:id="@id/button1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.transsion.camera.app.ui.widget.RotateLayout>

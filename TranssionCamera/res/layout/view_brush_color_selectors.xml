@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.ardrawlines.view.FlowRadioGroup android:orientation="horizontal" android:id="@id/brush_color_group" android:tag="layout/view_brush_color_selectors_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:button="@drawable/brush_selector_red" android:layout_marginStart="16.0dp" style="@style/BrushColorSelectionButton" />
+    <RadioButton android:button="@drawable/brush_selector_orange" style="@style/BrushColorSelectionButton" />
+    <RadioButton android:button="@drawable/brush_selector_yellow" style="@style/BrushColorSelectionButton" />
+    <RadioButton android:button="@drawable/brush_selector_green" style="@style/BrushColorSelectionButton" />
+    <RadioButton android:button="@drawable/brush_selector_blue" style="@style/BrushColorSelectionButton" />
+    <RadioButton android:button="@drawable/brush_selector_purple" style="@style/BrushColorSelectionButton" />
+    <RadioButton android:button="@drawable/brush_selector_white" style="@style/BrushColorSelectionButton" />
+    <RadioButton android:button="@drawable/brush_selector_black" style="@style/BrushColorSelectionButton" />
+</com.transsion.ardrawlines.view.FlowRadioGroup>

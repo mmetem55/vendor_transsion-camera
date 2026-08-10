@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dual_camera_always_info">أجعل مسافة الهدف في حدود 1 متر -2.5 متر</string>
+    <string name="flash_low_power_tips">البطارية أقل من 15%. تعذر استخدام الكشاف</string>
+    <string name="self_timer_setting_title">تأخير الالتقاط</string>
+</resources>

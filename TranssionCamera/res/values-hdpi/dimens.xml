@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_cursor_round_corner">1.0px</dimen>
+    <dimen name="default_edit_watermark_text_size">70.0dp</dimen>
+    <dimen name="edit_watermark_brand_height_1">28.0dp</dimen>
+    <dimen name="edit_watermark_brand_height_2">56.0dp</dimen>
+    <dimen name="ev_seek_bar_height">92.0dp</dimen>
+    <dimen name="face_beauty_layout_margin_start">17.779999dp</dimen>
+    <dimen name="face_beauty_layout_margin_top">378.0dp</dimen>
+    <dimen name="focus_ev_indicator_size">64.0dp</dimen>
+    <dimen name="focus_evbar_view_size">121.0dp</dimen>
+    <dimen name="focus_view_size">64.0dp</dimen>
+    <dimen name="funvideo_progress_panel_height">126.0dp</dimen>
+    <dimen name="high_temperature_icon_margin_top">213.0dp</dimen>
+    <dimen name="high_temperature_sub_title_margin_top">14.0dp</dimen>
+    <dimen name="high_temperature_title_margin_top">21.0dp</dimen>
+    <dimen name="os_seekbar_thumb_pressed_size">18.5dp</dimen>
+    <dimen name="restore_setting_text_height">32.0dp</dimen>
+    <dimen name="restore_setting_text_width">291.5547dp</dimen>
+    <dimen name="super_moon_indicator_height">16.0dp</dimen>
+    <dimen name="super_moon_indicator_width">13.329987dp</dimen>
+    <dimen name="top_bar_height">36.0dp</dimen>
+    <dimen name="top_bar_item_size">36.0dp</dimen>
+    <dimen name="video_shutter_panel_height">126.0dp</dimen>
+    <dimen name="wide_camera_toggle_margin_start">8.0dp</dimen>
+    <dimen name="wide_camera_toggle_margin_top">284.0dp</dimen>
+    <dimen name="wideselfie_idle_arrow_marginTop">17.0dp</dimen>
+    <dimen name="wideselfie_notify_arrow_height">120.0dp</dimen>
+    <dimen name="wideselfie_notify_arrow_marginTop">39.0dp</dimen>
+    <dimen name="wideselfie_top_interval">80.19998dp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.camera.app.ui.widget.RootLayout android:id="@id/camera_app_root" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/preview_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+    <FrameLayout android:id="@id/overlay_ui_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" />
+    <com.transsion.camera.app.ui.widget.ScrollFrameLayout android:id="@id/mode_ui_scroll_layer_root" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ViewStub android:id="@id/preview_cover_layer_layout" android:layout="@layout/preview_cover_layer_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ViewStub android:id="@id/ring_screen_light_layout" android:layout="@layout/ring_screen_light_ui_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/interactive_ui_root" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" />
+    <FrameLayout android:id="@id/mode_ui_layer_root" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ViewStub android:id="@id/ring_screen_light_aperture_layout" android:layout="@layout/aperture_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/main_control_ui_layer_layout" />
+    <include layout="@layout/above_main_control_layer_layout" />
+    <include layout="@layout/top_layer_layout" />
+</com.transsion.camera.app.ui.widget.RootLayout>

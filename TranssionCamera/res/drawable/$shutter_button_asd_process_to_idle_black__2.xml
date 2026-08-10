@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:duration="150" android:valueFrom="M 99,25A 74,74 0 1,1 98.99,25" android:valueTo="M 99,45A 54,54 0 1,1 98.99,45" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:duration="150" android:valueFrom="12" android:valueTo="52" android:valueType="floatType" android:propertyName="strokeWidth" />
+</set>

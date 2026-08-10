@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dp" android:width="60.0dp" android:viewportWidth="240.0" android:viewportHeight="120.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffffff" android:pathData="M60,0L180,0C213.1,0 240,26.9 240,60L240,60C240,93.1 213.1,120 180,120L60,120C26.9,120 0,93.1 0,60L0,60C0,26.9 26.9,0 60,0Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.5" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$funvideo_confirm_pressed__0" android:pathData="M160.296,41.504L112.214,89.611C111.434,90.393 110.168,90.393 109.386,89.612C109.386,89.612 109.386,89.612 109.386,89.61L80.414,60.615C79.634,59.833 79.634,58.567 80.414,57.786L84.686,53.514C85.467,52.733 86.733,52.733 87.514,53.514L110.8,76.8L110.8,76.8L153.276,34.421C154.058,33.641 155.324,33.642 156.104,34.424C156.107,34.427 156.11,34.43 156.113,34.433L160.306,38.686C161.078,39.469 161.073,40.727 160.296,41.504Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.5" android:fillType="nonZero" />
+</vector>

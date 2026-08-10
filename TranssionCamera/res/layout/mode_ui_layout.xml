@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="90.0dp" android:layout_marginTop="@dimen/mode_panel_item_icon_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/mode_item_ui_icon" android:layout_width="@dimen/mode_panel_item_icon_width" android:layout_height="@dimen/mode_panel_item_icon_height" />
+    <TextView android:textSize="@dimen/mode_panel_item_title_font_size" android:textColor="@color/unselected_mode_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mode_item_ui_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mode_panel_item_title_margin_top" android:maxLines="3" android:elegantTextHeight="@bool/is_elegant_text_height" style="@style/ModePanelItemNormalTextAppearance" />
+</LinearLayout>
