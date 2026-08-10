@@ -2,7 +2,7 @@
 
 Ported Transsion stock Camera application for Android 16.
 
-The application was decompiled from the stock firmware, unnecessary telemetry and data collection components were removed, and the application was ported to Android 16.
+The application was decompiled from the stock firmware, unnecessary telemetry and data collection components were removed.
 
 Tested successfully on:
 
