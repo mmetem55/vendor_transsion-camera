@@ -1,0 +1,42 @@
+{   "id": "9DA70EFE-36D1-4674-B727-6232E4F6F4EF",
+	"name": "Sport",
+	"cover": "cover.png",
+	"preview": "cover.mp4",
+	"nameId": "movie_theme_sport_title",
+	"descriptionId": "movie_theme_sport_description",
+	"sectionNum": 4,
+	"duration": 13300,
+	"music": "sport.mp3",
+	"musicDuration": 13300,
+    "tailFilter": "7561B081-12E8-4040-A048-81FD21F9D793.3",
+	"tailTrans":  "",
+	"tailDuration": 1800,
+    "lutFilter": "C73AF953-9FA5-4D4B-A303-3EE8E37065A8.5",
+
+    "themeSection":[
+        {
+            "sectionId":0,
+			"filter": "D0AB0661-6B69-425A-A20B-D2F8CE29E13A.3",
+			"trans": "88BBE130-7D1D-4162-8DDD-AA5C292E6D11.3",
+			"duration":3400
+        },	
+        {
+            "sectionId":1,
+			"filter": "C6D51330-6DAC-44F1-91D8-EFB2A620BD58.2",
+			"trans": "EEF8C668-FC74-49CB-8396-FB3731E8A1FA.2",
+            "duration":2800	
+        },	
+		{
+            "sectionId":2,
+			"filter": "21D5E204-5139-4D33-847F-3D0504F0EB18.4",
+			"trans": "96D2BD2E-C41B-42BB-BE48-274331DF30A3.2",
+            "duration":2960
+        },
+        {
+            "sectionId":3,
+			"filter": "A609BDD7-D371-4460-A137-EB4B15B364E7.2",
+			"trans": "",
+            "duration":4140
+        }
+    ]
+}

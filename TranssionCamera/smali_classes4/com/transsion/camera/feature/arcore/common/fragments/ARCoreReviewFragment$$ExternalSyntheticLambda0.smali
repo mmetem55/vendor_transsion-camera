@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment$$ExternalSyntheticLambda0;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment$$ExternalSyntheticLambda0;->f$0:Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 0
+
+    iget-object p0, p0, Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment$$ExternalSyntheticLambda0;->f$0:Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment;
+
+    invoke-static {p0}, Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment;->$r8$lambda$1ekAgRxqnTWaxUBJx7ih2kHQk7k(Lcom/transsion/camera/feature/arcore/common/fragments/ARCoreReviewFragment;)V
+
+    return-void
+.end method

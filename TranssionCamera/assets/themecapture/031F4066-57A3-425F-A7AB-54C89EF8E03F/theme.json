@@ -1,0 +1,42 @@
+{   "id": "031F4066-57A3-425F-A7AB-54C89EF8E03F",
+	"name": "Show",
+	"cover": "cover.png",
+	"preview": "cover.mp4",
+	"nameId": "movie_theme_show_title",
+	"descriptionId": "movie_theme_show_description",
+	"sectionNum": 4,
+	"duration": 18560,
+	"music": "music.mp3",
+	"musicDuration": 18560,
+    "tailFilter": "A685732F-0364-4C8E-B638-61D7338C3ACF.1",
+	"tailTrans":  "",
+	"tailDuration": 1240,
+	"lutFilter": "3371B6AE-2872-4C30-B556-A2CA0794F946.1",
+
+    "themeSection":[
+        {
+            "sectionId":0,
+			"filter": "2C5B4049-F0A3-4292-A7AA-4E8692F7651C.3",
+			"trans": "1F0750CC-252F-4BBC-8258-0517DBA8AF77.2",
+			"duration":2840
+        },	
+        {
+            "sectionId":1,
+			"filter": "FE557B64-8D67-4A97-9EFB-7ADCA53D5219.2",
+			"trans": "0CF0B540-0878-4F9C-886B-8EC8BDC74404.1",
+            "duration":5320	
+        },	
+		{
+            "sectionId":2,
+			"filter": "12D051D0-3713-4D42-811A-14AE577ADEEA.2",
+			"trans": "1F0750CC-252F-4BBC-8258-0517DBA8AF77.2",
+            "duration":5440
+        },
+		{
+            "sectionId":3,
+			"filter": "F8B14CF5-02E8-4212-8649-AA0E227063D1.2",
+			"trans": "",
+            "duration":4960
+        }
+    ]
+}

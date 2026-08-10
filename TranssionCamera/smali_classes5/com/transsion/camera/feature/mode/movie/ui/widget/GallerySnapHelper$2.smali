@@ -1,0 +1,139 @@
+.class Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper$2;
+.super Landroidx/recyclerview/widget/LinearSmoothScroller;
+.source "GallerySnapHelper.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;->createScroller(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;
+
+.field final synthetic val$layoutManager:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+
+# direct methods
+.method constructor <init>(Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;Landroid/content/Context;Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)V
+    .locals 0
+
+    .line 558
+    iput-object p1, p0, Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper$2;->this$0:Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;
+
+    iput-object p3, p0, Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper$2;->val$layoutManager:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected calculateSpeedPerPixel(Landroid/util/DisplayMetrics;)F
+    .locals 0
+
+    .line 575
+    iget p0, p1, Landroid/util/DisplayMetrics;->densityDpi:I
+
+    int-to-float p0, p0
+
+    const/high16 p1, 0x42c80000    # 100.0f
+
+    div-float/2addr p1, p0
+
+    return p1
+.end method
+
+.method protected calculateTimeForScrolling(I)I
+    .locals 1
+
+    .line 580
+    iget-object v0, p0, Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper$2;->this$0:Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;
+
+    invoke-static {v0}, Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;->access$200(Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 581
+    invoke-super {p0, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForScrolling(I)I
+
+    move-result p0
+
+    return p0
+
+    :cond_0
+    const/16 v0, 0x64
+
+    .line 584
+    invoke-super {p0, p1}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForScrolling(I)I
+
+    move-result p0
+
+    .line 583
+    invoke-static {v0, p0}, Ljava/lang/Math;->min(II)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method protected onTargetFound(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$State;Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;)V
+    .locals 2
+
+    .line 562
+    iget-object p2, p0, Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper$2;->this$0:Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;
+
+    iget-object v0, p0, Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper$2;->val$layoutManager:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+    .line 563
+    invoke-static {p2, v0, p1}, Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;->access$100(Lcom/transsion/camera/feature/mode/movie/ui/widget/GallerySnapHelper;Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroid/view/View;)[I
+
+    move-result-object p1
+
+    const/4 p2, 0x0
+
+    .line 564
+    aget p2, p1, p2
+
+    const/4 v0, 0x1
+
+    .line 565
+    aget p1, p1, v0
+
+    .line 567
+    invoke-static {p2}, Ljava/lang/Math;->abs(I)I
+
+    move-result v0
+
+    invoke-static {p1}, Ljava/lang/Math;->abs(I)I
+
+    move-result v1
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->max(II)I
+
+    move-result v0
+
+    .line 566
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForDeceleration(I)I
+
+    move-result v0
+
+    if-lez v0, :cond_0
+
+    .line 569
+    iget-object p0, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mDecelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
+
+    invoke-virtual {p3, p2, p1, v0, p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->update(IIILandroid/view/animation/Interpolator;)V
+
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,53 @@
+{   "id": "773836D3-5EE2-41C7-9F6E-25EF8F48E2D8",
+	"name": "SUPERSTAR",
+	"cover": "cover.png",
+	"preview": "cover.mp4",
+    "nameId": "movie_theme_superstar_title",
+    "descriptionId": "movie_theme_superstar_description",
+	"sectionNum": 6,
+    "duration": 16266,
+	"music": "Girl.mp3",
+    "musicDuration": 16266,
+	"endingFilter": "965D9BF6-ACAA-4419-9367-4C7E6ED5E170.3",
+	"endingFilterLen": 2866,
+	"lutFilter": "B5B0F383-7CFA-4138-80BA-77BCEB4B9AA1.1",
+
+    "themeSection":[
+        {
+            "sectionId":0,
+			"filter": "0084E862-5D59-4289-AD4A-59BB04C7CC3F.1",
+			"trans": "F2CE52BC-D160-4F57-B5FA-AB08822DB340.1",
+			"duration":2033
+        },
+        {
+            "sectionId":1,
+			"filter": "",
+			"trans": "43C068C0-F041-4DB7-ADBF-9E672BF8D810.2",
+            "duration":1866
+        },
+		{
+            "sectionId":2,
+			"filter": "55905C1A-A5E0-411A-9431-EE034A20F60D.5",
+			"trans": "67A39C34-70E1-4768-BB9E-A4D93DAD90E0.1",
+            "duration":3200
+        },
+        {
+            "sectionId":3,
+			"filter": "",
+			"trans": "67A39C34-70E1-4768-BB9E-A4D93DAD90E0.1",
+            "duration":1833
+        },
+		{
+            "sectionId":4,
+			"filter": "DDAAE381-CA81-49FA-9BC3-027307DC17BE.1",
+			"trans": "F2CE52BC-D160-4F57-B5FA-AB08822DB340.1",
+            "duration":3233
+        },
+		{
+            "sectionId":5,
+			"filter": "",
+			"trans": "",
+            "duration":4100
+        }
+    ]
+}

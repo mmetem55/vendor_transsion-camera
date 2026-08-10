@@ -1,0 +1,49 @@
+{   "id": "13A73D50-60B4-45BD-A7D2-CABCA78F65ED",
+	"name": "Travel",
+	"cover": "cover.png",
+	"preview": "cover.mp4",
+	"nameId": "movie_theme_travel_title",
+	"descriptionId": "movie_theme_travel_description",
+	"sectionNum": 5,
+	"duration": 14420,
+	"music": "music.mp3",
+	"musicDuration": 14420,
+	"tailFilter": "0528A739-A6C3-4B07-B9DD-7758448473BA.1",
+	"tailTrans":  "",
+	"tailDuration": 2000,
+	"lutFilter": "228284B2-5B12-4D38-9242-257BAD36DE90.1",
+	"timelineFilter": "",
+
+    "themeSection":[
+        {
+            "sectionId":0,
+			"filter": "A3FAB2B0-2EFE-4E1E-843C-68AF4532C240.4",
+			"trans": "87CEA5FF-EFD9-4872-87C6-54596E6965E6.1",
+			"duration":3000
+        },	
+        {
+            "sectionId":1,
+			"filter": "0461061D-8BE6-4E56-B1C9-91884E284364.5",
+			"trans": "B46715F6-037D-4945-B78D-7E8807D47155.1",
+            "duration":2600	
+        },	
+		{
+            "sectionId":2,
+			"filter": "94AA64EC-B412-44BC-8217-1011882303DF.6",
+			"trans": "2C510BAA-E810-45AA-B4DE-35922FC7387F.1",
+            "duration":1800
+        },
+		{
+            "sectionId":3,
+			"filter": "FDACFA90-B24F-4441-9CAB-9F1A17197F06.6",
+			"trans": "B46715F6-037D-4945-B78D-7E8807D47155.1",
+            "duration":2360
+        },
+		{
+            "sectionId":4,
+			"filter": "790114CA-A42D-445F-827E-DE22C80DC5E5.7",
+			"trans": "",
+            "duration":4660
+        }
+    ]
+}

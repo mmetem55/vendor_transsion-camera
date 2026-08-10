@@ -1,0 +1,49 @@
+{   "id": "53EC1473-D1AB-40FD-9EE0-2759AEA1F0E4",
+	"name": "Family",
+	"cover": "cover.png",
+	"preview": "cover.mp4",
+	"nameId": "movie_theme_family_title",
+	"descriptionId": "movie_theme_family_description",
+	"sectionNum": 5,
+	"duration": 18480,
+	"music": "music.mp3",
+	"musicDuration": 18480,
+    "tailFilter": "76A74AA5-A98E-4E7E-B0A5-1A4581CD954C.2",
+	"tailTrans":  "",
+	"tailDuration": 1880,
+	"lutFilter": "DAF9EC8B-E3D4-4165-BA97-F74C92A03DC6.1",
+	"timelineFilter": "E415BAEA-8C7E-4B28-BF54-7401DB2F947B.1",
+
+    "themeSection":[
+        {
+            "sectionId":0,
+			"filter": "721EE69F-4FFC-48B3-B15E-952AEF8ABB6D.1",
+			"trans": "AF97077F-2CAD-43FA-85D5-09C61D2187B4.1",
+			"duration":5200
+        },	
+        {
+            "sectionId":1,
+			"filter": "906D56B0-D8F5-458A-8AF9-271DC8C5907E.1",
+			"trans": "2286B45A-1AF4-48BF-B912-076E3276FC14.1",
+            "duration":2640	
+        },	
+		{
+            "sectionId":2,
+			"filter": "B546B282-6A5D-45DD-966E-969DA2C349EA.1",
+			"trans": "6FAF0CF7-C2D9-44A0-985B-6C9782C6A7A4.1",
+            "duration":3320
+        },
+		{
+            "sectionId":3,
+			"filter": "94EC3AA2-D8C9-4281-B5B5-4A3F01CE051C.1",
+			"trans": "6FAF0CF7-C2D9-44A0-985B-6C9782C6A7A4.1",
+            "duration":2560
+        },
+		{
+            "sectionId":4,
+			"filter": "5F6CB46E-5147-4D3D-82D0-1AAB769A0984.1",
+			"trans": "",
+            "duration":4760
+        }
+    ]
+}

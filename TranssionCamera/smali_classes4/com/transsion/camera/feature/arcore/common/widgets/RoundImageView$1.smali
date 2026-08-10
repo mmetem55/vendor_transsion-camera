@@ -1,0 +1,14 @@
+.class synthetic Lcom/transsion/camera/feature/arcore/common/widgets/RoundImageView$1;
+.super Ljava/lang/Object;
+.source "RoundImageView.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/transsion/camera/feature/arcore/common/widgets/RoundImageView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

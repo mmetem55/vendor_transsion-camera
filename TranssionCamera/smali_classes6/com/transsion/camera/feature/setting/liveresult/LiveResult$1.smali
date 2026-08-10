@@ -1,0 +1,90 @@
+.class Lcom/transsion/camera/feature/setting/liveresult/LiveResult$1;
+.super Ljava/lang/Object;
+.source "LiveResult.java"
+
+# interfaces
+.implements Lcom/transsion/camera/app/common/setting/ICameraSetting$PreviewStateCallback;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/transsion/camera/feature/setting/liveresult/LiveResult;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/transsion/camera/feature/setting/liveresult/LiveResult;
+
+
+# direct methods
+.method constructor <init>(Lcom/transsion/camera/feature/setting/liveresult/LiveResult;)V
+    .locals 0
+
+    .line 108
+    iput-object p1, p0, Lcom/transsion/camera/feature/setting/liveresult/LiveResult$1;->this$0:Lcom/transsion/camera/feature/setting/liveresult/LiveResult;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onPreviewStarted()V
+    .locals 2
+
+    .line 117
+    invoke-static {}, Lcom/transsion/camera/feature/setting/liveresult/LiveResult;->access$100()Lcom/transsion/camera/utils/debug/Log$Tag;
+
+    move-result-object v0
+
+    const-string v1, "onPreviewStarted"
+
+    invoke-static {v0, v1}, Lcom/transsion/camera/utils/debug/Log;->i(Lcom/transsion/camera/utils/debug/Log$Tag;Ljava/lang/String;)V
+
+    .line 118
+    iget-object v0, p0, Lcom/transsion/camera/feature/setting/liveresult/LiveResult$1;->this$0:Lcom/transsion/camera/feature/setting/liveresult/LiveResult;
+
+    invoke-static {v0}, Lcom/transsion/camera/feature/setting/liveresult/LiveResult;->access$300(Lcom/transsion/camera/feature/setting/liveresult/LiveResult;)Lcom/transsion/camera/app/common/setting/ISettingManager$SettingDeviceRequester;
+
+    move-result-object v0
+
+    iget-object p0, p0, Lcom/transsion/camera/feature/setting/liveresult/LiveResult$1;->this$0:Lcom/transsion/camera/feature/setting/liveresult/LiveResult;
+
+    invoke-virtual {p0}, Lcom/transsion/camera/feature/setting/liveresult/LiveResult;->getKey()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-interface {v0, p0}, Lcom/transsion/camera/app/common/setting/ISettingManager$SettingDeviceRequester;->requestChangeCommand(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public onPreviewStopped()V
+    .locals 2
+
+    .line 111
+    invoke-static {}, Lcom/transsion/camera/feature/setting/liveresult/LiveResult;->access$100()Lcom/transsion/camera/utils/debug/Log$Tag;
+
+    move-result-object v0
+
+    const-string v1, "onPreviewStopped"
+
+    invoke-static {v0, v1}, Lcom/transsion/camera/utils/debug/Log;->i(Lcom/transsion/camera/utils/debug/Log$Tag;Ljava/lang/String;)V
+
+    .line 112
+    iget-object p0, p0, Lcom/transsion/camera/feature/setting/liveresult/LiveResult$1;->this$0:Lcom/transsion/camera/feature/setting/liveresult/LiveResult;
+
+    invoke-static {p0}, Lcom/transsion/camera/feature/setting/liveresult/LiveResult;->access$200(Lcom/transsion/camera/feature/setting/liveresult/LiveResult;)Lcom/transsion/camera/feature/setting/liveresult/LiveResult$ParametersConfigure;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Lcom/transsion/camera/feature/setting/liveresult/LiveResult$ParametersConfigure;->onPreviewStopped()V
+
+    return-void
+.end method
