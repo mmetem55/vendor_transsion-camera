@@ -18,7 +18,7 @@ Google Photos is required for the application to work correctly.
 java -jar apktool.jar b TranssionCamera -o TranssionCamera.apk
 ```
 
-## LineageOS Integration
+## Device Tree Integration
 
 Add the following to `device.mk`:
 
