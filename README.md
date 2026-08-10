@@ -36,4 +36,4 @@ vendor/transsion-camera/
 
 ## Disclaimer
 
-This project is not affiliated with Transsion, Infinix, or LineageOS. The original application and its intellectual property belong to their respective owners.
+This project is affiliated with Transsion and Infinix.
