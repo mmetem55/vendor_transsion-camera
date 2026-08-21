@@ -36,4 +36,4 @@ vendor/transsion-camera/
 
 ## Disclaimer
 
-This project is affiliated with Transsion and Infinix.
+This is an unofficial community project and is not affiliated with, sponsored by, or endorsed by Transsion, Infinix, or their subsidiaries. All trademarks and intellectual property belong to their respective owners.
