@@ -53,6 +53,8 @@
     .line 2379
     invoke-super {p0, p1, p2, p3}, Landroid/hardware/camera2/CameraCaptureSession$CaptureCallback;->onCaptureCompleted(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/TotalCaptureResult;)V
 
+    invoke-static {p3}, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->onShutterCaptured(Landroid/hardware/camera2/TotalCaptureResult;)V
+
     .line 2381
     iget-object p2, p0, Lcom/transsion/camera/adapter/CameraProxy2Impl$CapturePictureCallback;->this$0:Lcom/transsion/camera/adapter/CameraProxy2Impl;
 

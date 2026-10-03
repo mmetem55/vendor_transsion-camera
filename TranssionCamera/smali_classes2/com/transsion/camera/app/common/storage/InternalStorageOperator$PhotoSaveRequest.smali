@@ -190,6 +190,11 @@
 
     invoke-static {p0, v0}, Lcom/transsion/camera/utils/debug/Log;->i(Lcom/transsion/camera/utils/debug/Log$Tag;Ljava/lang/String;)V
 
+    if-eqz v2, :cond_mp_skip
+
+    invoke-static {p1}, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->onJpegFileSaved(Ljava/lang/String;)V
+
+    :cond_mp_skip
     return v2
 
     :catchall_0

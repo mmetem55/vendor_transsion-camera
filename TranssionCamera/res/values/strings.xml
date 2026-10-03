@@ -478,6 +478,7 @@ Double click on the screen to wake up"</string>
     <string name="more_mode_edit_tips_description">Add modes to the bottom of the screen.</string>
     <string name="more_mode_title">More</string>
     <string name="more_mode_view_text">More</string>
+    <string name="motion_photo_setting_title">Motion Photo</string>
     <string name="movie_cannot_play_string">Unable to play this video</string>
     <string name="movie_continue_last_shoot">Continue with the last shot</string>
     <string name="movie_keep_stable_tip">Keep your phone steady</string>

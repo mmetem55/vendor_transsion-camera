@@ -1025,6 +1025,7 @@
     <id name="setting_ui_item_hdr" />
     <id name="setting_ui_item_macro_torch" />
     <id name="setting_ui_item_magic_sky" />
+    <id name="setting_ui_item_motion_photo" />
     <id name="setting_ui_item_picture_ratio" />
     <id name="setting_ui_item_screen_flash" />
     <id name="setting_ui_item_second_zoom" />

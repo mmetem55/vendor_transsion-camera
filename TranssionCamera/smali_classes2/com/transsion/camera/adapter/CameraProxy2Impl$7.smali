@@ -49,6 +49,8 @@
 
     .line 2565
     :cond_0
+    invoke-static {v0}, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->onPreviewImage(Landroid/media/Image;)V
+
     iget-object v1, p0, Lcom/transsion/camera/adapter/CameraProxy2Impl$7;->this$0:Lcom/transsion/camera/adapter/CameraProxy2Impl;
 
     invoke-static {v1}, Lcom/transsion/camera/adapter/CameraProxy2Impl;->access$2800(Lcom/transsion/camera/adapter/CameraProxy2Impl;)Z

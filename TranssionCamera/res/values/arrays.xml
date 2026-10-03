@@ -12,6 +12,10 @@
         <item>@null</item>
         <item>@null</item>
     </array>
+    <array name="motion_photo_setting_entry_drawables">
+        <item>@drawable/ic_motion_photo_on</item>
+        <item>@drawable/ic_motion_photo_off</item>
+    </array>
     <string-array name="activityorientation_setting_entry_values">
         <item>0</item>
         <item>90</item>
@@ -36,6 +40,7 @@
         <item>com.transsion.camera.ui.setting.hdr.HdrSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.macrotorch.MacroTorchSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.pictureratio.PictureRatioSettingUIEntry</item>
+        <item>com.transsion.motionphoto.ui.MotionPhotoSettingUIEntry</item>
     </string-array>
     <array name="animal_eyedetection_setting_entry_drawables">
         <item>@drawable/ic_animal_eye_on</item>
@@ -173,6 +178,7 @@
         <item>com.transsion.camera.feature.asdenhance.ui.ASDEnhanceSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.pictureratio.PictureRatioSettingUIEntry</item>
         <item>com.transsion.camera.feature.arcfilter.setting.ui.ArcFilterSettingUIEntry</item>
+        <item>com.transsion.motionphoto.ui.MotionPhotoSettingUIEntry</item>
     </string-array>
     <string-array name="asd_settings_guide_layouts">
         <item>com.transsion.camera.ui.setting.micropantiltcalibration.MicroPanTiltCalibrationUIEntry</item>
@@ -277,6 +283,7 @@
         <item>com.transsion.camera.feature.setting.plugin.TranssionPluginEntry</item>
         <item>com.transsion.camera.feature.setting.supernight.SuperNightEntry</item>
         <item>com.transsion.camera.feature.setting.supernightstable.SuperNightStableEntry</item>
+        <item>com.transsion.motionphoto.feature.MotionPhotoFeatureEntry</item>
         <item>com.transsion.camera.feature.setting.whitebalance.WhiteBalanceEntry</item>
         <item>com.transsion.camera.feature.setting.manualwhitebalance.ManualWhiteBalanceEntry</item>
         <item>com.transsion.camera.feature.setting.contrast.ContrastEntry</item>
@@ -559,6 +566,7 @@
         <item>com.transsion.camera.ui.setting.timelapsephotosettingoption.TimelapsePhotoSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.smartmodeorder.SmartModeOrderSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.supernightstable.SuperNightStableSettingUIEntry</item>
+        <item>com.transsion.motionphoto.ui.MotionPhotoSettingUIEntry</item>
         <item>com.transsion.camera.feature.asdenhance.ui.ASDEnhanceSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.humaneffect.HumanEffectSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.BarcodeSettingUIEntry</item>
@@ -1482,6 +1490,7 @@
         <item>com.transsion.camera.ui.setting.flash.FlashSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.macrotorch.MacroTorchSettingUIEntry</item>
         <item>com.transsion.camera.ui.setting.pictureratio.PictureRatioSettingUIEntry</item>
+        <item>com.transsion.motionphoto.ui.MotionPhotoSettingUIEntry</item>
     </string-array>
     <array name="picture_ratio_setting_entry_drawables">
         <item>@drawable/ic_picture_ratio_1_1</item>
@@ -2536,5 +2545,13 @@
     </integer-array>
     <string-array name="wide_selfie_mode_setting_ui_entries">
         <item>com.transsion.camera.ui.setting.editwatermark.EditWaterMarkSettingUIEntry</item>
+    </string-array>
+    <string-array name="motion_photo_setting_entries">
+        <item>@string/setting_on_entry</item>
+        <item>@string/setting_off_entry</item>
+    </string-array>
+    <string-array name="motion_photo_setting_entry_values">
+        <item>on</item>
+        <item>off</item>
     </string-array>
 </resources>
