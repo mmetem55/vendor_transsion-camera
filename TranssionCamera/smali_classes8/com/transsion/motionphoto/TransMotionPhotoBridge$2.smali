@@ -30,7 +30,7 @@
 .method constructor <init>()V
     .registers 1
 
-    .line 206
+    .line 205
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,17 +41,17 @@
 .method public compare(Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;)I
     .registers 5
 
-    .line 209
+    .line 208
     iget-object p1, p1, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
     iget-wide v0, p1, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
 
-    .line 210
+    .line 209
     iget-object p1, p2, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
     iget-wide p1, p1, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
 
-    .line 211
+    .line 210
     cmp-long p1, v0, p1
 
     if-gez p1, :cond_e
@@ -87,7 +87,7 @@
         }
     .end annotation
 
-    .line 206
+    .line 205
     check-cast p1, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
 
     check-cast p2, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;

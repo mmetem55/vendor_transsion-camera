@@ -33,7 +33,7 @@
         }
     .end annotation
 
-    .line 78
+    .line 73
     iput-object p1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder$1;->this$0:Lcom/transsion/motionphoto/PreviewFrameEncoder;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,12 +46,12 @@
 .method public run()V
     .registers 2
 
-    .line 81
+    .line 76
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder$1;->this$0:Lcom/transsion/motionphoto/PreviewFrameEncoder;
 
     # invokes: Lcom/transsion/motionphoto/PreviewFrameEncoder;->workerLoop()V
     invoke-static {v0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->access$000(Lcom/transsion/motionphoto/PreviewFrameEncoder;)V
 
-    .line 82
+    .line 77
     return-void
 .end method

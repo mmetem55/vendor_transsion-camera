@@ -44,46 +44,46 @@
 .method public constructor <init>(J)V
     .registers 4
 
-    .line 35
+    .line 33
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 30
+    .line 28
     new-instance v0, Ljava/util/concurrent/ConcurrentLinkedDeque;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentLinkedDeque;-><init>()V
 
     iput-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
 
-    .line 31
+    .line 29
     new-instance v0, Ljava/util/concurrent/ConcurrentSkipListMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentSkipListMap;-><init>()V
 
     iput-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainedStarts:Ljava/util/concurrent/ConcurrentSkipListMap;
 
-    .line 32
+    .line 30
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainLock:Ljava/lang/Object;
 
-    .line 33
+    .line 31
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->recording:Z
 
-    .line 36
+    .line 34
     iput-wide p1, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->bufferDurationMs:J
 
-    .line 37
+    .line 35
     return-void
 .end method
 
 .method private trimStorage()V
     .registers 7
 
-    .line 86
+    .line 84
     iget-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentLinkedDeque;->peekLast()Ljava/lang/Object;
@@ -92,12 +92,12 @@
 
     check-cast v0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
 
-    .line 87
+    .line 85
     if-nez v0, :cond_b
 
     return-void
 
-    .line 88
+    .line 86
     :cond_b
     iget-object v0, v0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
@@ -111,20 +111,20 @@
 
     sub-long/2addr v0, v2
 
-    .line 89
+    .line 87
     nop
 
-    .line 90
+    .line 88
     iget-object v2, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainedStarts:Ljava/util/concurrent/ConcurrentSkipListMap;
 
     invoke-virtual {v2}, Ljava/util/concurrent/ConcurrentSkipListMap;->firstEntry()Ljava/util/Map$Entry;
 
     move-result-object v2
 
-    .line 91
+    .line 89
     if-eqz v2, :cond_2c
 
-    .line 92
+    .line 90
     invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -139,7 +139,7 @@
 
     move-result-wide v0
 
-    .line 95
+    .line 93
     :cond_2c
     :goto_2c
     iget-object v2, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
@@ -150,7 +150,7 @@
 
     check-cast v2, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
 
-    .line 96
+    .line 94
     if-eqz v2, :cond_4d
 
     iget-object v3, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
@@ -163,7 +163,7 @@
 
     goto :goto_4d
 
-    .line 97
+    .line 95
     :cond_3f
     iget-object v2, v2, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
@@ -177,10 +177,10 @@
 
     invoke-virtual {v2}, Ljava/util/concurrent/ConcurrentLinkedDeque;->pollFirst()Ljava/lang/Object;
 
-    .line 99
+    .line 97
     goto :goto_2c
 
-    .line 100
+    .line 98
     :cond_4d
     :goto_4d
     return-void
@@ -191,30 +191,30 @@
 .method public addSample(Ljava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
     .registers 11
 
-    .line 72
+    .line 70
     iget-boolean v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->recording:Z
 
     if-nez v0, :cond_5
 
     return-void
 
-    .line 73
+    .line 71
     :cond_5
     iget v0, p2, Landroid/media/MediaCodec$BufferInfo;->size:I
 
     new-array v0, v0, [B
 
-    .line 74
+    .line 72
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     move-result-object p1
 
-    .line 75
+    .line 73
     iget v1, p2, Landroid/media/MediaCodec$BufferInfo;->offset:I
 
     invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 76
+    .line 74
     iget v1, p2, Landroid/media/MediaCodec$BufferInfo;->offset:I
 
     iget v2, p2, Landroid/media/MediaCodec$BufferInfo;->size:I
@@ -223,15 +223,15 @@
 
     invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;->limit(I)Ljava/nio/Buffer;
 
-    .line 77
+    .line 75
     invoke-virtual {p1, v0}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
 
-    .line 79
+    .line 77
     new-instance v2, Landroid/media/MediaCodec$BufferInfo;
 
     invoke-direct {v2}, Landroid/media/MediaCodec$BufferInfo;-><init>()V
 
-    .line 80
+    .line 78
     iget v4, p2, Landroid/media/MediaCodec$BufferInfo;->size:I
 
     iget-wide v5, p2, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
@@ -242,7 +242,7 @@
 
     invoke-virtual/range {v2 .. v7}, Landroid/media/MediaCodec$BufferInfo;->set(IIJI)V
 
-    .line 81
+    .line 79
     iget-object p1, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
 
     new-instance p2, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
@@ -251,29 +251,29 @@
 
     invoke-virtual {p1, p2}, Ljava/util/concurrent/ConcurrentLinkedDeque;->addLast(Ljava/lang/Object;)V
 
-    .line 82
+    .line 80
     invoke-direct {p0}, Lcom/transsion/motionphoto/CircularSampleRecorder;->trimStorage()V
 
-    .line 83
+    .line 81
     return-void
 .end method
 
 .method public clear()V
     .registers 2
 
-    .line 112
+    .line 110
     iget-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentLinkedDeque;->clear()V
 
-    .line 113
+    .line 111
     return-void
 .end method
 
 .method public getLatestTimestamp()J
     .registers 3
 
-    .line 103
+    .line 101
     iget-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentLinkedDeque;->peekLast()Ljava/lang/Object;
@@ -282,7 +282,7 @@
 
     check-cast v0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
 
-    .line 104
+    .line 102
     if-nez v0, :cond_d
 
     const-wide/16 v0, -0x1
@@ -301,7 +301,7 @@
 .method public isRecording()Z
     .registers 2
 
-    .line 40
+    .line 38
     iget-boolean v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->recording:Z
 
     return v0
@@ -310,24 +310,24 @@
 .method public release()V
     .registers 2
 
-    .line 116
+    .line 114
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->recording:Z
 
-    .line 117
+    .line 115
     return-void
 .end method
 
 .method public releaseRetention(J)V
     .registers 7
 
-    .line 63
+    .line 61
     iget-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 64
+    .line 62
     :try_start_3
     iget-object v1, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainedStarts:Ljava/util/concurrent/ConcurrentSkipListMap;
 
@@ -341,14 +341,14 @@
 
     check-cast v1, Ljava/lang/Integer;
 
-    .line 65
+    .line 63
     if-nez v1, :cond_13
 
     monitor-exit v0
 
     return-void
 
-    .line 66
+    .line 64
     :cond_13
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -368,7 +368,7 @@
 
     goto :goto_36
 
-    .line 67
+    .line 65
     :cond_24
     iget-object v2, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainedStarts:Ljava/util/concurrent/ConcurrentSkipListMap;
 
@@ -388,14 +388,14 @@
 
     invoke-virtual {v2, p1, p2}, Ljava/util/concurrent/ConcurrentSkipListMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 68
+    .line 66
     :goto_36
     monitor-exit v0
 
-    .line 69
+    .line 67
     return-void
 
-    .line 68
+    .line 66
     :catchall_38
     move-exception p1
 
@@ -409,12 +409,12 @@
 .method public retainFrom(J)V
     .registers 6
 
-    .line 56
+    .line 54
     iget-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 57
+    .line 55
     :try_start_3
     iget-object v1, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainedStarts:Ljava/util/concurrent/ConcurrentSkipListMap;
 
@@ -428,7 +428,7 @@
 
     check-cast v1, Ljava/lang/Integer;
 
-    .line 58
+    .line 56
     iget-object v2, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainedStarts:Ljava/util/concurrent/ConcurrentSkipListMap;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -455,13 +455,13 @@
 
     invoke-virtual {v2, p1, p2}, Ljava/util/concurrent/ConcurrentSkipListMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 59
+    .line 57
     monitor-exit v0
 
-    .line 60
+    .line 58
     return-void
 
-    .line 59
+    .line 57
     :catchall_27
     move-exception p1
 
@@ -483,7 +483,7 @@
         }
     .end annotation
 
-    .line 108
+    .line 106
     new-instance v0, Ljava/util/ArrayList;
 
     iget-object v1, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
@@ -496,36 +496,36 @@
 .method public startRecording()V
     .registers 3
 
-    .line 44
+    .line 42
     iget-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->samples:Ljava/util/concurrent/ConcurrentLinkedDeque;
 
     invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentLinkedDeque;->clear()V
 
-    .line 45
+    .line 43
     iget-object v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainLock:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 46
+    .line 44
     :try_start_8
     iget-object v1, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainedStarts:Ljava/util/concurrent/ConcurrentSkipListMap;
 
     invoke-virtual {v1}, Ljava/util/concurrent/ConcurrentSkipListMap;->clear()V
 
-    .line 47
+    .line 45
     monitor-exit v0
     :try_end_e
     .catchall {:try_start_8 .. :try_end_e} :catchall_12
 
-    .line 48
+    .line 46
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->recording:Z
 
-    .line 49
+    .line 47
     return-void
 
-    .line 47
+    .line 45
     :catchall_12
     move-exception v1
 
@@ -540,11 +540,11 @@
 .method public stopRecording()V
     .registers 2
 
-    .line 52
+    .line 50
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder;->recording:Z
 
-    .line 53
+    .line 51
     return-void
 .end method

@@ -40,7 +40,7 @@
         }
     .end annotation
 
-    .line 174
+    .line 173
     iput-object p1, p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;->val$enc:Lcom/transsion/motionphoto/PreviewFrameEncoder;
 
     iput-object p2, p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;->val$audioEnc:Lcom/transsion/motionphoto/AudioFrameEncoder;
@@ -63,7 +63,7 @@
 .method public run()V
     .registers 7
 
-    .line 178
+    .line 177
     :try_start_0
     iget-object v0, p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;->val$enc:Lcom/transsion/motionphoto/PreviewFrameEncoder;
 
@@ -82,11 +82,11 @@
 
     goto :goto_16
 
-    .line 179
+    .line 178
     :catchall_e
     move-exception v0
 
-    .line 180
+    .line 179
     :try_start_f
     const-string v1, "TransMotionPhotoBridge"
 
@@ -96,7 +96,7 @@
     :try_end_16
     .catchall {:try_start_f .. :try_end_16} :catchall_26
 
-    .line 182
+    .line 181
     :goto_16
     iget-object v0, p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;->val$enc:Lcom/transsion/motionphoto/PreviewFrameEncoder;
 
@@ -104,20 +104,20 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->releaseRetention(J)V
 
-    .line 183
+    .line 182
     iget-object v0, p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;->val$audioEnc:Lcom/transsion/motionphoto/AudioFrameEncoder;
 
     iget-wide v1, p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;->val$retainKey:J
 
     invoke-virtual {v0, v1, v2}, Lcom/transsion/motionphoto/AudioFrameEncoder;->releaseRetention(J)V
 
-    .line 184
+    .line 183
     nop
 
-    .line 185
+    .line 184
     return-void
 
-    .line 182
+    .line 181
     :catchall_26
     move-exception v0
 
@@ -127,13 +127,13 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->releaseRetention(J)V
 
-    .line 183
+    .line 182
     iget-object v1, p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;->val$audioEnc:Lcom/transsion/motionphoto/AudioFrameEncoder;
 
     iget-wide v2, p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;->val$retainKey:J
 
     invoke-virtual {v1, v2, v3}, Lcom/transsion/motionphoto/AudioFrameEncoder;->releaseRetention(J)V
 
-    .line 184
+    .line 183
     throw v0
 .end method

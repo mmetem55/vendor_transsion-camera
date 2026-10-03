@@ -24,15 +24,15 @@
 .method constructor <init>([BLandroid/media/MediaCodec$BufferInfo;)V
     .registers 3
 
-    .line 23
+    .line 21
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 24
+    .line 22
     iput-object p1, p0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->data:[B
 
-    .line 25
+    .line 23
     iput-object p2, p0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
-    .line 26
+    .line 24
     return-void
 .end method

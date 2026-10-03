@@ -28,21 +28,21 @@
 .method constructor <init>([BIIJ)V
     .registers 6
 
-    .line 37
+    .line 32
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 38
+    .line 33
     iput-object p1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;->nv12:[B
 
-    .line 39
+    .line 34
     iput p2, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;->width:I
 
-    .line 40
+    .line 35
     iput p3, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;->height:I
 
-    .line 41
+    .line 36
     iput-wide p4, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;->timestampUs:J
 
-    .line 42
+    .line 37
     return-void
 .end method

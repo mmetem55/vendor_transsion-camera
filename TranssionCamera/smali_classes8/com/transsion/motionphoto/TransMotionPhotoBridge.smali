@@ -100,7 +100,7 @@
 .method public static currentApplication()Landroid/content/Context;
     .registers 5
 
-    .line 415
+    .line 414
     const/4 v0, 0x0
 
     :try_start_1
@@ -110,7 +110,7 @@
 
     move-result-object v1
 
-    .line 416
+    .line 415
     const-string v2, "currentApplication"
 
     const/4 v3, 0x0
@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    .line 417
+    .line 416
     instance-of v2, v1, Landroid/app/Application;
 
     if-eqz v2, :cond_1d
@@ -141,28 +141,28 @@
     :cond_1d
     return-object v0
 
-    .line 418
+    .line 417
     :catchall_1e
     move-exception v1
 
-    .line 419
+    .line 418
     const-string v2, "TransMotionPhotoBridge"
 
     const-string v3, "could not resolve current application context"
 
     invoke-static {v2, v3, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 420
+    .line 419
     return-object v0
 .end method
 
 .method private static determineRotation(Ljava/lang/String;III)I
     .registers 9
 
-    .line 298
+    .line 297
     nop
 
-    .line 300
+    .line 299
     const/16 v0, 0x5a
 
     const/4 v1, -0x1
@@ -186,27 +186,27 @@
 
     goto :goto_14
 
-    .line 301
+    .line 300
     :cond_13
     :goto_13
     nop
 
-    .line 304
+    .line 303
     :goto_14
     if-ne p1, v1, :cond_1d
 
-    .line 305
+    .line 304
     invoke-static {p0}, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->readRotationDegrees(Ljava/lang/String;)I
 
     move-result v2
 
-    .line 306
+    .line 305
     if-eqz v2, :cond_1d
 
-    .line 307
+    .line 306
     move p1, v2
 
-    .line 312
+    .line 311
     :cond_1d
     const/4 v2, 0x0
 
@@ -215,23 +215,23 @@
 
     invoke-direct {v3}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
-    .line 313
+    .line 312
     const/4 v4, 0x1
 
     iput-boolean v4, v3, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
-    .line 314
+    .line 313
     invoke-static {p0, v3}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
-    .line 315
+    .line 314
     iget p0, v3, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
-    .line 316
+    .line 315
     iget v3, v3, Landroid/graphics/BitmapFactory$Options;->outHeight:I
     :try_end_2d
     .catchall {:try_start_1e .. :try_end_2d} :catchall_4a
 
-    .line 318
+    .line 317
     if-le p2, p3, :cond_31
 
     move p2, v4
@@ -241,7 +241,7 @@
     :cond_31
     move p2, v2
 
-    .line 319
+    .line 318
     :goto_32
     if-le v3, p0, :cond_35
 
@@ -250,36 +250,36 @@
     :cond_35
     move v4, v2
 
-    .line 321
+    .line 320
     :goto_36
     if-eqz p2, :cond_3f
 
     if-eqz v4, :cond_3f
 
-    .line 322
+    .line 321
     if-eqz p1, :cond_3e
 
     if-ne p1, v1, :cond_47
 
-    .line 323
+    .line 322
     :cond_3e
     goto :goto_48
 
-    .line 325
+    .line 324
     :cond_3f
     if-nez p2, :cond_47
 
     if-nez v4, :cond_47
 
-    .line 326
+    .line 325
     if-ne p1, v1, :cond_47
 
-    .line 327
+    .line 326
     move v0, v2
 
     goto :goto_48
 
-    .line 332
+    .line 331
     :cond_47
     move v0, p1
 
@@ -288,18 +288,18 @@
 
     goto :goto_52
 
-    .line 330
+    .line 329
     :catchall_4a
     move-exception p0
 
-    .line 331
+    .line 330
     const-string p2, "TransMotionPhotoBridge"
 
     const-string p3, "Failed to decode JPEG bounds for rotation validation"
 
     invoke-static {p2, p3, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 334
+    .line 333
     :goto_52
     if-ne p1, v1, :cond_55
 
@@ -308,7 +308,7 @@
     :cond_55
     move v2, p1
 
-    .line 335
+    .line 334
     :goto_56
     rem-int/lit16 v2, v2, 0x168
 
@@ -327,51 +327,51 @@
         }
     .end annotation
 
-    .line 199
+    .line 198
     move-object/from16 v0, p2
 
     invoke-virtual/range {p0 .. p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->videoFormatOrNull()Landroid/media/MediaFormat;
 
     move-result-object v2
 
-    .line 200
+    .line 199
     const-string v7, "TransMotionPhotoBridge"
 
     if-nez v2, :cond_10
 
-    .line 201
+    .line 200
     const-string v0, "encoder has no output format yet, skipping"
 
     invoke-static {v7, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 202
+    .line 201
     return-void
 
-    .line 205
+    .line 204
     :cond_10
     invoke-virtual/range {p0 .. p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->allSamples()Ljava/util/List;
 
     move-result-object v1
 
-    .line 206
+    .line 205
     new-instance v3, Lcom/transsion/motionphoto/TransMotionPhotoBridge$2;
 
     invoke-direct {v3}, Lcom/transsion/motionphoto/TransMotionPhotoBridge$2;-><init>()V
 
     invoke-static {v1, v3}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 215
+    .line 214
     const-wide/32 v3, 0x16e360
 
     sub-long v5, p3, v3
 
-    .line 216
+    .line 215
     add-long v3, p3, v3
 
-    .line 218
+    .line 217
     nop
 
-    .line 219
+    .line 218
     const/4 v8, 0x0
 
     move v9, v8
@@ -383,7 +383,7 @@
 
     if-ge v9, v10, :cond_3f
 
-    .line 220
+    .line 219
     invoke-interface {v1, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v10
@@ -398,13 +398,13 @@
 
     if-ltz v10, :cond_3c
 
-    .line 221
+    .line 220
     nop
 
-    .line 222
+    .line 221
     goto :goto_40
 
-    .line 219
+    .line 218
     :cond_3c
     add-int/lit8 v9, v9, 0x1
 
@@ -413,23 +413,23 @@
     :cond_3f
     const/4 v9, -0x1
 
-    .line 225
+    .line 224
     :goto_40
     if-gez v9, :cond_48
 
-    .line 226
+    .line 225
     const-string v0, "no buffered video samples around shutter timestamp, skipping"
 
     invoke-static {v7, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 227
+    .line 226
     return-void
 
-    .line 230
+    .line 229
     :cond_48
     move v10, v9
 
-    .line 231
+    .line 230
     :goto_49
     if-lez v10, :cond_5a
 
@@ -449,7 +449,7 @@
 
     goto :goto_49
 
-    .line 232
+    .line 231
     :cond_5a
     invoke-interface {v1, v10}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -463,10 +463,10 @@
 
     if-nez v11, :cond_7d
 
-    .line 233
+    .line 232
     nop
 
-    .line 234
+    .line 233
     :goto_67
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -490,7 +490,7 @@
 
     goto :goto_67
 
-    .line 236
+    .line 235
     :cond_7c
     move v10, v9
 
@@ -501,15 +501,15 @@
 
     if-lt v10, v9, :cond_89
 
-    .line 237
+    .line 236
     const-string v0, "no keyframe in buffer, skipping"
 
     invoke-static {v7, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 238
+    .line 237
     return-void
 
-    .line 241
+    .line 240
     :cond_89
     move-wide v11, v3
 
@@ -517,7 +517,7 @@
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 242
+    .line 241
     nop
 
     :goto_90
@@ -527,14 +527,14 @@
 
     if-ge v10, v4, :cond_aa
 
-    .line 243
+    .line 242
     invoke-interface {v1, v10}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
 
-    .line 244
+    .line 243
     iget-object v9, v4, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
     iget-wide v13, v9, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
@@ -545,13 +545,13 @@
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 242
+    .line 241
     :cond_a7
     add-int/lit8 v10, v10, 0x1
 
     goto :goto_90
 
-    .line 246
+    .line 245
     :cond_aa
     invoke-interface {v3}, Ljava/util/List;->size()I
 
@@ -561,7 +561,7 @@
 
     if-ge v1, v4, :cond_d2
 
-    .line 247
+    .line 246
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -592,31 +592,31 @@
 
     invoke-static {v7, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 248
+    .line 247
     return-void
 
-    .line 251
+    .line 250
     :cond_d2
     invoke-virtual/range {p1 .. p1}, Lcom/transsion/motionphoto/AudioFrameEncoder;->audioFormatOrNull()Landroid/media/MediaFormat;
 
     move-result-object v4
 
-    .line 252
+    .line 251
     move-wide v9, v5
 
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
-    .line 253
+    .line 252
     if-eqz v4, :cond_106
 
-    .line 254
+    .line 253
     invoke-virtual/range {p1 .. p1}, Lcom/transsion/motionphoto/AudioFrameEncoder;->allSamples()Ljava/util/List;
 
     move-result-object v1
 
-    .line 255
+    .line 254
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -634,7 +634,7 @@
 
     check-cast v6, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
 
-    .line 256
+    .line 255
     iget-object v13, v6, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
     iget-wide v13, v13, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
@@ -651,50 +651,50 @@
 
     if-gtz v13, :cond_105
 
-    .line 257
+    .line 256
     invoke-interface {v5, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 259
+    .line 258
     :cond_105
     goto :goto_e6
 
-    .line 262
+    .line 261
     :cond_106
     new-instance v9, Ljava/io/File;
 
     invoke-direct {v9, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 263
+    .line 262
     invoke-virtual {v9}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object v1
 
-    .line 264
+    .line 263
     if-nez v1, :cond_112
 
     return-void
 
-    .line 265
+    .line 264
     :cond_112
     invoke-virtual {v9}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 266
+    .line 265
     const/16 v10, 0x2e
 
     invoke-virtual {v6, v10}, Ljava/lang/String;->lastIndexOf(I)I
 
     move-result v10
 
-    .line 267
+    .line 266
     if-lez v10, :cond_122
 
     invoke-virtual {v6, v8, v10}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 268
+    .line 267
     :cond_122
     new-instance v10, Ljava/io/File;
 
@@ -724,7 +724,7 @@
 
     invoke-direct {v10, v1, v11}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 269
+    .line 268
     new-instance v11, Ljava/io/File;
 
     new-instance v13, Ljava/lang/StringBuilder;
@@ -751,7 +751,7 @@
 
     invoke-direct {v11, v1, v6}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 271
+    .line 270
     invoke-virtual/range {p0 .. p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->getEncWidth()I
 
     move-result v1
@@ -766,13 +766,13 @@
 
     move-result v6
 
-    .line 274
+    .line 273
     move-object v1, v10
 
     :try_start_16b
     invoke-static/range {v1 .. v6}, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->muxToMp4(Ljava/io/File;Landroid/media/MediaFormat;Ljava/util/List;Landroid/media/MediaFormat;Ljava/util/List;I)V
 
-    .line 276
+    .line 275
     invoke-interface {v3, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -785,7 +785,7 @@
 
     sub-long v12, p3, v12
 
-    .line 277
+    .line 276
     const-wide/16 v14, 0x0
 
     cmp-long v2, v12, v14
@@ -794,23 +794,23 @@
 
     move-wide v12, v14
 
-    .line 278
+    .line 277
     :cond_181
     invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 279
+    .line 278
     invoke-virtual {v11}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 278
+    .line 277
     invoke-static {v0, v2, v4, v12, v13}, Lcom/transsion/motionphoto/MotionPhotoWriter;->write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)Z
 
     move-result v2
 
-    .line 280
+    .line 279
     if-eqz v2, :cond_1e9
 
     invoke-virtual {v11}, Ljava/io/File;->exists()Z
@@ -831,17 +831,17 @@
 
     if-lez v2, :cond_1e9
 
-    .line 281
+    .line 280
     invoke-virtual {v11, v9}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
     move-result v2
 
     if-eqz v2, :cond_1e3
 
-    .line 282
+    .line 281
     invoke-static {v9}, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->rescan(Ljava/io/File;)V
 
-    .line 283
+    .line 282
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -862,7 +862,7 @@
 
     move-result-object v0
 
-    .line 284
+    .line 283
     invoke-interface {v3}, Ljava/util/List;->size()I
 
     move-result v2
@@ -895,12 +895,12 @@
 
     move-result-object v0
 
-    .line 283
+    .line 282
     invoke-static {v7, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_1ff
 
-    .line 286
+    .line 285
     :cond_1e3
     const-string v0, "failed to rename finished Motion Photo into place"
 
@@ -908,7 +908,7 @@
 
     goto :goto_1ff
 
-    .line 289
+    .line 288
     :cond_1e9
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -932,36 +932,36 @@
     :try_end_1ff
     .catchall {:try_start_16b .. :try_end_1ff} :catchall_207
 
-    .line 292
+    .line 291
     :goto_1ff
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
-    .line 293
+    .line 292
     invoke-virtual {v11}, Ljava/io/File;->delete()Z
 
-    .line 294
+    .line 293
     nop
 
-    .line 295
+    .line 294
     return-void
 
-    .line 292
+    .line 291
     :catchall_207
     move-exception v0
 
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
-    .line 293
+    .line 292
     invoke-virtual {v11}, Ljava/io/File;->delete()Z
 
-    .line 294
+    .line 293
     throw v0
 .end method
 
 .method private static isKey(Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;)Z
     .registers 2
 
-    .line 193
+    .line 192
     iget-object p0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
     iget p0, p0, Landroid/media/MediaCodec$BufferInfo;->flags:I
@@ -1004,7 +1004,7 @@
         }
     .end annotation
 
-    .line 343
+    .line 342
     new-instance v1, Landroid/media/MediaMuxer;
 
     invoke-virtual {p0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
@@ -1015,16 +1015,16 @@
 
     invoke-direct {v1, p0, v0}, Landroid/media/MediaMuxer;-><init>(Ljava/lang/String;I)V
 
-    .line 346
+    .line 345
     :try_start_a
     invoke-virtual {v1, p1}, Landroid/media/MediaMuxer;->addTrack(Landroid/media/MediaFormat;)I
 
     move-result p0
 
-    .line 347
+    .line 346
     nop
 
-    .line 348
+    .line 347
     if-eqz p3, :cond_1c
 
     invoke-interface {p4}, Ljava/util/List;->isEmpty()Z
@@ -1033,24 +1033,24 @@
 
     if-nez p1, :cond_1c
 
-    .line 349
+    .line 348
     invoke-virtual {v1, p3}, Landroid/media/MediaMuxer;->addTrack(Landroid/media/MediaFormat;)I
 
     move-result p1
 
     goto :goto_1d
 
-    .line 352
+    .line 351
     :cond_1c
     const/4 p1, -0x1
 
     :goto_1d
     invoke-virtual {v1, p5}, Landroid/media/MediaMuxer;->setOrientationHint(I)V
 
-    .line 353
+    .line 352
     invoke-virtual {v1}, Landroid/media/MediaMuxer;->start()V
 
-    .line 355
+    .line 354
     invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p3
@@ -1061,7 +1061,7 @@
 
     iget-wide v2, p3, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
 
-    .line 357
+    .line 356
     move p3, v0
 
     :goto_2e
@@ -1071,19 +1071,19 @@
 
     if-ge p3, p5, :cond_5c
 
-    .line 358
+    .line 357
     invoke-interface {p2, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p5
 
     check-cast p5, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
 
-    .line 359
+    .line 358
     new-instance v4, Landroid/media/MediaCodec$BufferInfo;
 
     invoke-direct {v4}, Landroid/media/MediaCodec$BufferInfo;-><init>()V
 
-    .line 360
+    .line 359
     iget-object v5, p5, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
     iget v6, v5, Landroid/media/MediaCodec$BufferInfo;->size:I
@@ -1102,7 +1102,7 @@
 
     invoke-virtual/range {v4 .. v9}, Landroid/media/MediaCodec$BufferInfo;->set(IIJI)V
 
-    .line 361
+    .line 360
     iget-object p5, p5, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->data:[B
 
     invoke-static {p5}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
@@ -1111,16 +1111,16 @@
 
     invoke-virtual {v1, p0, p5, v4}, Landroid/media/MediaMuxer;->writeSampleData(ILjava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
-    .line 357
+    .line 356
     add-int/lit8 p3, p3, 0x1
 
     goto :goto_2e
 
-    .line 364
+    .line 363
     :cond_5c
     if-ltz p1, :cond_94
 
-    .line 365
+    .line 364
     nop
 
     :goto_5f
@@ -1130,33 +1130,33 @@
 
     if-ge v0, p0, :cond_94
 
-    .line 366
+    .line 365
     invoke-interface {p4, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p0
 
     check-cast p0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;
 
-    .line 367
+    .line 366
     iget-object p2, p0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
     iget-wide p2, p2, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
 
     sub-long v7, p2, v2
 
-    .line 368
+    .line 367
     const-wide/16 p2, 0x0
 
     cmp-long p2, v7, p2
 
     if-ltz p2, :cond_91
 
-    .line 369
+    .line 368
     new-instance v4, Landroid/media/MediaCodec$BufferInfo;
 
     invoke-direct {v4}, Landroid/media/MediaCodec$BufferInfo;-><init>()V
 
-    .line 370
+    .line 369
     iget-object p2, p0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->info:Landroid/media/MediaCodec$BufferInfo;
 
     iget v6, p2, Landroid/media/MediaCodec$BufferInfo;->size:I
@@ -1169,7 +1169,7 @@
 
     invoke-virtual/range {v4 .. v9}, Landroid/media/MediaCodec$BufferInfo;->set(IIJI)V
 
-    .line 371
+    .line 370
     iget-object p0, p0, Lcom/transsion/motionphoto/CircularSampleRecorder$Sample;->data:[B
 
     invoke-static {p0}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
@@ -1178,19 +1178,19 @@
 
     invoke-virtual {v1, p1, p0, v4}, Landroid/media/MediaMuxer;->writeSampleData(ILjava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
-    .line 365
+    .line 364
     :cond_91
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_5f
 
-    .line 376
+    .line 375
     :cond_94
     invoke-virtual {v1}, Landroid/media/MediaMuxer;->stop()V
     :try_end_97
     .catchall {:try_start_a .. :try_end_97} :catchall_9e
 
-    .line 378
+    .line 377
     :try_start_97
     invoke-virtual {v1}, Landroid/media/MediaMuxer;->release()V
     :try_end_9a
@@ -1201,14 +1201,14 @@
     :catchall_9b
     move-exception v0
 
-    .line 379
+    .line 378
     nop
 
-    .line 380
+    .line 379
     :goto_9d
     return-void
 
-    .line 378
+    .line 377
     :catchall_9e
     move-exception v0
 
@@ -1224,7 +1224,7 @@
     :catchall_a4
     move-exception v0
 
-    .line 379
+    .line 378
     :goto_a5
     throw p0
 .end method
@@ -1232,7 +1232,7 @@
 .method public static onJpegFileSaved(Ljava/lang/String;)V
     .registers 12
 
-    .line 157
+    .line 156
     :try_start_0
     sget-boolean v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->enabled:Z
 
@@ -1240,7 +1240,7 @@
 
     return-void
 
-    .line 161
+    .line 160
     :cond_5
     sget-object v1, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->LOCK:Ljava/lang/Object;
 
@@ -1248,13 +1248,13 @@
     :try_end_8
     .catchall {:try_start_0 .. :try_end_8} :catchall_5e
 
-    .line 162
+    .line 161
     :try_start_8
     sget-boolean v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->hasPending:Z
 
     if-nez v0, :cond_26
 
-    .line 163
+    .line 162
     const-string v0, "TransMotionPhotoBridge"
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1277,39 +1277,39 @@
 
     invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 164
+    .line 163
     monitor-exit v1
 
     return-void
 
-    .line 166
+    .line 165
     :cond_26
     sget-wide v6, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->pendingShutterUs:J
 
-    .line 167
+    .line 166
     sget-wide v9, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->pendingRetainKey:J
 
-    .line 168
+    .line 167
     sget v8, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->pendingRotation:I
 
-    .line 169
+    .line 168
     const/4 v0, 0x0
 
     sput-boolean v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->hasPending:Z
 
-    .line 170
+    .line 169
     monitor-exit v1
     :try_end_30
     .catchall {:try_start_8 .. :try_end_30} :catchall_5a
 
-    .line 171
+    .line 170
     :try_start_30
     sget-object v3, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->ENCODER:Lcom/transsion/motionphoto/PreviewFrameEncoder;
 
-    .line 172
+    .line 171
     sget-object v4, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->AUDIO_ENCODER:Lcom/transsion/motionphoto/AudioFrameEncoder;
 
-    .line 173
+    .line 172
     const-string v0, "TransMotionPhotoBridge"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1332,7 +1332,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 174
+    .line 173
     sget-object v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->HANDLER:Landroid/os/Handler;
 
     new-instance v2, Lcom/transsion/motionphoto/TransMotionPhotoBridge$1;
@@ -1347,10 +1347,10 @@
     :try_end_59
     .catchall {:try_start_30 .. :try_end_59} :catchall_5e
 
-    .line 189
+    .line 188
     goto :goto_67
 
-    .line 170
+    .line 169
     :catchall_5a
     move-exception v0
 
@@ -1366,20 +1366,20 @@
     :try_end_5e
     .catchall {:try_start_5d .. :try_end_5e} :catchall_5e
 
-    .line 187
+    .line 186
     :catchall_5e
     move-exception v0
 
     move-object p0, v0
 
-    .line 188
+    .line 187
     const-string v0, "TransMotionPhotoBridge"
 
     const-string v1, "onJpegFileSaved"
 
     invoke-static {v0, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 190
+    .line 189
     :goto_67
     return-void
 .end method
@@ -1399,7 +1399,7 @@
     .line 102
     return-void
 
-    .line 106
+    .line 105
     :cond_8
     sget-object v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->HANDLER:Landroid/os/Handler;
 
@@ -1407,7 +1407,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 107
+    .line 106
     sget-object v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->HANDLER:Landroid/os/Handler;
 
     sget-object v1, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->WATCHDOG_RUNNABLE:Ljava/lang/Runnable;
@@ -1416,10 +1416,10 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 109
+    .line 108
     sget-object v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->ENCODER:Lcom/transsion/motionphoto/PreviewFrameEncoder;
 
-    .line 110
+    .line 109
     invoke-virtual {v0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->isRunning()Z
 
     move-result v1
@@ -1428,14 +1428,14 @@
 
     invoke-virtual {v0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->start()V
 
-    .line 111
+    .line 110
     :cond_23
     invoke-virtual {v0, p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->onImage(Landroid/media/Image;)V
 
-    .line 113
+    .line 112
     sget-object p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->AUDIO_ENCODER:Lcom/transsion/motionphoto/AudioFrameEncoder;
 
-    .line 114
+    .line 113
     invoke-virtual {p0}, Lcom/transsion/motionphoto/AudioFrameEncoder;->isRunning()Z
 
     move-result v0
@@ -1446,22 +1446,22 @@
     :try_end_31
     .catchall {:try_start_0 .. :try_end_31} :catchall_32
 
-    .line 117
+    .line 116
     :cond_31
     goto :goto_3a
 
-    .line 115
+    .line 114
     :catchall_32
     move-exception p0
 
-    .line 116
+    .line 115
     const-string v0, "TransMotionPhotoBridge"
 
     const-string v1, "onPreviewImage"
 
     invoke-static {v0, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 118
+    .line 117
     :goto_3a
     return-void
 .end method
@@ -1469,7 +1469,7 @@
 .method public static onShutterCaptured(Landroid/hardware/camera2/TotalCaptureResult;)V
     .registers 12
 
-    .line 122
+    .line 121
     :try_start_0
     sget-boolean v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->enabled:Z
 
@@ -1477,11 +1477,11 @@
 
     return-void
 
-    .line 123
+    .line 122
     :cond_5
     sget-object v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->ENCODER:Lcom/transsion/motionphoto/PreviewFrameEncoder;
 
-    .line 124
+    .line 123
     invoke-virtual {v0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->isRunning()Z
 
     move-result v1
@@ -1490,7 +1490,7 @@
 
     return-void
 
-    .line 126
+    .line 125
     :cond_e
     invoke-virtual {p0}, Landroid/hardware/camera2/TotalCaptureResult;->getRequest()Landroid/hardware/camera2/CaptureRequest;
 
@@ -1504,7 +1504,7 @@
 
     check-cast v1, Ljava/lang/Integer;
 
-    .line 127
+    .line 126
     const/4 v2, 0x1
 
     if-eqz v1, :cond_24
@@ -1517,7 +1517,7 @@
 
     return-void
 
-    .line 129
+    .line 128
     :cond_24
     sget-object v3, Landroid/hardware/camera2/CaptureResult;->SENSOR_TIMESTAMP:Landroid/hardware/camera2/CaptureResult$Key;
 
@@ -1527,12 +1527,12 @@
 
     check-cast v3, Ljava/lang/Long;
 
-    .line 130
+    .line 129
     if-nez v3, :cond_2f
 
     return-void
 
-    .line 131
+    .line 130
     :cond_2f
     invoke-virtual {v3}, Ljava/lang/Long;->longValue()J
 
@@ -1542,12 +1542,12 @@
 
     div-long/2addr v3, v5
 
-    .line 132
+    .line 131
     const-wide/32 v5, 0x2932e0
 
     sub-long v5, v3, v5
 
-    .line 134
+    .line 133
     invoke-virtual {p0}, Landroid/hardware/camera2/TotalCaptureResult;->getRequest()Landroid/hardware/camera2/CaptureRequest;
 
     move-result-object p0
@@ -1560,7 +1560,7 @@
 
     check-cast p0, Ljava/lang/Integer;
 
-    .line 135
+    .line 134
     if-eqz p0, :cond_4e
 
     invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
@@ -1572,7 +1572,7 @@
     :cond_4e
     const/4 p0, -0x1
 
-    .line 137
+    .line 136
     :goto_4f
     sget-object v7, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->LOCK:Ljava/lang/Object;
 
@@ -1580,51 +1580,51 @@
     :try_end_52
     .catchall {:try_start_0 .. :try_end_52} :catchall_a9
 
-    .line 138
+    .line 137
     :try_start_52
     sget-boolean v8, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->hasPending:Z
 
     if-eqz v8, :cond_62
 
-    .line 139
+    .line 138
     sget-wide v8, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->pendingRetainKey:J
 
     invoke-virtual {v0, v8, v9}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->releaseRetention(J)V
 
-    .line 140
+    .line 139
     sget-object v8, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->AUDIO_ENCODER:Lcom/transsion/motionphoto/AudioFrameEncoder;
 
     sget-wide v9, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->pendingRetainKey:J
 
     invoke-virtual {v8, v9, v10}, Lcom/transsion/motionphoto/AudioFrameEncoder;->releaseRetention(J)V
 
-    .line 142
+    .line 141
     :cond_62
     invoke-virtual {v0, v5, v6}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->retainFrom(J)V
 
-    .line 143
+    .line 142
     sget-object v0, Lcom/transsion/motionphoto/TransMotionPhotoBridge$Holder;->AUDIO_ENCODER:Lcom/transsion/motionphoto/AudioFrameEncoder;
 
     invoke-virtual {v0, v5, v6}, Lcom/transsion/motionphoto/AudioFrameEncoder;->retainFrom(J)V
 
-    .line 144
+    .line 143
     sput-wide v3, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->pendingShutterUs:J
 
-    .line 145
+    .line 144
     sput-wide v5, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->pendingRetainKey:J
 
-    .line 146
+    .line 145
     sput p0, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->pendingRotation:I
 
-    .line 147
+    .line 146
     sput-boolean v2, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->hasPending:Z
 
-    .line 148
+    .line 147
     monitor-exit v7
     :try_end_73
     .catchall {:try_start_52 .. :try_end_73} :catchall_a6
 
-    .line 149
+    .line 148
     :try_start_73
     const-string v0, "TransMotionPhotoBridge"
 
@@ -1676,10 +1676,10 @@
     :try_end_a5
     .catchall {:try_start_73 .. :try_end_a5} :catchall_a9
 
-    .line 152
+    .line 151
     goto :goto_b1
 
-    .line 148
+    .line 147
     :catchall_a6
     move-exception p0
 
@@ -1693,18 +1693,18 @@
     :try_end_a9
     .catchall {:try_start_a8 .. :try_end_a9} :catchall_a9
 
-    .line 150
+    .line 149
     :catchall_a9
     move-exception p0
 
-    .line 151
+    .line 150
     const-string v0, "TransMotionPhotoBridge"
 
     const-string v1, "onShutterCaptured"
 
     invoke-static {v0, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 153
+    .line 152
     :goto_b1
     return-void
 .end method
@@ -1712,7 +1712,7 @@
 .method private static readRotationDegrees(Ljava/lang/String;)I
     .registers 5
 
-    .line 384
+    .line 383
     const/4 v0, 0x0
 
     :try_start_1
@@ -1720,7 +1720,7 @@
 
     invoke-direct {v1, p0}, Landroid/media/ExifInterface;-><init>(Ljava/lang/String;)V
 
-    .line 385
+    .line 384
     const-string v2, "Orientation"
 
     const/4 v3, 0x1
@@ -1731,35 +1731,35 @@
     :try_end_d
     .catchall {:try_start_1 .. :try_end_d} :catchall_1a
 
-    .line 387
+    .line 386
     packed-switch p0, :pswitch_data_3a
 
-    .line 398
+    .line 397
     return v0
 
-    .line 396
+    .line 395
     :pswitch_11
     const/16 p0, 0x10e
 
     return p0
 
-    .line 390
+    .line 389
     :pswitch_14
     const/16 p0, 0x5a
 
     return p0
 
-    .line 393
+    .line 392
     :pswitch_17
     const/16 p0, 0xb4
 
     return p0
 
-    .line 400
+    .line 399
     :catchall_1a
     move-exception v1
 
-    .line 401
+    .line 400
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1788,7 +1788,7 @@
 
     invoke-static {v2, p0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 402
+    .line 401
     return v0
 
     :pswitch_data_3a
@@ -1805,17 +1805,17 @@
 .method private static rescan(Ljava/io/File;)V
     .registers 4
 
-    .line 407
+    .line 406
     invoke-static {}, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->currentApplication()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 408
+    .line 407
     if-nez v0, :cond_7
 
     return-void
 
-    .line 409
+    .line 408
     :cond_7
     invoke-virtual {p0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
@@ -1835,23 +1835,23 @@
 
     invoke-static {v0, p0, v1, v2}, Landroid/media/MediaScannerConnection;->scanFile(Landroid/content/Context;[Ljava/lang/String;[Ljava/lang/String;Landroid/media/MediaScannerConnection$OnScanCompletedListener;)V
 
-    .line 411
+    .line 410
     return-void
 .end method
 
 .method private static saveToSharedPreferences(Ljava/lang/String;)V
     .registers 4
 
-    .line 426
+    .line 425
     :try_start_0
     invoke-static {}, Lcom/transsion/motionphoto/TransMotionPhotoBridge;->currentApplication()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 427
+    .line 426
     if-eqz v0, :cond_1a
 
-    .line 428
+    .line 427
     const-string v1, "transsion_motion_photo_prefs"
 
     const/4 v2, 0x0
@@ -1860,7 +1860,7 @@
 
     move-result-object v0
 
-    .line 429
+    .line 428
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
@@ -1871,26 +1871,26 @@
 
     move-result-object p0
 
-    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->commit()Z
     :try_end_1a
     .catchall {:try_start_0 .. :try_end_1a} :catchall_1b
 
-    .line 433
+    .line 432
     :cond_1a
     goto :goto_23
 
-    .line 431
+    .line 430
     :catchall_1b
     move-exception p0
 
-    .line 432
+    .line 431
     const-string v0, "TransMotionPhotoBridge"
 
     const-string v1, "saveToSharedPreferences error"
 
     invoke-static {v0, v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 434
+    .line 433
     :goto_23
     return-void
 .end method
@@ -1906,7 +1906,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "Motion Photo durumu g\u00fcncellendi: enabled = "
+    const-string v1, "Motion Photo status updated: enabled = "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1959,7 +1959,7 @@
     move-exception p0
 
     .line 58
-    const-string v0, "Enkodeler durdurulurken hata"
+    const-string v0, "Error stopping encoders"
 
     invoke-static {v1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
@@ -2021,7 +2021,7 @@
     .line 72
     const-string v1, "TransMotionPhotoBridge"
 
-    const-string v2, "stopEncoders hatas\u0131"
+    const-string v2, "stopEncoders error"
 
     invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 

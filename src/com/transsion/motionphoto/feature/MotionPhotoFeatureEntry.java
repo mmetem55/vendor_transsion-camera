@@ -18,7 +18,7 @@ public class MotionPhotoFeatureEntry extends FeatureEntryBase {
     @Override
     public Object createFeature() {
         if (mSettingBase == null) {
-            mSettingBase = new MotionPhotoSetting();
+            mSettingBase = new MotionPhotoSetting(mContext);
         }
         return mSettingBase;
     }

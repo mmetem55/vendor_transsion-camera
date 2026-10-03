@@ -21,22 +21,24 @@
 
 # virtual methods
 .method public createFeature()Ljava/lang/Object;
-    .registers 2
+    .registers 3
 
     .line 20
     iget-object v0, p0, Lcom/transsion/motionphoto/feature/MotionPhotoFeatureEntry;->mSettingBase:Lcom/transsion/camera/app/common/setting/SettingBase;
 
-    if-nez v0, :cond_b
+    if-nez v0, :cond_d
 
     .line 21
     new-instance v0, Lcom/transsion/motionphoto/feature/MotionPhotoSetting;
 
-    invoke-direct {v0}, Lcom/transsion/motionphoto/feature/MotionPhotoSetting;-><init>()V
+    iget-object v1, p0, Lcom/transsion/motionphoto/feature/MotionPhotoFeatureEntry;->mContext:Landroid/content/Context;
+
+    invoke-direct {v0, v1}, Lcom/transsion/motionphoto/feature/MotionPhotoSetting;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/transsion/motionphoto/feature/MotionPhotoFeatureEntry;->mSettingBase:Lcom/transsion/camera/app/common/setting/SettingBase;
 
     .line 23
-    :cond_b
+    :cond_d
     iget-object v0, p0, Lcom/transsion/motionphoto/feature/MotionPhotoFeatureEntry;->mSettingBase:Lcom/transsion/camera/app/common/setting/SettingBase;
 
     return-object v0

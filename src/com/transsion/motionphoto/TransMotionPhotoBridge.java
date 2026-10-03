@@ -1,7 +1,3 @@
-/*
- * Ported from PhotonCamera (https://github.com/bjzhou/PhotonCamera), Apache-2.0.
-*/
-
 package com.transsion.motionphoto;
 
 import android.app.Application;
@@ -59,7 +55,7 @@ public final class TransMotionPhotoBridge {
                 stopEncoders();
             }
         } catch (Throwable t) {
-            Log.e(TAG, "Error while stopping encoders, t);
+            Log.e(TAG, "Error stopping encoders", t);
         }
     }
 
@@ -429,7 +425,7 @@ public final class TransMotionPhotoBridge {
             Context ctx = currentApplication();
             if (ctx != null) {
                 SharedPreferences sp = ctx.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
-                sp.edit().putString(SETTING_KEY, value).apply();
+                sp.edit().putString(SETTING_KEY, value).commit();
             }
         } catch (Throwable t) {
             Log.w(TAG, "saveToSharedPreferences error", t);

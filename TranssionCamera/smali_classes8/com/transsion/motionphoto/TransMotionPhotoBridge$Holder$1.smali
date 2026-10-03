@@ -35,7 +35,7 @@
     .line 86
     const-string v0, "TransMotionPhotoBridge"
 
-    const-string v1, "Preview yayini durdu (kamera arka plana alindi), mikrofon ve enkodeler kapatiliyor"
+    const-string v1, "Preview broadcast stopped; microphone and encoders are being turned off."
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 

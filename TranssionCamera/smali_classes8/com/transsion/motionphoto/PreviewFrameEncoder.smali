@@ -61,31 +61,31 @@
 .method public constructor <init>(JJII)V
     .registers 9
 
-    .line 60
+    .line 55
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 51
+    .line 46
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encWidth:I
 
-    .line 52
+    .line 47
     iput v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encHeight:I
 
-    .line 53
+    .line 48
     iput-boolean v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->warnedBadSize:Z
 
-    .line 54
+    .line 49
     iput-boolean v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->gaveUp:Z
 
-    .line 56
+    .line 51
     new-instance v1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-direct {v1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     iput-object v1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->running:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 57
+    .line 52
     new-instance v0, Ljava/util/concurrent/LinkedBlockingQueue;
 
     const/16 v1, 0x8
@@ -94,13 +94,13 @@
 
     iput-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->frameQueue:Ljava/util/concurrent/LinkedBlockingQueue;
 
-    .line 61
+    .line 56
     iput p5, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->frameRateHz:I
 
-    .line 62
+    .line 57
     iput p6, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->bitRate:I
 
-    .line 63
+    .line 58
     new-instance p5, Lcom/transsion/motionphoto/CircularSampleRecorder;
 
     add-long/2addr p1, p3
@@ -113,14 +113,14 @@
 
     iput-object p5, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->circularBuffer:Lcom/transsion/motionphoto/CircularSampleRecorder;
 
-    .line 64
+    .line 59
     return-void
 .end method
 
 .method static synthetic access$000(Lcom/transsion/motionphoto/PreviewFrameEncoder;)V
     .registers 1
 
-    .line 24
+    .line 19
     invoke-direct {p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->workerLoop()V
 
     return-void
@@ -129,21 +129,21 @@
 .method private drainEncoder()V
     .registers 8
 
-    .line 211
+    .line 206
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encoder:Landroid/media/MediaCodec;
 
-    .line 212
+    .line 207
     if-nez v0, :cond_5
 
     return-void
 
-    .line 213
+    .line 208
     :cond_5
     new-instance v1, Landroid/media/MediaCodec$BufferInfo;
 
     invoke-direct {v1}, Landroid/media/MediaCodec$BufferInfo;-><init>()V
 
-    .line 215
+    .line 210
     :goto_a
     const-wide/16 v2, 0x0
 
@@ -151,12 +151,12 @@
 
     move-result v2
 
-    .line 216
+    .line 211
     const/4 v3, -0x2
 
     if-ne v2, v3, :cond_1a
 
-    .line 217
+    .line 212
     invoke-virtual {v0}, Landroid/media/MediaCodec;->getOutputFormat()Landroid/media/MediaFormat;
 
     move-result-object v2
@@ -165,25 +165,25 @@
 
     goto :goto_3e
 
-    .line 218
+    .line 213
     :cond_1a
     const/4 v3, -0x1
 
     if-ne v2, v3, :cond_1e
 
-    .line 219
+    .line 214
     return-void
 
-    .line 220
+    .line 215
     :cond_1e
     if-ltz v2, :cond_3e
 
-    .line 221
+    .line 216
     invoke-virtual {v0, v2}, Landroid/media/MediaCodec;->getOutputBuffer(I)Ljava/nio/ByteBuffer;
 
     move-result-object v3
 
-    .line 222
+    .line 217
     iget v4, v1, Landroid/media/MediaCodec$BufferInfo;->flags:I
 
     and-int/lit8 v4, v4, 0x2
@@ -199,7 +199,7 @@
     :cond_2d
     move v4, v5
 
-    .line 223
+    .line 218
     :goto_2e
     if-eqz v3, :cond_3b
 
@@ -209,16 +209,16 @@
 
     if-nez v4, :cond_3b
 
-    .line 224
+    .line 219
     iget-object v4, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->circularBuffer:Lcom/transsion/motionphoto/CircularSampleRecorder;
 
     invoke-virtual {v4, v3, v1}, Lcom/transsion/motionphoto/CircularSampleRecorder;->addSample(Ljava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
-    .line 226
+    .line 221
     :cond_3b
     invoke-virtual {v0, v2, v5}, Landroid/media/MediaCodec;->releaseOutputBuffer(IZ)V
 
-    .line 228
+    .line 223
     :cond_3e
     :goto_3e
     goto :goto_a
@@ -232,7 +232,7 @@
         }
     .end annotation
 
-    .line 174
+    .line 169
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encoder:Landroid/media/MediaCodec;
 
     if-eqz v0, :cond_d
@@ -247,68 +247,68 @@
 
     return-void
 
-    .line 175
+    .line 170
     :cond_d
     invoke-direct {p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->releaseEncoder()V
 
-    .line 177
+    .line 172
     const-string v0, "video/avc"
 
     invoke-static {v0, p1, p2}, Landroid/media/MediaFormat;->createVideoFormat(Ljava/lang/String;II)Landroid/media/MediaFormat;
 
     move-result-object v1
 
-    .line 178
+    .line 173
     const-string v2, "color-format"
 
     const/16 v3, 0x15
 
     invoke-virtual {v1, v2, v3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 180
+    .line 175
     const-string v2, "bitrate"
 
     iget v3, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->bitRate:I
 
     invoke-virtual {v1, v2, v3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 181
+    .line 176
     const-string v2, "frame-rate"
 
     iget v3, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->frameRateHz:I
 
     invoke-virtual {v1, v2, v3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 182
+    .line 177
     const-string v2, "i-frame-interval"
 
     const/4 v3, 0x1
 
     invoke-virtual {v1, v2, v3}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
-    .line 184
+    .line 179
     invoke-static {v0}, Landroid/media/MediaCodec;->createEncoderByType(Ljava/lang/String;)Landroid/media/MediaCodec;
 
     move-result-object v0
 
-    .line 185
+    .line 180
     const/4 v2, 0x0
 
     invoke-virtual {v0, v1, v2, v2, v3}, Landroid/media/MediaCodec;->configure(Landroid/media/MediaFormat;Landroid/view/Surface;Landroid/media/MediaCrypto;I)V
 
-    .line 186
+    .line 181
     invoke-virtual {v0}, Landroid/media/MediaCodec;->start()V
 
-    .line 187
+    .line 182
     iput-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encoder:Landroid/media/MediaCodec;
 
-    .line 188
+    .line 183
     iput p1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encWidth:I
 
-    .line 189
+    .line 184
     iput p2, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encHeight:I
 
-    .line 190
+    .line 185
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -341,22 +341,22 @@
 
     invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 191
+    .line 186
     return-void
 .end method
 
 .method private feedEncoder(Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;)V
     .registers 9
 
-    .line 194
+    .line 189
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encoder:Landroid/media/MediaCodec;
 
-    .line 195
+    .line 190
     if-nez v0, :cond_5
 
     return-void
 
-    .line 196
+    .line 191
     :cond_5
     const-wide/16 v1, 0x2710
 
@@ -364,27 +364,27 @@
 
     move-result v1
 
-    .line 197
+    .line 192
     if-gez v1, :cond_e
 
     return-void
 
-    .line 198
+    .line 193
     :cond_e
     invoke-virtual {v0, v1}, Landroid/media/MediaCodec;->getInputBuffer(I)Ljava/nio/ByteBuffer;
 
     move-result-object v2
 
-    .line 199
+    .line 194
     if-nez v2, :cond_15
 
     return-void
 
-    .line 200
+    .line 195
     :cond_15
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
-    .line 201
+    .line 196
     invoke-virtual {v2}, Ljava/nio/ByteBuffer;->remaining()I
 
     move-result v3
@@ -395,7 +395,7 @@
 
     if-ge v3, v4, :cond_59
 
-    .line 202
+    .line 197
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -442,7 +442,7 @@
 
     invoke-static {v3, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 203
+    .line 198
     iget-wide v4, p1, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;->timestampUs:J
 
     const/4 v6, 0x0
@@ -453,16 +453,16 @@
 
     invoke-virtual/range {v0 .. v6}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
 
-    .line 204
+    .line 199
     return-void
 
-    .line 206
+    .line 201
     :cond_59
     iget-object v3, p1, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;->nv12:[B
 
     invoke-virtual {v2, v3}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
-    .line 207
+    .line 202
     iget-object v2, p1, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;->nv12:[B
 
     array-length v3, v2
@@ -475,20 +475,20 @@
 
     invoke-virtual/range {v0 .. v6}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
 
-    .line 208
+    .line 203
     return-void
 .end method
 
 .method private releaseEncoder()V
     .registers 3
 
-    .line 232
+    .line 227
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encoder:Landroid/media/MediaCodec;
 
-    .line 233
+    .line 228
     if-eqz v0, :cond_e
 
-    .line 234
+    .line 229
     :try_start_4
     invoke-virtual {v0}, Landroid/media/MediaCodec;->stop()V
     :try_end_7
@@ -499,7 +499,7 @@
     :catchall_8
     move-exception v1
 
-    .line 235
+    .line 230
     :goto_9
     :try_start_9
     invoke-virtual {v0}, Landroid/media/MediaCodec;->release()V
@@ -511,34 +511,34 @@
     :catchall_d
     move-exception v0
 
-    .line 237
+    .line 232
     :cond_e
     :goto_e
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encoder:Landroid/media/MediaCodec;
 
-    .line 238
+    .line 233
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encWidth:I
 
-    .line 239
+    .line 234
     iput v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encHeight:I
 
-    .line 240
+    .line 235
     return-void
 .end method
 
 .method private workerLoop()V
     .registers 7
 
-    .line 142
+    .line 137
     const/4 v0, 0x0
 
     move v1, v0
 
-    .line 143
+    .line 138
     :goto_2
     iget-object v2, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->running:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -548,7 +548,7 @@
 
     if-eqz v2, :cond_55
 
-    .line 146
+    .line 141
     :try_start_a
     iget-object v2, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->frameQueue:Ljava/util/concurrent/LinkedBlockingQueue;
 
@@ -564,15 +564,15 @@
     :try_end_16
     .catch Ljava/lang/InterruptedException; {:try_start_a .. :try_end_16} :catch_53
 
-    .line 149
+    .line 144
     nop
 
-    .line 150
+    .line 145
     if-nez v2, :cond_1a
 
     goto :goto_2
 
-    .line 152
+    .line 147
     :cond_1a
     :try_start_1a
     iget v3, v2, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;->width:I
@@ -581,85 +581,85 @@
 
     invoke-direct {p0, v3, v4}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->ensureEncoder(II)V
 
-    .line 153
+    .line 148
     invoke-direct {p0, v2}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->feedEncoder(Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;)V
 
-    .line 154
+    .line 149
     invoke-direct {p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->drainEncoder()V
     :try_end_27
     .catchall {:try_start_1a .. :try_end_27} :catchall_2a
 
-    .line 155
+    .line 150
     nop
 
-    .line 168
+    .line 163
     move v1, v0
 
     goto :goto_52
 
-    .line 156
+    .line 151
     :catchall_2a
     move-exception v2
 
-    .line 157
+    .line 152
     const-string v3, "encode loop error"
 
     const-string v4, "PreviewFrameEncoder"
 
     invoke-static {v4, v3, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 158
+    .line 153
     invoke-direct {p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->releaseEncoder()V
 
-    .line 159
+    .line 154
     add-int/lit8 v1, v1, 0x1
 
-    .line 160
+    .line 155
     const/4 v2, 0x5
 
     if-lt v1, v2, :cond_52
 
-    .line 161
+    .line 156
     const-string v1, "too many consecutive failures, Motion Photo encoder disabled"
 
     invoke-static {v4, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 162
+    .line 157
     const/4 v1, 0x1
 
     iput-boolean v1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->gaveUp:Z
 
-    .line 163
+    .line 158
     iget-object v1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->running:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 164
+    .line 159
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->circularBuffer:Lcom/transsion/motionphoto/CircularSampleRecorder;
 
     invoke-virtual {v0}, Lcom/transsion/motionphoto/CircularSampleRecorder;->stopRecording()V
 
-    .line 165
+    .line 160
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->frameQueue:Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-virtual {v0}, Ljava/util/concurrent/LinkedBlockingQueue;->clear()V
 
-    .line 166
+    .line 161
     goto :goto_55
 
-    .line 169
+    .line 164
     :cond_52
     :goto_52
     goto :goto_2
 
-    .line 147
+    .line 142
     :catch_53
     move-exception v0
 
-    .line 148
+    .line 143
     nop
 
-    .line 170
+    .line 165
     :cond_55
     :goto_55
     return-void
@@ -668,17 +668,17 @@
 .method private static yuv420888ToNv12(Landroid/media/Image;)[B
     .registers 18
 
-    .line 243
+    .line 238
     invoke-virtual/range {p0 .. p0}, Landroid/media/Image;->getWidth()I
 
     move-result v0
 
-    .line 244
+    .line 239
     invoke-virtual/range {p0 .. p0}, Landroid/media/Image;->getHeight()I
 
     move-result v1
 
-    .line 245
+    .line 240
     mul-int v2, v0, v1
 
     mul-int/lit8 v2, v2, 0x3
@@ -689,28 +689,28 @@
 
     new-array v2, v2, [B
 
-    .line 247
+    .line 242
     invoke-virtual/range {p0 .. p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
 
     move-result-object v4
 
-    .line 248
+    .line 243
     const/4 v5, 0x0
 
     aget-object v6, v4, v5
 
-    .line 249
+    .line 244
     const/4 v7, 0x1
 
     aget-object v8, v4, v7
 
-    .line 250
+    .line 245
     aget-object v4, v4, v3
 
-    .line 252
+    .line 247
     nop
 
-    .line 253
+    .line 248
     invoke-virtual {v6}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
 
     move-result-object v9
@@ -719,17 +719,17 @@
 
     move-result-object v9
 
-    .line 254
+    .line 249
     invoke-virtual {v6}, Landroid/media/Image$Plane;->getRowStride()I
 
     move-result v10
 
-    .line 255
+    .line 250
     invoke-virtual {v6}, Landroid/media/Image$Plane;->getPixelStride()I
 
     move-result v6
 
-    .line 256
+    .line 251
     move v11, v5
 
     move v12, v11
@@ -737,31 +737,31 @@
     :goto_2f
     if-ge v11, v1, :cond_50
 
-    .line 257
+    .line 252
     mul-int v13, v11, v10
 
-    .line 258
+    .line 253
     if-ne v6, v7, :cond_3d
 
-    .line 259
+    .line 254
     invoke-virtual {v9, v13}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
-    .line 260
+    .line 255
     invoke-virtual {v9, v2, v12, v0}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
-    .line 261
+    .line 256
     add-int/2addr v12, v0
 
     goto :goto_4d
 
-    .line 263
+    .line 258
     :cond_3d
     move v14, v5
 
     :goto_3e
     if-ge v14, v0, :cond_4d
 
-    .line 264
+    .line 259
     add-int/lit8 v15, v12, 0x1
 
     invoke-virtual {v9, v13}, Ljava/nio/ByteBuffer;->get(I)B
@@ -770,31 +770,31 @@
 
     aput-byte v16, v2, v12
 
-    .line 265
+    .line 260
     add-int/2addr v13, v6
 
-    .line 263
+    .line 258
     add-int/lit8 v14, v14, 0x1
 
     move v12, v15
 
     goto :goto_3e
 
-    .line 256
+    .line 251
     :cond_4d
     :goto_4d
     add-int/lit8 v11, v11, 0x1
 
     goto :goto_2f
 
-    .line 270
+    .line 265
     :cond_50
     div-int/2addr v1, v3
 
-    .line 271
+    .line 266
     div-int/2addr v0, v3
 
-    .line 272
+    .line 267
     invoke-virtual {v8}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
 
     move-result-object v3
@@ -803,7 +803,7 @@
 
     move-result-object v3
 
-    .line 273
+    .line 268
     invoke-virtual {v4}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
 
     move-result-object v6
@@ -812,45 +812,45 @@
 
     move-result-object v6
 
-    .line 274
+    .line 269
     invoke-virtual {v8}, Landroid/media/Image$Plane;->getRowStride()I
 
     move-result v7
 
-    .line 275
+    .line 270
     invoke-virtual {v8}, Landroid/media/Image$Plane;->getPixelStride()I
 
     move-result v8
 
-    .line 276
+    .line 271
     invoke-virtual {v4}, Landroid/media/Image$Plane;->getRowStride()I
 
     move-result v9
 
-    .line 277
+    .line 272
     invoke-virtual {v4}, Landroid/media/Image$Plane;->getPixelStride()I
 
     move-result v4
 
-    .line 279
+    .line 274
     move v10, v5
 
     :goto_73
     if-ge v10, v1, :cond_94
 
-    .line 280
+    .line 275
     mul-int v11, v10, v7
 
-    .line 281
+    .line 276
     mul-int v13, v10, v9
 
-    .line 282
+    .line 277
     move v14, v5
 
     :goto_7a
     if-ge v14, v0, :cond_91
 
-    .line 283
+    .line 278
     add-int/lit8 v15, v12, 0x1
 
     invoke-virtual {v3, v11}, Ljava/nio/ByteBuffer;->get(I)B
@@ -859,7 +859,7 @@
 
     aput-byte v16, v2, v12
 
-    .line 284
+    .line 279
     add-int/lit8 v12, v15, 0x1
 
     invoke-virtual {v6, v13}, Ljava/nio/ByteBuffer;->get(I)B
@@ -868,24 +868,24 @@
 
     aput-byte v16, v2, v15
 
-    .line 285
+    .line 280
     add-int/2addr v11, v8
 
-    .line 286
+    .line 281
     add-int/2addr v13, v4
 
-    .line 282
+    .line 277
     add-int/lit8 v14, v14, 0x1
 
     goto :goto_7a
 
-    .line 279
+    .line 274
     :cond_91
     add-int/lit8 v10, v10, 0x1
 
     goto :goto_73
 
-    .line 289
+    .line 284
     :cond_94
     return-object v2
 .end method
@@ -903,7 +903,7 @@
         }
     .end annotation
 
-    .line 130
+    .line 125
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->circularBuffer:Lcom/transsion/motionphoto/CircularSampleRecorder;
 
     invoke-virtual {v0}, Lcom/transsion/motionphoto/CircularSampleRecorder;->snapshot()Ljava/util/List;
@@ -916,7 +916,7 @@
 .method public getEncHeight()I
     .registers 2
 
-    .line 71
+    .line 66
     iget v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encHeight:I
 
     return v0
@@ -925,7 +925,7 @@
 .method public getEncWidth()I
     .registers 2
 
-    .line 67
+    .line 62
     iget v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->encWidth:I
 
     return v0
@@ -934,7 +934,7 @@
 .method public isRunning()Z
     .registers 2
 
-    .line 100
+    .line 95
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->running:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -947,7 +947,7 @@
 .method public onImage(Landroid/media/Image;)V
     .registers 12
 
-    .line 104
+    .line 99
     const-string v1, "PreviewFrameEncoder"
 
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->running:Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -960,19 +960,19 @@
 
     return-void
 
-    .line 106
+    .line 101
     :cond_b
     :try_start_b
     invoke-virtual {p1}, Landroid/media/Image;->getWidth()I
 
     move-result v4
 
-    .line 107
+    .line 102
     invoke-virtual {p1}, Landroid/media/Image;->getHeight()I
 
     move-result v5
 
-    .line 108
+    .line 103
     mul-int v0, v4, v5
 
     const v2, 0x1fe000
@@ -989,13 +989,13 @@
 
     goto :goto_41
 
-    .line 115
+    .line 110
     :cond_23
     invoke-static {p1}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->yuv420888ToNv12(Landroid/media/Image;)[B
 
     move-result-object v3
 
-    .line 116
+    .line 111
     new-instance v2, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;
 
     invoke-virtual {p1}, Landroid/media/Image;->getTimestamp()J
@@ -1008,7 +1008,7 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/transsion/motionphoto/PreviewFrameEncoder$RawFrame;-><init>([BIIJ)V
 
-    .line 117
+    .line 112
     iget-object p1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->frameQueue:Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-virtual {p1, v2}, Ljava/util/concurrent/LinkedBlockingQueue;->offer(Ljava/lang/Object;)Z
@@ -1017,28 +1017,28 @@
 
     if-nez p1, :cond_40
 
-    .line 118
+    .line 113
     const-string p1, "frame queue full, dropping frame"
 
     invoke-static {v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 122
+    .line 117
     :cond_40
     goto :goto_76
 
-    .line 109
+    .line 104
     :cond_41
     :goto_41
     iget-boolean p1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->warnedBadSize:Z
 
     if-nez p1, :cond_6e
 
-    .line 110
+    .line 105
     const/4 p1, 0x1
 
     iput-boolean p1, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->warnedBadSize:Z
 
-    .line 111
+    .line 106
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1077,22 +1077,22 @@
     :try_end_6e
     .catchall {:try_start_b .. :try_end_6e} :catchall_6f
 
-    .line 113
+    .line 108
     :cond_6e
     return-void
 
-    .line 120
+    .line 115
     :catchall_6f
     move-exception v0
 
     move-object p1, v0
 
-    .line 121
+    .line 116
     const-string v0, "onImage failed"
 
     invoke-static {v1, v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 123
+    .line 118
     :goto_76
     return-void
 .end method
@@ -1100,24 +1100,24 @@
 .method public releaseRetention(J)V
     .registers 4
 
-    .line 138
+    .line 133
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->circularBuffer:Lcom/transsion/motionphoto/CircularSampleRecorder;
 
     invoke-virtual {v0, p1, p2}, Lcom/transsion/motionphoto/CircularSampleRecorder;->releaseRetention(J)V
 
-    .line 139
+    .line 134
     return-void
 .end method
 
 .method public retainFrom(J)V
     .registers 4
 
-    .line 134
+    .line 129
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->circularBuffer:Lcom/transsion/motionphoto/CircularSampleRecorder;
 
     invoke-virtual {v0, p1, p2}, Lcom/transsion/motionphoto/CircularSampleRecorder;->retainFrom(J)V
 
-    .line 135
+    .line 130
     return-void
 .end method
 
@@ -1126,7 +1126,7 @@
 
     monitor-enter p0
 
-    .line 75
+    .line 70
     :try_start_1
     iget-boolean v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->gaveUp:Z
     :try_end_3
@@ -1138,7 +1138,7 @@
 
     return-void
 
-    .line 76
+    .line 71
     :cond_7
     :try_start_7
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->running:Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -1157,14 +1157,14 @@
 
     return-void
 
-    .line 77
+    .line 72
     :cond_12
     :try_start_12
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->circularBuffer:Lcom/transsion/motionphoto/CircularSampleRecorder;
 
     invoke-virtual {v0}, Lcom/transsion/motionphoto/CircularSampleRecorder;->startRecording()V
 
-    .line 78
+    .line 73
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v2, Lcom/transsion/motionphoto/PreviewFrameEncoder$1;
@@ -1177,17 +1177,17 @@
 
     iput-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->worker:Ljava/lang/Thread;
 
-    .line 84
+    .line 79
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->worker:Ljava/lang/Thread;
 
     invoke-virtual {v0, v1}, Ljava/lang/Thread;->setDaemon(Z)V
 
-    .line 85
+    .line 80
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->worker:Ljava/lang/Thread;
 
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    .line 86
+    .line 81
     const-string v0, "PreviewFrameEncoder"
 
     const-string v1, "started"
@@ -1196,12 +1196,12 @@
     :try_end_36
     .catchall {:try_start_12 .. :try_end_36} :catchall_38
 
-    .line 87
+    .line 82
     monitor-exit p0
 
     return-void
 
-    .line 74
+    .line 69
     :catchall_38
     move-exception v0
 
@@ -1218,7 +1218,7 @@
 
     monitor-enter p0
 
-    .line 90
+    .line 85
     :try_start_1
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->running:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -1236,19 +1236,19 @@
 
     return-void
 
-    .line 91
+    .line 86
     :cond_c
     :try_start_c
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->circularBuffer:Lcom/transsion/motionphoto/CircularSampleRecorder;
 
     invoke-virtual {v0}, Lcom/transsion/motionphoto/CircularSampleRecorder;->stopRecording()V
 
-    .line 92
+    .line 87
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->frameQueue:Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-virtual {v0}, Ljava/util/concurrent/LinkedBlockingQueue;->clear()V
 
-    .line 93
+    .line 88
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->worker:Ljava/lang/Thread;
 
     if-eqz v0, :cond_1f
@@ -1257,16 +1257,16 @@
 
     invoke-virtual {v0}, Ljava/lang/Thread;->interrupt()V
 
-    .line 94
+    .line 89
     :cond_1f
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->worker:Ljava/lang/Thread;
 
-    .line 95
+    .line 90
     invoke-direct {p0}, Lcom/transsion/motionphoto/PreviewFrameEncoder;->releaseEncoder()V
 
-    .line 96
+    .line 91
     const-string v0, "PreviewFrameEncoder"
 
     const-string v1, "stopped"
@@ -1275,12 +1275,12 @@
     :try_end_2c
     .catchall {:try_start_c .. :try_end_2c} :catchall_2e
 
-    .line 97
+    .line 92
     monitor-exit p0
 
     return-void
 
-    .line 89
+    .line 84
     :catchall_2e
     move-exception v0
 
@@ -1295,7 +1295,7 @@
 .method public videoFormatOrNull()Landroid/media/MediaFormat;
     .registers 2
 
-    .line 126
+    .line 121
     iget-object v0, p0, Lcom/transsion/motionphoto/PreviewFrameEncoder;->videoFormat:Landroid/media/MediaFormat;
 
     return-object v0
